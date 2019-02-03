@@ -75,4 +75,4 @@ ggplot(test,aes(x=x,y=reorder(income,order),fill=..x..))+
        title="Net Cost to Households of Alberta's Carbon Tax in 2018",
        subtitle="Source: Own calculations from Statistics Canada's SPSD/M version 27.",
        caption="Graph by @trevortombe")
-ggsave("IncomePlot.png",width=6.5,height=5,dpi=300)
+ggsave("IncomePlot.png",width=6.5,height=6,dpi=300)
