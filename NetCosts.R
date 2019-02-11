@@ -60,9 +60,9 @@ test<-test %>%
 p<-ggplot(test,aes(x=x,y=reorder(income,order),fill=..x..))+
   geom_density_ridges_gradient(show.legend = F)+
   coord_cartesian(ylim=c(1,8))+
-  annotate("text",x=25,y=7.75,label="CTax > Rebate",size=3,hjust=0)+
+  annotate("text",x=25,y=7.75,label="Net Tax (CTax > Rebate)",size=3,hjust=0)+
   geom_segment(aes(x=25,xend=350,y=7.4,yend=7.4),arrow=arrow(length=unit(1,'mm')))+
-  annotate("text",x=-25,y=7.75,label="Rebate > CTax",size=3,hjust=1)+
+  annotate("text",x=-25,y=7.75,label="Net Rebate (Rebate > CTax)",size=3,hjust=1)+
   geom_segment(aes(x=-25,xend=-350,y=7.4,yend=7.4),arrow=arrow(length=unit(1,'mm')))+
   geom_hline(yintercept=0,size=1)+
   scale_fill_viridis(name = "", option = "C")+
@@ -203,9 +203,9 @@ test<-test %>%
 p<-ggplot(test,aes(x=x,y=reorder(type,order),fill=..x..))+
   geom_density_ridges_gradient(show.legend = F,scale=1.1)+
   coord_cartesian(ylim=c(1,3))+
-  annotate("text",x=25,y=2.9,label="CTax > Rebate",size=3,hjust=0)+
+  annotate("text",x=25,y=2.9,label="Net Tax (CTax > Rebate)",size=3,hjust=0)+
   geom_segment(aes(x=25,xend=350,y=2.75,yend=2.75),arrow=arrow(length=unit(1,'mm')))+
-  annotate("text",x=-25,y=2.9,label="Rebate > CTax",size=3,hjust=1)+
+  annotate("text",x=-25,y=2.9,label="Net Rebate (Rebate > CTax)",size=3,hjust=1)+
   geom_segment(aes(x=-25,xend=-350,y=2.75,yend=2.75),arrow=arrow(length=unit(1,'mm')))+
   geom_hline(yintercept=0,size=1)+
   scale_fill_viridis(name = "", option = "C")+
@@ -229,7 +229,7 @@ title.grob <- textGrob(
   hjust = 0, vjust = 0,
   gp = gpar(fontsize = 14,fontface="bold"))
 subtitle.grob <- textGrob(
-  label = "Assumed Federal rebates: $400 (first adult), $200 (spouse), and $100 (child).",
+  label = "Assumed Federal rebates: $400 (first adult), $200 (spouse or first child), and $100 (child).",
   x = unit(1, "cm"), 
   y = unit(0, "cm"),
   hjust = 0, vjust = 0,
