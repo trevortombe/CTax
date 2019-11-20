@@ -57,7 +57,7 @@ for (v in unique(plotdata$income)){
 }
 test<-test %>%
   mutate(order=1:n())
-p<-ggplot(test,aes(x=x,y=reorder(income,order),fill=..x..))+
+ggplot(test,aes(x=x,y=reorder(income,order),fill=..x..))+
   geom_density_ridges_gradient(show.legend = F)+
   coord_cartesian(ylim=c(1,8))+
   annotate("text",x=25,y=7.75,label="Net Tax (CTax > Rebate)",size=3,hjust=0)+
@@ -73,10 +73,10 @@ p<-ggplot(test,aes(x=x,y=reorder(income,order),fill=..x..))+
   labs(x="Net Carbon Tax Costs ($ per Year)",
        y="Total Annual Income                ",
        #caption="Graph by @trevortombe",
-       #title="Distribution of Net Carbon Tax Costs for Alberta Families in 2018",
-       #subtitle="Displays the distribution of costs to households with one nuclear family, by annual income.",
+       title="Distribution of Net Carbon Tax Costs for Alberta Families in 2018",
+       subtitle="Displays the distribution of costs to households with one nuclear family, by annual income.",
        caption="Source: Own calculations from Statistics Canada's SPSD/M version 27. Based on $30 per tonne.")
-ggsave("IncomePlot.png",width=6.5,height=4,dpi=300)
+ggsave("IncomePlot.png",width=9,height=4,dpi=300)
 
 library(grid)
 title.grob <- textGrob(
@@ -200,7 +200,7 @@ for (v in unique(plotdata$type)){
 }
 test<-test %>%
   mutate(order=1:n())
-p<-ggplot(test,aes(x=x,y=reorder(type,order),fill=..x..))+
+ggplot(test,aes(x=x,y=reorder(type,order),fill=..x..))+
   geom_density_ridges_gradient(show.legend = F,scale=1.1)+
   coord_cartesian(ylim=c(1,3))+
   annotate("text",x=25,y=2.9,label="Net Tax (CTax > Rebate)",size=3,hjust=0)+
@@ -215,11 +215,11 @@ p<-ggplot(test,aes(x=x,y=reorder(type,order),fill=..x..))+
   scale_y_discrete(expand=c(0,0))+
   labs(x="Net Carbon Tax Costs ($ per Year)",
        y="",
-       #title="Estimate of Net Costs Under the Federal Backstop",
+       title="Estimate of Net Costs Under the Federal Backstop",
        #caption="Graph by @trevortombe",
-       #subtitle="Assumed Federal rebates: $400 (first adult), $200 (spouse), and $100 (child).",
+       subtitle="Assumed Federal rebates: $400 (first adult), $200 (spouse), and $100 (child).",
        caption="Source: Own calculations from Statistics Canada's SPSD/M version 27. Based on $30 per tonne.")
-ggsave("CompareToFeds.png",width=6.5,height=3.5,dpi=300)
+ggsave("CompareToFeds.png",width=9,height=4,dpi=300)
 
 library(grid)
 title.grob <- textGrob(
