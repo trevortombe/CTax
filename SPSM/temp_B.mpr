@@ -64,16 +64,16 @@ UIEIREFTK     1.00000             # EI contribution refund take up
                                   # Source: User Supplied
 
 UITARGET     10                   # EI target for the number of cases
-    0.58301
-    0.47603
-    0.57227
-    0.52903
-    0.46816
-    0.51816
-    0.61563
-    0.65625
-    0.55498
-    0.46797
+ 0.58301
+ 0.47603
+ 0.57227
+ 0.52903
+ 0.46816
+ 0.51816
+ 0.61563
+ 0.65625
+ 0.55498
+ 0.46797
                                   # Source: Copied from ba17.mpr
 
 
@@ -145,16 +145,16 @@ UIEIDIV      9                    # EI minimum divisor
                                   # Source: EI Act, 14.2
 
 UIEITKP      10                   # EI takeup rate 
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
                                   # Source: Copied from ba17.mpr
 
 UIEIMTYPFLG         0             # Flag to model main benefit type
@@ -1002,40 +1002,40 @@ MFFSAFLAG           1             # Manitoba GIS supplement: flag that only peop
                                   # Source: Manitoba 55 Plus Program
 
 MFFPSBEN     7                    # Manitoba GIS supplement: maximum benefit for senior component
-       0.00
-     647.20
-     695.60
-     695.60
-     695.60
-     647.20
-     647.20
+    0.00
+  647.20
+  695.60
+  695.60
+  695.60
+  647.20
+  647.20
                                   # Source: Manitoba 55 Plus Program
                                   # Update: Factor=DEFAULT
 
 MFFPSRR      7                    # Manitoba GIS supplement: reduction rate for senior component
-    0.00000
-    0.72500
-    0.36250
-    0.36250
-    0.18133
-    1.08712
-    1.08712
+ 0.00000
+ 0.72500
+ 0.36250
+ 0.36250
+ 0.18133
+ 1.08712
+ 1.08712
                                   # Source: Manitoba 55 Plus Program
 
 MFFPJBEN     2                    # Manitoba GIS supplement: maximum benefit for junior component
-     647.20
-     695.60
+  647.20
+  695.60
                                   # Source: Manitoba 55 Plus Program
                                   # Update: Factor=DEFAULT
 
 MFFPJRR      2                    # Manitoba GIS supplement: reduction rate for junior component
-    0.72500
-    0.36250
+ 0.72500
+ 0.36250
                                   # Source: Manitoba 55 Plus Program
 
 MFFPJTD      2                    # Manitoba GIS supplement: turndown for junior component
-    8930.40
-    14479.20
+ 8930.40
+ 14479.20
                                   # Source: Manitoba 55 Plus Program
                                   # Update: Factor=DEFAULT
 
@@ -1112,12 +1112,12 @@ ASBRENT          0.00             # Alberta seniors benefit renter supplement
                                   # Update: Factor=NONE
 
 ASBNOAS      6                    # Alberta seniors benefit reduction if no OAS 
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
                                   # Source: Not in effect, Repealed Alberta Seniors Benefit regulations (112/2013)
 
 ASBEMPOPT           2             # Alberta seniors benefit employment income option 
@@ -1131,12 +1131,12 @@ ASBEMPDD      3600.00             # Alberta seniors benefit employment income ma
                                   # Update: Factor=NONE
 
 ASBRR        6                    # Alberta seniors benefit reduction rate 
-    0.16180
-    0.16180
-    0.16220
-    0.16220
-    0.16220
-    0.16220
+ 0.16180
+ 0.16180
+ 0.16220
+ 0.16220
+ 0.16220
+ 0.16220
                                   # Source: Alberta Seniors Benefit regulations (64/2018)
 
 ASBSSOPT            2             # Alberta seniors benefit 1 senior couple option 
@@ -1174,12 +1174,12 @@ ASBRENTP         0.00             # Alberta seniors benefit renter supplement fo
                                   # Update: Factor=NONE
 
 ASBNOASP     6                    # Alberta seniors benefit reduction if no OAS for 1st half of year 
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
                                   # Source: Not in effect, Repealed Alberta Seniors Benefit regulations (112/2013)
 
 ASBEMPOPTP          2             # Alberta seniors benefit employment income option for 1st half of year 
@@ -1193,12 +1193,12 @@ ASBEMPDDP     3600.00             # Alberta seniors benefit employment income ma
                                   # Update: Factor=NONE
 
 ASBRRP       6                    # Alberta seniors benefit reduction rate for 1st half of year 
-    0.16420
-    0.16420
-    0.16450
-    0.16450
-    0.16450
-    0.16450
+ 0.16420
+ 0.16420
+ 0.16450
+ 0.16450
+ 0.16450
+ 0.16450
                                   # Source: Alberta Seniors Benefit regulations (95/2017)
 
 ASBSSOPTP           2             # Alberta seniors benefit 1 senior couple option for 1st half of year
@@ -1865,18 +1865,18 @@ QCAFLAG             1             # Quebec Child Assistance refundable tax credi
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
 
 QCAMIN       4                    # Quebec Child Assistance Minimum 
-     682.00
-     630.00
-     630.00
-     630.00
+  682.00
+  630.00
+  630.00
+  630.00
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Update: Factor=CPIQU
 
 QCAMAX       4                    # Quebec Child Assistance Maximum 
-    2430.00
-    1214.00
-    1214.00
-    1821.00
+ 2430.00
+ 1214.00
+ 1214.00
+ 1821.00
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Update: Factor=CPIQU
 
@@ -2125,27 +2125,27 @@ SCBTD2           0.00             # Sask Child Benefit 2nd turndown
                                   # Update: Factor=DEFAULT
 
 SCBRR1       9                    # Sask Child Benefit 1st reduction rate 
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
                                   # Source: Not in effect
 
 SCBRR2       9                    # Sask Child Benefit 2nd reduction rate 
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
                                   # Source: Not in effect
 
 SCBSPA           0.00             # Sask Child Benefit Single Parent Amount
@@ -2178,27 +2178,27 @@ SCBTD2P          0.00             # Sask Child Benefit 2nd turndown for 1st half
                                   # Update: Factor=DEFAULT
 
 SCBRR1P      9                    # Sask Child Benefit 1st reduction rate 
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
                                   # Source: Not in effect
 
 SCBRR2P      9                    # Sask Child Benefit 2nd reduction rate 
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
-    0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
+ 0.000000
                                   # Source: Not in effect
 
 SCBSPAP          0.00             # Sask Child Benefit Single Parent Amount for 1st half of year
@@ -2214,10 +2214,10 @@ AFETCFLAG           1             # Alberta Family Employment Tax Credit Activat
                                   # Source: Canada Child Benefit - Guide T4114 (July 18)
 
 AFETCAPC     4                    # Alberta Family Employment Tax Credit Amount Per Child 
-     783.00
-     712.00
-     427.00
-     142.00
+  783.00
+  712.00
+  427.00
+  142.00
                                   # Source: Canada Child Benefit - Guide T4114 (July 18)
                                   # Update: Factor=CPIAL
 
@@ -2247,10 +2247,10 @@ AFETCPI       1.00000             # Alberta Family Employment Tax Credit phase i
 ###
 
 AFETCAPCP    4                    # Alberta Family Employment Tax Credit Amount Per Child for 1st half of year
-     773.00
-     703.00
-     422.00
-     140.00
+  773.00
+  703.00
+  422.00
+  140.00
                                   # Source: Canada Child Benefit - Guide T4114 (July 17)
                                   # Update: Factor=CPIALLAG
 
@@ -2633,16 +2633,16 @@ SAFLAG              1             # Social assistance flag
                                   # Source: SPSD/M Development Team
 
 SAELDOPTPR   10                   # SA for elderly calculation method 
-         5
-         5
-         5
-         5
-         5
-         4
-         4
-         4
-         4
-         4
+      5
+      5
+      5
+      5
+      5
+      4
+      4
+      4
+      4
+      4
                                   # Source: OPTION
 
 SFAOUT        0.00000             # Proportion of social assistance to eliminate
@@ -2718,57 +2718,57 @@ WITBPIRA     4                    # Working Income Tax Benefit Phase in Rate
                                   # Source: Federal Income Tax 2018 - Schedule 6 (5000-S6)
 
 WITBSMINEA   10                   # WITB Supplement for Disabilities Minimum Earnings Threshold 
-    1150.00
-    1150.00
-    1150.00
-    1150.00
-    1200.00
-    1150.00
-    1150.00
-    1150.00
-     910.00
-    2295.00
+ 1150.00
+ 1150.00
+ 1150.00
+ 1150.00
+ 1200.00
+ 1150.00
+ 1150.00
+ 1150.00
+  910.00
+ 2295.00
                                   # Source: Federal Income Tax 2018 - Schedule 6 (5000-S6)
                                   # Update: Factor=NONE
 
 WITBSAMTA    10                   # WITB Supplement for Disabilities Amount 
-     529.00
-     529.00
-     529.00
-     529.00
-     538.36
-     529.00
-     529.00
-     529.00
-     529.00
-     589.00
+  529.00
+  529.00
+  529.00
+  529.00
+  538.36
+  529.00
+  529.00
+  529.00
+  529.00
+  589.00
                                   # Source: Federal Income Tax 2018 - Schedule 6 (5000-S6)
                                   # Update: Factor=CPI
 
 WITBSRRA     10                   # WITB Supplement for Disabilities Reduction Rate when only 1 person eligible 
-    0.15000
-    0.15000
-    0.15000
-    0.15000
-    0.20000
-    0.15000
-    0.15000
-    0.15000
-    0.15000
-    0.17000
+ 0.15000
+ 0.15000
+ 0.15000
+ 0.15000
+ 0.20000
+ 0.15000
+ 0.15000
+ 0.15000
+ 0.15000
+ 0.17000
                                   # Source: Federal Income Tax 2018 - Schedule 6 (5000-S6)
 
 WITBSCRRA    10                   # WITB Supplement for Disabilities Reduction Rate when 2 people eligible 
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.10000
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.08500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.10000
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.08500
                                   # Source: Federal Income Tax 2018 - Schedule 6 (5000-S6)
 
 WITBSPIRA    4                    # WITB Supplement for Disabilities Phase in Rate 
@@ -2899,11 +2899,11 @@ VHEATFLG            1             # Nova Scotia Home Heating Assistance Rebate a
                                   # Source: Service Nova Scotia and Municipal Relations
 
 VHEATREBT    5                    # Nova Scotia home heating fuel rebate amount for oil
-     200.00
-     175.00
-     150.00
-     125.00
-     100.00
+  200.00
+  175.00
+  150.00
+  125.00
+  100.00
                                   # Source: Service Nova Scotia and Municipal Relations
                                   # Update: Factor=NONE
 
@@ -2912,20 +2912,20 @@ VHEATERB         0.00             # Nova Scotia home heating fuel rebate amount 
                                   # Update: Factor=NONE
 
 VHEATSTDT    5                    # Nova Scotia home heating fuel rebate income turndown for singles
-    27000.00
-    27500.00
-    28000.00
-    28500.00
-    29000.00
+ 27000.00
+ 27500.00
+ 28000.00
+ 28500.00
+ 29000.00
                                   # Source: Service Nova Scotia and Municipal Relations
                                   # Update: Factor=NONE
 
 VHEATFTDT    5                    # Nova Scotia home heating fuel rebate income turndown for families
-    42000.00
-    42500.00
-    43000.00
-    43500.00
-    44000.00
+ 42000.00
+ 42500.00
+ 43000.00
+ 43500.00
+ 44000.00
                                   # Source: Service Nova Scotia and Municipal Relations
                                   # Update: Factor=NONE
 
@@ -3720,16 +3720,16 @@ FPTCBEN        650.00             # Maximum federal political tax credit allowed
 ###
 
 FLVCRT       10                   # Percent of labour-sponsored funds cost allowed as credit 
-    0.15000
-    0.00000
-    0.15000
-    0.15000
-    0.15000
-    0.00000
-    0.15000
-    0.15000
-    0.15000
-    0.15000
+ 0.15000
+ 0.00000
+ 0.15000
+ 0.15000
+ 0.15000
+ 0.00000
+ 0.15000
+ 0.15000
+ 0.15000
+ 0.15000
                                   # Source: Federal Income Tax 2018 - Line 414
 
 FLVCMAX        750.00             # Maximum labour-sponsored funds tax credit allowed
@@ -3770,16 +3770,16 @@ AMTNEGTI            1             # Alternative minimum tax: Allow Negative Taxa
                                   # Source: Federal Income Tax 2018 - Form T691
 
 AMTPRVDF     10                   # Alternative minimum tax: prov. tax difference definition
-         1
-         1
-         1
-         3
-         0
-         2
-         3
-         3
-         3
-         1
+      1
+      1
+      1
+      3
+      0
+      2
+      3
+      3
+      3
+      1
                                   # Source: Provincial Tax Forms and T691 2018
 
 
@@ -5767,10 +5767,10 @@ QHCAMT           0.00             # Quebec Health Contribution base amount
                                   # Update: Factor=NONE
 
 QHCINCT      4                    # Quebec Health Contribution Income Threshold 
-       0.00
-       0.00
-       0.00
-       0.00
+    0.00
+    0.00
+    0.00
+    0.00
                                   # Source: Not in effect
                                   # Update: Factor=CPIQU
 
@@ -5790,9 +5790,9 @@ QHCBASE      2                    # Quebec Health Contribution table
                                   # Update: Factor[1]=CPIQU
 
 QHCRATE      3                    # Quebec Health Contribution rate
-    0.00000
-    0.00000
-    0.00000
+ 0.00000
+ 0.00000
+ 0.00000
                                   # Source: Not in effect
 
 QHCINTAX            0             # Quebec Health Contribution added to provincial income taxes flag
@@ -6049,25 +6049,25 @@ QWPFLAG             1             # Quebec Work Premium refundable tax credit fl
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
 
 QWPCR        4                    # Quebec Work Premium Credit Rate 
-    0.09400
-    0.09400
-    0.30000
-    0.25000
+ 0.09400
+ 0.09400
+ 0.30000
+ 0.25000
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
 
 QWPEIPI      4                    # Quebec Work Premium Employment Income Phase In 
-    2400.00
-    3600.00
-    2400.00
-    3600.00
+ 2400.00
+ 3600.00
+ 2400.00
+ 3600.00
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
                                   # Update: Factor=NONE
 
 QWPTD        4                    # Quebec Work Premium Income Turndown 
-    10574.00
-    16356.00
-    10574.00
-    16356.00
+ 10574.00
+ 16356.00
+ 10574.00
+ 16356.00
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
                                   # Update: Factor=CPIQU
 
@@ -6092,25 +6092,25 @@ QAWPFLAG            1             # Quebec Adapted Work Premium for Disabled ref
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
 
 QAWPCR       4                    # Quebec Adapted Work Premium for Disabled Credit Rate 
-    0.11400
-    0.11400
-    0.25000
-    0.20000
+ 0.11400
+ 0.11400
+ 0.25000
+ 0.20000
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
 
 QAWPEIPI     4                    # Quebec Adapted Work Premium for Disabled Employment Income Phase In 
-    1200.00
-    1200.00
-    1200.00
-    1200.00
+ 1200.00
+ 1200.00
+ 1200.00
+ 1200.00
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
                                   # Update: Factor=NONE
 
 QAWPTD       4                    # Quebec Adapted Work Premium for Disabled Income Turndown 
-    13536.00
-    19694.00
-    13536.00
-    19694.00
+ 13536.00
+ 19694.00
+ 13536.00
+ 19694.00
                                   # Source: Quebec Income Tax 2018 - Line 456 & Schedule P
                                   # Update: Factor=CPIQU
 
@@ -6973,10 +6973,10 @@ OESPFLAG            1             # Ontario Electricity Support Program (OESP) a
                                   # Source: Ontario Electricity Support Program
 
 OESPTD       4                    # OESP income thresholds
-    28000.00
-    39000.00
-    48000.00
-    52000.00
+ 28000.00
+ 39000.00
+ 48000.00
+ 52000.00
                                   # Source: Ontario Electricity Support Program
                                   # Update: Factor=NONE
 
@@ -8044,12 +8044,12 @@ AHCIPSR       0.00000             # Alberta Health Care Insurance Plan Subsidy R
                                   # Source: Not in effect
 
 AHCIPIT      6                    # Alberta Health Care Insurance Plan Income Threshold 
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
                                   # Source: Not in effect
                                   # Update: Factor=NONE
 
@@ -8752,135 +8752,135 @@ CTCSNAFLG           0             # Commodity tax CSNA97 variable name activatio
                                   # Source: Not in effect
 
 CTFCID       30                   # Federal custom import duties 
-    0.00227
-    0.00869
-    0.00297
-    0.04843
-    0.00023
-    0.00007
-    0.00105
-    0.00019
-    0.00017
-    0.00038
-    0.01948
-    0.00487
-    0.00088
-    0.00047
-    0.00746
-    0.00017
-    0.00307
-    0.00014
-    0.00052
-    0.00019
-    0.00023
-    0.00389
-    0.00040
-    0.00031
-    0.00091
-    0.00008
-    0.00005
-    0.00012
-    0.00049
-    0.00514
+ 0.00227
+ 0.00869
+ 0.00297
+ 0.04843
+ 0.00023
+ 0.00007
+ 0.00105
+ 0.00019
+ 0.00017
+ 0.00038
+ 0.01948
+ 0.00487
+ 0.00088
+ 0.00047
+ 0.00746
+ 0.00017
+ 0.00307
+ 0.00014
+ 0.00052
+ 0.00019
+ 0.00023
+ 0.00389
+ 0.00040
+ 0.00031
+ 0.00091
+ 0.00008
+ 0.00005
+ 0.00012
+ 0.00049
+ 0.00514
                                   # Source: COMTAX
 
 CTFEXD       30                   # Federal excise duties 
-    0.00008
-    0.10508
-    0.48171
-    0.00009
-    0.00005
-    0.00001
-    0.00005
-    0.00003
-    0.00002
-    0.00006
-    0.00008
-    0.00010
-    0.00009
-    0.00005
-    0.00003
-    0.00003
-    0.00011
-    0.00009
-    0.00005
-    0.00004
-    0.00013
-    0.00007
-    0.00037
-    0.00006
-    0.00160
-    0.00004
-    0.00003
-    0.00005
-    0.00006
-    0.00010
+ 0.00008
+ 0.10508
+ 0.48171
+ 0.00009
+ 0.00005
+ 0.00001
+ 0.00005
+ 0.00003
+ 0.00002
+ 0.00006
+ 0.00008
+ 0.00010
+ 0.00009
+ 0.00005
+ 0.00003
+ 0.00003
+ 0.00011
+ 0.00009
+ 0.00005
+ 0.00004
+ 0.00013
+ 0.00007
+ 0.00037
+ 0.00006
+ 0.00160
+ 0.00004
+ 0.00003
+ 0.00005
+ 0.00006
+ 0.00010
                                   # Source: COMTAX
 
 CTFEXT       30                   # Federal excise taxes 
-    0.00170
-    0.00130
-    0.00103
-    0.00096
-    0.00080
-    0.00012
-    0.00201
-    0.00049
-    0.00090
-    0.00384
-    0.00106
-    0.00191
-    0.00112
-    0.00099
-    0.00299
-    0.11561
-    0.00178
-    0.02872
-    0.00617
-    0.00086
-    0.00118
-    0.00103
-    0.00078
-    0.00151
-    0.00091
-    0.00087
-    0.00053
-    0.00074
-    0.00073
-    0.00110
+ 0.00170
+ 0.00130
+ 0.00103
+ 0.00096
+ 0.00080
+ 0.00012
+ 0.00201
+ 0.00049
+ 0.00090
+ 0.00384
+ 0.00106
+ 0.00191
+ 0.00112
+ 0.00099
+ 0.00299
+ 0.11561
+ 0.00178
+ 0.02872
+ 0.00617
+ 0.00086
+ 0.00118
+ 0.00103
+ 0.00078
+ 0.00151
+ 0.00091
+ 0.00087
+ 0.00053
+ 0.00074
+ 0.00073
+ 0.00110
                                   # Source: COMTAX
 
 CTFGST       30                   # Federal GST 
-    0.00828
-    0.08859
-    0.08872
-    0.05545
-    0.00787
-    0.00356
-    0.01509
-    0.05529
-    0.05848
-    0.06758
-    0.04992
-    0.04744
-    0.00833
-    0.00856
-    0.04512
-    0.06601
-    0.04642
-    0.01498
-    0.02286
-    0.05022
-    0.05547
-    0.05159
-    0.03999
-    0.00902
-    0.04444
-    0.00917
-    0.00560
-    0.01608
-    0.00678
-    0.03578
+ 0.00828
+ 0.08859
+ 0.08872
+ 0.05545
+ 0.00787
+ 0.00356
+ 0.01509
+ 0.05529
+ 0.05848
+ 0.06758
+ 0.04992
+ 0.04744
+ 0.00833
+ 0.00856
+ 0.04512
+ 0.06601
+ 0.04642
+ 0.01498
+ 0.02286
+ 0.05022
+ 0.05547
+ 0.05159
+ 0.03999
+ 0.00902
+ 0.04444
+ 0.00917
+ 0.00560
+ 0.01608
+ 0.00678
+ 0.03578
                                   # Source: COMTAX
 
 CTFGSTHOUSE  10                   # Gst on housing to be allocated 
@@ -8898,62 +8898,62 @@ CTFGSTHOUSE  10                   # Gst on housing to be allocated
                                   # Update: Factor=CPI
 
 CTFNEW       30                   # New federal commodity tax 
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
                                   # Source: User
 
 CTPPLQ       10                   # Provincial profits on liquor commissions 
-    0.70543
-    0.49389
-    0.79151
-    0.91471
-    0.38293
-    0.56350
-    0.67585
-    0.54553
-    0.60292
-    0.55588
+ 0.70543
+ 0.49389
+ 0.79151
+ 0.91471
+ 0.38293
+ 0.56350
+ 0.67585
+ 0.54553
+ 0.60292
+ 0.55588
                                   # Source: COMTAX
 
 CTPLGL       10                   # Provincial liquor gallonage tax 
-    0.46455
-    0.00000
-    0.00000
-    0.00000
-    0.22290
-    0.15459
-    0.00000
-    0.00000
-    0.00000
-    0.00000
+ 0.46455
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.22290
+ 0.15459
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
                                   # Source: COMTAX
 
 CTPGAS       30                   # Provincial gasoline tax 
@@ -8990,29 +8990,29 @@ CTPGAS       30                   # Provincial gasoline tax
                                   # Source: COMTAX
 
 CTPAMU       10                   # Provincial amusement tax 
-    0.00000
-    0.00734
-    0.01458
-    0.00134
-    0.00204
-    0.02017
-    0.00113
-    0.00000
-    0.00077
-    0.00000
+ 0.00000
+ 0.00734
+ 0.01458
+ 0.00134
+ 0.00204
+ 0.02017
+ 0.00113
+ 0.00000
+ 0.00077
+ 0.00000
                                   # Source: COMTAX
 
 CTPTOB       10                   # Provincial tobacco tax 
-    1.18376
-    0.91968
-    0.93523
-    0.68142
-    0.68587
-    0.57347
-    0.68189
-    0.82520
-    0.82646
-    0.88655
+ 1.18376
+ 0.91968
+ 0.93523
+ 0.68142
+ 0.68587
+ 0.57347
+ 0.68189
+ 0.82520
+ 0.82646
+ 0.88655
                                   # Source: COMTAX
 
 CTPRST       30                   # Provincial retail sales tax 
@@ -9147,16 +9147,16 @@ CANBPOPADJ   5                    # Cannabis use taxable population adjustment
                                   # Source: user-supplied
 
 CANBMINAGE   10                   # Cannabis use minimum age
-        19
-        19
-        19
-        19
-        18
-        19
-        19
-        19
-        18
-        19
+     19
+     19
+     19
+     19
+     18
+     19
+     19
+     19
+     18
+     19
                                   # Source: Excise duty framework for cannabis
 
 CANBFREQADJ  5                    # Cannabis use frequency adjustment, days per year 
@@ -9176,107 +9176,107 @@ CANBVOLUME   5                    # Cannabis use volume, grams per day
                                   # Source: user-supplied
 
 CANBPRICE    10                   # Cannabis price per gram 
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
-       0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
+    0.00
                                   # Source: user-supplied
 
 CANBFEDFLTRT 10                   # Federal flat-rate cannabis duty 
-       0.25
-       0.25
-       0.25
-       0.25
-       0.25
-       0.25
-       0.25
-       0.25
-       0.25
-       0.25
+    0.25
+    0.25
+    0.25
+    0.25
+    0.25
+    0.25
+    0.25
+    0.25
+    0.25
+    0.25
                                   # Source: Excise duty framework for cannabis
 
 CANBFEDADVAL 10                   # Federal ad valorem cannabis duty 
-    0.02500
-    0.02500
-    0.02500
-    0.02500
-    0.02500
-    0.02500
-    0.02500
-    0.02500
-    0.02500
-    0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
+ 0.02500
                                   # Source: Excise duty framework for cannabis
 
 CANBPRVFLTRT 10                   # Provincial flat-rate cannabis duty 
-       0.75
-       0.75
-       0.75
-       0.75
-       0.75
-       0.75
-       0.75
-       0.75
-       0.75
-       0.75
+    0.75
+    0.75
+    0.75
+    0.75
+    0.75
+    0.75
+    0.75
+    0.75
+    0.75
+    0.75
                                   # Source: Excise duty framework for cannabis
 
 CANBPRVADVAL 10                   # Provincial ad valorem cannabis duty 
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.07500
-    0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
+ 0.07500
                                   # Source: Excise duty framework for cannabis
 
 CANBPRVADJRT 10                   # Provincial adjustment to the cannabis duty 
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.00000
-    0.03900
-    0.00000
-    0.06450
-    0.16800
-    0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.00000
+ 0.03900
+ 0.00000
+ 0.06450
+ 0.16800
+ 0.00000
                                   # Source: Excise duty framework for cannabis
 
 CANBGST      10                   # Cannabis Federal sales tax rate 
-    0.05000
-    0.05000
-    0.05000
-    0.05000
-    0.05000
-    0.05000
-    0.05000
-    0.05000
-    0.05000
-    0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
+ 0.05000
                                   # Source: Excise duty framework for cannabis
 
 CANBPST      10                   # Cannabis provincial sales tax rate and Manitoba mark-up 
-    0.10000
-    0.10000
-    0.10000
-    0.10000
-    0.09975
-    0.08000
-    0.09000
-    0.06000
-    0.00000
-    0.07000
+ 0.10000
+ 0.10000
+ 0.10000
+ 0.10000
+ 0.09975
+ 0.08000
+ 0.09000
+ 0.06000
+ 0.00000
+ 0.07000
                                   # Source: Excise duty framework for cannabis
 
 

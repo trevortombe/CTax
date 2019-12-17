@@ -1,6 +1,6 @@
 ##############################################################################
 ##
-## Include file to convert from '$SPSD/ba18.cpr' to 'C:\Users\ttombe\Documents\R Projects\CTax\SPSM\CTax_AB_271b.cpr' 
+## Include file to convert from '$SPSD/ba18.cpr' to 'C:\Users\ttombe\Documents\R Projects\CTax\SPSM\temp.cpr' 
 ##
 ##############################################################################
 
@@ -13,9 +13,9 @@
 
 
 
-OUTCPR       CTax_AB_271b.cpr             # Name of control parameter file (out) 
+OUTCPR       temp.cpr             # Name of control parameter file (out) 
 
-OUTLOG       CTax_AB_271b.log             # Name of log file (out) 
+OUTLOG       temp.log             # Name of log file (out) 
 
 CREATEPARMFILES        1             # Force writing of parameter files
 
@@ -27,7 +27,7 @@ CREATEPARMFILES        1             # Force writing of parameter files
 
 
 
-INPAPR       CTax_AB.apr             # Name of database adjustment parameter file (in) 
+INPAPR       temp.apr             # Name of database adjustment parameter file (in) 
 
 OUTAPR       CTax_AB.apr             # Name of database adjustment parameter file (out) 
 
@@ -41,9 +41,9 @@ OUTAPR       CTax_AB.apr             # Name of database adjustment parameter fil
 
 
 
-INPVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (in) 
+INPVARMPR    temp_V.mpr             # Name of variant tax/transfer parameter file (in) 
 
-OUTVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (out) 
+OUTVARMPR    temp_V.mpr             # Name of variant tax/transfer parameter file (out) 
 
 
 
@@ -53,13 +53,13 @@ OUTVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer param
 
 
 
-BASALG       Version 27.1 : 97-25             # Name of base algorithm 
+BASALG       Version 27.0 : 97-25             # Name of base algorithm 
 
 BASMETH             2             # Method of creating base variables
 
 BASDESC      Current values for 2018             # Description of base parameters 
 
-INPBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (in) 
+INPBASMPR    temp_B.mpr             # Name of base tax/transfer parameter file (in) 
 
 OUTBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (out) 
 
@@ -74,7 +74,7 @@ OUTBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter fil
 SELFLAG             1             # Selection facility activation flag
 
 SELSPEC                           # Selection specification 
-hdprov==8 & hhncf==1
+hdprov==8
 
 
 
@@ -99,21 +99,27 @@ label(netctax) = "Net Carbon Cost";
 ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,7
 ,
 
+
+
+
+
+
+
 750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100);
 label(ctaxpay) = "Net Carbon Tax Costs";
 
 
 if (idhhrh==0) {
 
- if      (nfnkids==0 & nfspoflg==0) fedbenefit= 444;
+ if      (nfnkids==0 & nfspoflg==0) fedbenefit= 400;
 
- else if (nfnkids==0 & nfspoflg==1) fedbenefit= 444+222;
+ else if (nfnkids==0 & nfspoflg==1) fedbenefit= 400+200;
 
- else if (nfnkids==1 & nfspoflg==0) fedbenefit= 444+222;
+ else if (nfnkids==1 & nfspoflg==0) fedbenefit= 400+200;
 
- else if (nfnkids>1 & nfspoflg==0) fedbenefit= 444+222+111*(nfnkids-1);
+ else if (nfnkids>1 & nfspoflg==0) fedbenefit= 400+200+100*(nfnkids-1);
 
- else if (nfnkids>0 & nfspoflg==1) fedbenefit= 444+222+111*nfnkids;
+ else if (nfnkids>0 & nfspoflg==1) fedbenefit= 400+200+100*nfnkids;
 
 }
 if (hdurb==4) { fedbenefit = fedbenefit*1.1; }
@@ -123,6 +129,12 @@ netctaxfed=ctpcar-HH:fedbenefit;
 label(netctaxfed) = "Net Carbon Cost with Federal Rebate";
 ctaxpayfed=split(netctaxfed,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,
 5
+
+
+
+
+
+
 
 ,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100);
 label(ctaxpayfed) = "Net Carbon Cost w Fed Rebate";
@@ -161,7 +173,7 @@ label(abchange) = "All-In to Feds";
 
 
 
-OUTTBL       CTax_AB_271b.tbl             # Name of report file (out) 
+OUTTBL       temp.tbl             # Name of report file (out) 
 
 
 

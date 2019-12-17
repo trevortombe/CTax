@@ -3,11 +3,11 @@
 ## 2.2 Database Adjustment Parameters
 ###
 
-APRDESCE     Convert 15 database to 18 dollars
+APRDESCE     Convert 15 database to 18 dollars             # English description of database adjustment parameter file
                                   # Source: Given as LABELE=...
                                   # Update: Value=LABELE
 
-APRDESCF     Converti base de données 15 à 18 dollars
+APRDESCF     Converti base de données 15 à 18 dollars             # French description of database adjustment parameter file
                                   # Source: Given as LABELF=...
                                   # Update: Value=LABELF
 
@@ -20,16 +20,16 @@ APRSFILE     $SPSD/ba15_18.apr             # Starting Adjustment parameter file
                                   # Update: Value=SFILE
 
 PROVMAP      10                   # Provincial remapping 
-         0
-         1
-         2
-         3
-         4
-         5
-         6
-         7
-         8
-         9
+      0
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+      9
                                   # Source: ORIGINAL
 
 IMPUIBOPT           2             # Imputation method, EI 
@@ -72,42 +72,42 @@ CTTXRM       30                   # Base year commodity tax removal factor
                                   # Source: COMTAX
 
 CTCFALC      10                   # SHS reporting error adjustment: Alcohol 
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: COMTAX
 
 CTCFTOB      10                   # SHS reporting error adjustment: Tobacco 
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: COMTAX
 
 CTCFGAS      10                   # SHS reporting error adjustment: Gasoline 
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: COMTAX
 
 CTFAMSNA     30                   # SHS->SNA conceptual conversion factor 
@@ -177,60 +177,60 @@ MBMFLAG             0             # MBM activation flag
                                   # Source: Copied from ba15_17.apr
 
 MBMMEDEXP    10                   # MBM medical expenses 
-      126
-      195
-      168
-      152
-      197
-      178
-      187
-      169
-      263
-      204
+   126
+   195
+   168
+   152
+   197
+   178
+   187
+   169
+   263
+   204
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 MBMOWNEXP    40                   # MBM mortgage owners difference in expenditure 
-     3211
-     2844
-     3031
-     3670
-     4002
-     3258
-     4016
-     3346
-     3731
-     3663
-     2665
-     2048
-     2603
-     2694
-     3143
-     2986
-     3877
-     3183
-     3473
-     4099
-     5531
-     3788
-     5832
-     2852
-     3576
-     3966
-     2556
-     2684
-     3139
-     3150
-     4317
-     4745
-     5935
-     4910
-     5938
-     6003
-     6444
-     7959
-     8177
-        0
+  3211
+  2844
+  3031
+  3670
+  4002
+  3258
+  4016
+  3346
+  3731
+  3663
+  2665
+  2048
+  2603
+  2694
+  3143
+  2986
+  3877
+  3183
+  3473
+  4099
+  5531
+  3788
+  5832
+  2852
+  3576
+  3966
+  2556
+  2684
+  3139
+  3150
+  4317
+  4745
+  5935
+  4910
+  5938
+  6003
+  6444
+  7959
+  8177
+     0
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
@@ -238,90 +238,90 @@ MBMTHROPT           1             # MBM threshold base year option
                                   # Source: Copied from ba15_17.apr
 
 MBMTHRE08    40                   # MBM threshold 2008 base 
-    40769
-    41353
-    39291
-    39038
-    39352
-    38725
-    37356
-    38964
-    39579
-    36810
-    35587
-    35678
-    33605
-    34642
-    35378
-    36255
-    38077
-    37866
-    35086
-    37934
-    41741
-    38569
-    42314
-    35935
-    36601
-    37399
-    38067
-    38312
-    38830
-    38722
-    40274
-    41716
-    40288
-    39170
-    41132
-    38685
-    36244
-    40241
-    41124
-        0
+ 40769
+ 41353
+ 39291
+ 39038
+ 39352
+ 38725
+ 37356
+ 38964
+ 39579
+ 36810
+ 35587
+ 35678
+ 33605
+ 34642
+ 35378
+ 36255
+ 38077
+ 37866
+ 35086
+ 37934
+ 41741
+ 38569
+ 42314
+ 35935
+ 36601
+ 37399
+ 38067
+ 38312
+ 38830
+ 38722
+ 40274
+ 41716
+ 40288
+ 39170
+ 41132
+ 38685
+ 36244
+ 40241
+ 41124
+     0
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 MBMTHRE02    40                   # MBM threshold 2002 base 
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
-        0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
+     0
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
@@ -389,29 +389,29 @@ UITARGYRMAX    994.23             # Maximum insurable earnings for target year
                                   # Update: Factor=UIR
 
 PURB         10                   # Base year unemployment rate 
-    12.80000
-    10.40000
-    8.60000
-    9.80000
-    7.60000
-    6.80000
-    5.60000
-    5.00000
-    6.00000
-    6.20000
+ 12.80000
+ 10.40000
+ 8.60000
+ 9.80000
+ 7.60000
+ 6.80000
+ 5.60000
+ 5.00000
+ 6.00000
+ 6.20000
                                   # Source: CANSIM Table 282-0086 Labour force survey estimates (LFS)
 
 PURC         10                   # Current year unemployment rate 
-    13.80000
-    9.40000
-    7.50000
-    8.00000
-    5.50000
-    5.60000
-    6.00000
-    6.10000
-    6.60000
-    4.70000
+ 13.80000
+ 9.40000
+ 7.50000
+ 8.00000
+ 5.50000
+ 5.60000
+ 6.00000
+ 6.10000
+ 6.60000
+ 4.70000
                                   # Source: Table 14-10-0078-01 Supplementary unemployment rates, annual
 
 
@@ -420,674 +420,674 @@ PURC         10                   # Current year unemployment rate
 ###
 
 GFADDDED     10                   # Growth Factor: Additional deductions from net income (256)
-    1.03680
-    1.03440
-    0.96130
-    0.98870
-    0.99720
-    1.06180
-    1.04230
-    0.99590
-    0.93160
-    1.00800
+ 1.03680
+ 1.03440
+ 0.96130
+ 0.98870
+ 0.99720
+ 1.06180
+ 1.04230
+ 0.99590
+ 0.93160
+ 1.00800
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFALEXP      10                   # Growth Factor: Other allowable employment expenses (229)
-    1.01730
-    1.07830
-    1.02350
-    1.08000
-    1.06900
-    1.08580
-    1.06120
-    0.97540
-    0.94110
-    1.07030
+ 1.01730
+ 1.07830
+ 1.02350
+ 1.08000
+ 1.06900
+ 1.08580
+ 1.06120
+ 0.97540
+ 0.94110
+ 1.07030
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFARTEXP     10                   # Growth Factor: Children Art Expenses
-    1.03540
-    1.07490
-    1.07710
-    1.08320
-    1.05980
-    1.11310
-    1.05590
-    0.98870
-    0.89570
-    1.11570
+ 1.03540
+ 1.07490
+ 1.07710
+ 1.08320
+ 1.05980
+ 1.11310
+ 1.05590
+ 0.98870
+ 0.89570
+ 1.11570
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCAPGEX     10                   # Growth Factor: Capital gains exemptions (254)
-    1.13010
-    1.34960
-    1.35060
-    1.39550
-    1.05710
-    1.09200
-    1.05800
-    0.96910
-    0.85560
-    1.04690
+ 1.13010
+ 1.34960
+ 1.35060
+ 1.39550
+ 1.05710
+ 1.09200
+ 1.05800
+ 0.96910
+ 0.85560
+ 1.04690
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCARRY      10                   # Growth Factor: Carrying charges (221)
-    0.96560
-    1.03910
-    1.03110
-    1.03720
-    1.03780
-    1.03240
-    1.04180
-    0.99660
-    0.89170
-    1.05430
+ 0.96560
+ 1.03910
+ 1.03110
+ 1.03720
+ 1.03780
+ 1.03240
+ 1.04180
+ 0.99660
+ 0.89170
+ 1.05430
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCCET       10                   # Growth Factor: Child care expenses associated with child
-    1.05430
-    1.08230
-    1.06540
-    1.10090
-    1.05410
-    1.08290
-    1.07470
-    0.98880
-    0.88090
-    1.05700
+ 1.05430
+ 1.08230
+ 1.06540
+ 1.10090
+ 1.05410
+ 1.08290
+ 1.07470
+ 0.98880
+ 0.88090
+ 1.05700
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCCEAC      10                   # Growth Factor: Child care expense deduction (214)
-    1.01900
-    1.06760
-    1.06720
-    1.08630
-    1.04600
-    1.09390
-    1.07000
-    0.99320
-    0.87410
-    1.07100
+ 1.01900
+ 1.06760
+ 1.06720
+ 1.08630
+ 1.04600
+ 1.09390
+ 1.07000
+ 0.99320
+ 0.87410
+ 1.07100
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCGTCFS     10                   # Growth Factor: Family caregivers tax credit for spouses (5109)
-    1.00480
-    1.06860
-    1.04730
-    1.04720
-    1.08290
-    1.08680
-    1.01930
-    0.97220
-    0.88700
-    1.12630
+ 1.00480
+ 1.06860
+ 1.04730
+ 1.04720
+ 1.08290
+ 1.08680
+ 1.01930
+ 0.97220
+ 0.88700
+ 1.12630
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCGTCFK     10                   # Growth Factor: Family caregivers tax credit for children (352)
-    1.05320
-    1.03860
-    1.05600
-    1.08520
-    1.07200
-    1.10690
-    1.06330
-    1.01630
-    0.90540
-    1.13160
+ 1.05320
+ 1.03860
+ 1.05600
+ 1.08520
+ 1.07200
+ 1.10690
+ 1.06330
+ 1.01630
+ 0.90540
+ 1.13160
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCGTCFO     10                   # Growth Factor: Family caregivers tax credit for other dependents (315)
-    1.09120
-    1.21520
-    1.00630
-    1.08150
-    1.11150
-    1.08700
-    1.06500
-    1.01030
-    0.99380
-    1.10380
+ 1.09120
+ 1.21520
+ 1.00630
+ 1.08150
+ 1.11150
+ 1.08700
+ 1.06500
+ 1.01030
+ 0.99380
+ 1.10380
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCGTCNF     10                   # Growth Factor: Caregivers tax credit for elderly dependants (315)
-    0.95160
-    1.09690
-    1.02100
-    1.03740
-    1.11070
-    1.06170
-    1.03190
-    0.93370
-    0.81440
-    1.08350
+ 0.95160
+ 1.09690
+ 1.02100
+ 1.03740
+ 1.11070
+ 1.06170
+ 1.03190
+ 0.93370
+ 0.81440
+ 1.08350
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCONDM      10                   # Adjustment Factor: Monthly condominium fees
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.02100
-    1.02260
-    1.02420
-    1.04450
-    1.01430
-    1.03060
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.02100
+ 1.02260
+ 1.02420
+ 1.04450
+ 1.01430
+ 1.03060
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCHARIT     10                   # Growth Factor: Charitable donations (340)
-    1.01010
-    1.02990
-    1.01380
-    1.02870
-    1.03810
-    1.04270
-    1.04620
-    0.99600
-    0.89830
-    1.04130
+ 1.01010
+ 1.02990
+ 1.01380
+ 1.02870
+ 1.03810
+ 1.04270
+ 1.04620
+ 0.99600
+ 0.89830
+ 1.04130
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCLERGY     10                   # Growth Factor: Clergy residential deduction
-    1.05050
-    1.10880
-    1.01890
-    1.06260
-    1.14490
-    1.10380
-    1.03390
-    0.96130
-    0.91520
-    1.10450
+ 1.05050
+ 1.10880
+ 1.01890
+ 1.06260
+ 1.14490
+ 1.10380
+ 1.03390
+ 0.96130
+ 0.91520
+ 1.10450
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCLOSS      10                   # Growth Factor: Allowable other years capital loss (253)
-    1.10730
-    1.03120
-    0.98820
-    1.02670
-    1.03080
-    1.03500
-    1.04580
-    0.97780
-    0.86660
-    0.99330
+ 1.10730
+ 1.03120
+ 0.98820
+ 1.02670
+ 1.03080
+ 1.03500
+ 1.04580
+ 0.97780
+ 0.86660
+ 0.99330
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCPPL65     10                   # Growth Factor: CPP for age < 65
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP65      10                   # Growth Factor: CPP for age 65
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP66      10                   # Growth Factor: CPP for age 66
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP67      10                   # Growth Factor: CPP for age 67
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP68      10                   # Growth Factor: CPP for age 68
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP69      10                   # Growth Factor: CPP for age 69
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP70      10                   # Growth Factor: CPP for age 70
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP71      10                   # Growth Factor: CPP for age 71
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP72      10                   # Growth Factor: CPP for age 72
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP73      10                   # Growth Factor: CPP for age 73
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP74      10                   # Growth Factor: CPP for age 74
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPP75      10                   # Growth Factor: CPP for age 75
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFCPPG75     10                   # Growth Factor: CPP for age > 75
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
-    1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
+ 1.04255
                                   # Source: Grown from ba15_17.apr using CPI=1.023006
                                   # Update: Factor=CPI
 
 GFDALIMG     10                   # Growth Factor: Total alimony paid
-    1.02620
-    1.11720
-    1.01540
-    1.14140
-    0.94450
-    1.03240
-    1.04920
-    1.01860
-    0.95760
-    1.08710
+ 1.02620
+ 1.11720
+ 1.01540
+ 1.14140
+ 0.94450
+ 1.03240
+ 1.04920
+ 1.01860
+ 0.95760
+ 1.08710
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFDALIMO     10                   # Growth Factor: Deductible alimony paid (220)
-    1.02680
-    0.99350
-    1.01750
-    1.12090
-    0.99160
-    1.03010
-    1.05200
-    1.01950
-    0.97930
-    1.10790
+ 1.02680
+ 0.99350
+ 1.01750
+ 1.12090
+ 0.99160
+ 1.03010
+ 1.05200
+ 1.01950
+ 0.97930
+ 1.10790
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFDISOTH     10                   # Growth Factor: Disability amount for dependants (318)
-    1.10150
-    1.04770
-    1.03530
-    1.09290
-    1.04750
-    1.07840
-    1.06420
-    1.06020
-    1.05420
-    1.09420
+ 1.10150
+ 1.04770
+ 1.03530
+ 1.09290
+ 1.04750
+ 1.07840
+ 1.06420
+ 1.06020
+ 1.05420
+ 1.09420
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFDISSLF     10                   # Growth Factor: Disability amount for self (316)
-    1.11540
-    1.04530
-    1.04460
-    1.07400
-    1.02170
-    1.03190
-    1.05020
-    1.10290
-    1.05060
-    1.05660
+ 1.11540
+ 1.04530
+ 1.04460
+ 1.07400
+ 1.02170
+ 1.03190
+ 1.05020
+ 1.10290
+ 1.05060
+ 1.05660
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFDUES       10                   # Growth Factor: Union and professional dues (212)
-    1.06320
-    1.04830
-    1.04980
-    1.06400
-    1.04830
-    1.07980
-    1.09640
-    1.04040
-    1.03660
-    1.08070
+ 1.06320
+ 1.04830
+ 1.04980
+ 1.06400
+ 1.04830
+ 1.07980
+ 1.09640
+ 1.04040
+ 1.03660
+ 1.08070
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFEXPLOR     10                   # Growth Factor: Exploration and development expenses (224)
-    1.08080
-    1.15930
-    1.06300
-    1.01410
-    1.02560
-    1.02960
-    1.07220
-    0.99560
-    0.91850
-    1.10110
+ 1.08080
+ 1.15930
+ 1.06300
+ 1.01410
+ 1.02560
+ 1.02960
+ 1.07220
+ 0.99560
+ 0.91850
+ 1.10110
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFFIRE       10                   # Growth Factor: Volunteer Firefighter Tax Credit
-    1.00730
-    1.11470
-    1.04430
-    1.06480
-    1.09470
-    1.05190
-    1.05670
-    0.94600
-    0.90420
-    1.11130
+ 1.00730
+ 1.11470
+ 1.04430
+ 1.06480
+ 1.09470
+ 1.05190
+ 1.05670
+ 0.94600
+ 0.90420
+ 1.11130
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFFITEXP     10                   # Growth Factor: Fitness Expenses for children
-    1.02180
-    1.06330
-    1.08050
-    1.09340
-    1.05980
-    1.10300
-    1.06620
-    0.98510
-    0.90410
-    1.09890
+ 1.02180
+ 1.06330
+ 1.08050
+ 1.09340
+ 1.05980
+ 1.10300
+ 1.06620
+ 0.98510
+ 0.90410
+ 1.09890
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFFORINC     10                   # Growth Factor: Net foreign income (508)
-    1.07380
-    1.01740
-    1.03550
-    1.06210
-    1.04690
-    1.13140
-    1.08250
-    0.99300
-    0.88900
-    1.08460
+ 1.07380
+ 1.01740
+ 1.03550
+ 1.06210
+ 1.04690
+ 1.13140
+ 1.08250
+ 0.99300
+ 0.88900
+ 1.08460
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFFORTX      10                   # Growth Factor: Foreign tax paid (507)
-    1.06180
-    1.02360
-    1.04980
-    1.07110
-    1.06020
-    1.12520
-    1.05320
-    0.97360
-    0.91010
-    0.99560
+ 1.06180
+ 1.02360
+ 1.04980
+ 1.07110
+ 1.06020
+ 1.12520
+ 1.05320
+ 0.97360
+ 0.91010
+ 0.99560
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFFTDON      10                   # Growth Factor: Charitable Donations for First-Time Donor Tax Credit
-    1.04040
-    0.99530
-    1.10330
-    1.01470
-    1.05020
-    1.06270
-    1.07240
-    0.97560
-    0.92400
-    1.03110
+ 1.04040
+ 0.99530
+ 1.10330
+ 1.01470
+ 1.05020
+ 1.06270
+ 1.07240
+ 0.97560
+ 0.92400
+ 1.03110
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFGIFTS      10                   # Growth Factor: Gifts to Canada/provinces/culture (342)
-    0.83690
-    1.03610
-    0.85530
-    1.19120
-    0.99710
-    1.01310
-    1.08130
-    0.93060
-    0.92650
-    1.00290
+ 0.83690
+ 1.03610
+ 0.85530
+ 1.19120
+ 0.99710
+ 1.01310
+ 1.08130
+ 0.93060
+ 0.92650
+ 1.00290
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFGSTREB     10                   # Growth Factor: GST rebate (457)
-    1.03240
-    1.03120
-    1.05850
-    1.10140
-    1.07540
-    1.07180
-    1.07270
-    0.97150
-    0.91360
-    1.10870
+ 1.03240
+ 1.03120
+ 1.05850
+ 1.10140
+ 1.07540
+ 1.07180
+ 1.07270
+ 0.97150
+ 0.91360
+ 1.10870
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFHMBUYER    10                   # Growth Factor: Home Buyer Program (369)
-    1.06890
-    0.99100
-    1.03290
-    1.03740
-    1.06290
-    1.08320
-    1.06960
-    1.02040
-    0.95460
-    1.08950
+ 1.06890
+ 0.99100
+ 1.03290
+ 1.03740
+ 1.06290
+ 1.08320
+ 1.06960
+ 1.02040
+ 0.95460
+ 1.08950
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIALIMG     10                   # Growth Factor: Gross Alimony Income
-    1.01650
-    1.14480
-    1.11390
-    1.00640
-    1.08310
-    1.09210
-    1.12090
-    1.01370
-    0.95680
-    1.22020
+ 1.01650
+ 1.14480
+ 1.11390
+ 1.00640
+ 1.08310
+ 1.09210
+ 1.12090
+ 1.01370
+ 0.95680
+ 1.22020
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIALIMO     10                   # Growth Factor: Alimony Income
-    1.16100
-    1.05260
-    1.06230
-    0.98920
-    1.14400
-    1.08430
-    1.13310
-    0.99210
-    0.96520
-    1.25120
+ 1.16100
+ 1.05260
+ 1.06230
+ 0.98920
+ 1.14400
+ 1.08430
+ 1.13310
+ 0.99210
+ 0.96520
+ 1.25120
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFICAPG      10                   # Growth Factor: Capital gains (actual) (127 * 1.5)
-    0.83270
-    0.90420
-    0.97290
-    1.22040
-    1.02730
-    1.07230
-    1.01260
-    0.88940
-    0.81230
-    1.19090
+ 0.83270
+ 0.90420
+ 0.97290
+ 1.22040
+ 1.02730
+ 1.07230
+ 1.01260
+ 0.88940
+ 0.81230
+ 1.19090
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFICQPD      10                   # Growth Factor: CPP/QPP Disability (152)
-    1.00520
-    1.17630
-    1.09970
-    1.10770
-    1.18890
-    1.12240
-    1.05410
-    1.01190
-    0.88310
-    1.24820
+ 1.00520
+ 1.17630
+ 1.09970
+ 1.10770
+ 1.18890
+ 1.12240
+ 1.05410
+ 1.01190
+ 0.88310
+ 1.24820
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIDIVIE     10                   # Growth Factor: Dividend income (actual - other than eligible)
-    0.82280
-    1.01560
-    0.98480
-    1.16240
-    0.96640
-    0.91730
-    0.90560
-    0.90220
-    0.58100
-    1.04870
+ 0.82280
+ 1.01560
+ 0.98480
+ 1.16240
+ 0.96640
+ 0.91730
+ 0.90560
+ 0.90220
+ 0.58100
+ 1.04870
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIDIVE      10                   # Growth Factor: Dividend income (actual - eligible)
-    0.83090
-    1.02210
-    0.94390
-    1.14740
-    0.94120
-    0.90050
-    0.87440
-    0.87190
-    0.56920
-    1.00960
+ 0.83090
+ 1.02210
+ 0.94390
+ 1.14740
+ 0.94120
+ 0.90050
+ 0.87440
+ 0.87190
+ 0.56920
+ 1.00960
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
@@ -1106,478 +1106,478 @@ GFIEMP       10                   # Growth Factor: Employment income
                                   # Update: Factor=CPI
 
 GFIINVND     10                   # Growth Factor: Investment income (excluding dividend)
-    1.00940
-    1.08050
-    1.02150
-    1.01860
-    0.99640
-    1.02780
-    1.03610
-    0.97280
-    0.96260
-    1.10030
+ 1.00940
+ 1.08050
+ 1.02150
+ 1.01860
+ 0.99640
+ 1.02780
+ 1.03610
+ 0.97280
+ 0.96260
+ 1.10030
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFILOSS      10                   # Growth Factor: Business investment losses (217)
-    0.89220
-    1.07870
-    1.00480
-    1.09000
-    1.07410
-    1.07620
-    1.04280
-    0.99970
-    0.89070
-    1.04410
+ 0.89220
+ 1.07870
+ 1.00480
+ 1.09000
+ 1.07410
+ 1.07620
+ 1.04280
+ 0.99970
+ 0.89070
+ 1.04410
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFINTSTU     10                   # Growth Factor: Interest paid on student loans (319)
-    1.05420
-    1.02520
-    1.02940
-    1.08450
-    1.05590
-    1.05180
-    1.06100
-    1.03500
-    0.93390
-    1.07170
+ 1.05420
+ 1.02520
+ 1.02940
+ 1.08450
+ 1.05590
+ 1.05180
+ 1.06100
+ 1.03500
+ 0.93390
+ 1.07170
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIPENS      10                   # Growth Factor: Pension income (115)
-    1.02930
-    1.05570
-    1.00970
-    1.01480
-    1.03840
-    1.00400
-    1.02920
-    1.00180
-    0.94640
-    1.03280
+ 1.02930
+ 1.05570
+ 1.00970
+ 1.01480
+ 1.03840
+ 1.00400
+ 1.02920
+ 1.00180
+ 0.94640
+ 1.03280
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIQPIP      10                   # Growth Factor: Original QPIP
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.01690
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.01690
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFISA        10                   # Growth Factor: Social assistance income
-    1.04770
-    1.16890
-    1.13930
-    1.10970
-    1.21290
-    1.11550
-    1.12640
-    1.02340
-    1.11780
-    1.28870
+ 1.04770
+ 1.16890
+ 1.13930
+ 1.10970
+ 1.21290
+ 1.11550
+ 1.12640
+ 1.02340
+ 1.11780
+ 1.28870
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFISE        10                   # Growth Factor: Self-employment income
-    1.00760
-    1.22790
-    1.13140
-    1.07540
-    1.00770
-    1.06440
-    1.08910
-    0.95800
-    0.91520
-    1.09060
+ 1.00760
+ 1.22790
+ 1.13140
+ 1.07540
+ 1.00770
+ 1.06440
+ 1.08910
+ 0.95800
+ 0.91520
+ 1.09060
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFITC        10                   # Growth Factor: Federal investment tax credits (412)
-    0.92900
-    1.07660
-    1.06200
-    1.05000
-    1.02140
-    1.04070
-    1.06360
-    1.01320
-    0.92070
-    1.04170
+ 0.92900
+ 1.07660
+ 1.06200
+ 1.05000
+ 1.02140
+ 1.04070
+ 1.06360
+ 1.01320
+ 0.92070
+ 1.04170
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFITOTH      10                   # Growth Factor: Other non-government income (taxable)
-    1.16050
-    0.94960
-    1.05320
-    1.07760
-    1.13900
-    1.09020
-    1.05380
-    1.05590
-    0.86540
-    1.11050
+ 1.16050
+ 0.94960
+ 1.05320
+ 1.07760
+ 1.13900
+ 1.09020
+ 1.05380
+ 1.05590
+ 0.86540
+ 1.11050
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFITRRSP     10                   # Growth Factor: Taxable RRSP withdrawals
-    1.14400
-    0.99550
-    1.09580
-    1.04810
-    1.07080
-    1.04650
-    1.11720
-    1.04920
-    1.03920
-    1.18430
+ 1.14400
+ 0.99550
+ 1.09580
+ 1.04810
+ 1.07080
+ 1.04650
+ 1.11720
+ 1.04920
+ 1.03920
+ 1.18430
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFIWORKC     10                   # Growth Factor: Worker's compensation
-    1.02470
-    1.10120
-    1.05690
-    1.14860
-    1.11420
-    1.08070
-    1.02250
-    0.94100
-    0.83080
-    1.12610
+ 1.02470
+ 1.10120
+ 1.05690
+ 1.14860
+ 1.11420
+ 1.08070
+ 1.02250
+ 0.94100
+ 0.83080
+ 1.12610
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFLABTXG     10                   # Growth Factor: Labour funds tax credit (414)
-    1.00000
-    1.00000
-    1.04180
-    1.04240
-    1.06840
-    1.03000
-    1.02690
-    1.02650
-    0.88280
-    0.90800
+ 1.00000
+ 1.00000
+ 1.04180
+ 1.04240
+ 1.06840
+ 1.03000
+ 1.02690
+ 1.02650
+ 0.88280
+ 0.90800
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMBATFTC    10                   # Growth Factor: Manitoba Advanced Tuition Fee Tax Credit
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.02630
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.02630
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMEDGRO     10                   # Growth Factor: Medical Expenses Total (Gross)
-    0.97580
-    1.03330
-    1.01440
-    1.04060
-    1.05420
-    1.02870
-    1.03270
-    0.98050
-    0.88240
-    1.04590
+ 0.97580
+ 1.03330
+ 1.01440
+ 1.04060
+ 1.05420
+ 1.02870
+ 1.03270
+ 0.98050
+ 0.88240
+ 1.04590
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMEPTC      10                   # Growth Factor: Manitoba Education Property Tax Credit Advance
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.03570
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.03570
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMINCAR     10                   # Growth Factor: Minimum tax carryover (504)
-    1.00990
-    0.97940
-    1.03720
-    1.04520
-    1.05010
-    1.04650
-    1.04690
-    0.98550
-    0.89140
-    1.05300
+ 1.00990
+ 0.97940
+ 1.03720
+ 1.04520
+ 1.05010
+ 1.04650
+ 1.04690
+ 0.98550
+ 0.89140
+ 1.05300
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMORTGM     10                   # Adjustment Factor: Monthly mortgage payments
-    1.13710
-    1.05410
-    1.09780
-    1.10330
-    1.03960
-    1.06350
-    1.08050
-    1.09630
-    1.04250
-    1.06510
+ 1.13710
+ 1.05410
+ 1.09780
+ 1.10330
+ 1.03960
+ 1.06350
+ 1.08050
+ 1.09630
+ 1.04250
+ 1.06510
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMOVEXP     10                   # Growth Factor: Imputed moving expenses (219)
-    1.18870
-    1.01340
-    1.03390
-    1.08560
-    1.00170
-    1.08870
-    1.07250
-    1.13350
-    0.92630
-    1.11690
+ 1.18870
+ 1.01340
+ 1.03390
+ 1.08560
+ 1.00170
+ 1.08870
+ 1.07250
+ 1.13350
+ 0.92630
+ 1.11690
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFNCLOS      10                   # Growth Factor: Allowable other years non-capital loss (252)
-    1.08750
-    1.08330
-    1.07200
-    1.07060
-    1.04520
-    1.03820
-    1.04150
-    1.03200
-    0.88250
-    1.13860
+ 1.08750
+ 1.08330
+ 1.07200
+ 1.07060
+ 1.04520
+ 1.03820
+ 1.04150
+ 1.03200
+ 0.88250
+ 1.13860
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFNORTH      10                   # Growth Factor: Northern deductions (255)
-    1.30540
-    1.00000
-    1.27980
-    1.42190
-    1.24910
-    1.30900
-    1.32910
-    1.33220
-    1.27950
-    1.32730
+ 1.30540
+ 1.00000
+ 1.27980
+ 1.42190
+ 1.24910
+ 1.30900
+ 1.32910
+ 1.33220
+ 1.27950
+ 1.32730
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFONHHRTC    10                   # Growth Factor: Ontario Healthy Homes Renovation Tax Credit
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.02860
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.02860
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFONTSTU     10                   # Growth Factor: Ontario Student Residence Occupancy Cost
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.10110
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.10110
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFOTHDED     10                   # Growth Factor: Other deductions from total income (232)
-    1.01560
-    1.05700
-    0.97660
-    0.99120
-    1.00870
-    1.02510
-    1.02040
-    0.91360
-    0.87480
-    1.00440
+ 1.01560
+ 1.05700
+ 0.97660
+ 0.99120
+ 1.00870
+ 1.02510
+ 1.02040
+ 0.91360
+ 0.87480
+ 1.00440
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFOTHPE      10                   # Growth Factor: Other dependant exemptions (305)
-    0.96940
-    0.98040
-    0.98630
-    0.97310
-    1.06980
-    1.07410
-    1.12130
-    1.01040
-    0.88380
-    1.19950
+ 0.96940
+ 0.98040
+ 0.98630
+ 0.97310
+ 1.06980
+ 1.07410
+ 1.12130
+ 1.01040
+ 0.88380
+ 1.19950
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFPOLCON     10                   # Growth Factor: Federal political contributions (409)
-    0.99120
-    1.04100
-    0.99420
-    1.03960
-    1.03510
-    1.05130
-    1.03840
-    0.96890
-    0.88420
-    1.01670
+ 0.99120
+ 1.04100
+ 0.99420
+ 1.03960
+ 1.03510
+ 1.05130
+ 1.03840
+ 0.96890
+ 0.88420
+ 1.01670
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFPRVPOL     10                   # Growth Factor: Provincial provincial political contributions
-    0.96710
-    1.07050
-    0.98530
-    0.96750
-    1.00000
-    1.02900
-    1.05060
-    0.97160
-    0.89980
-    1.07110
+ 0.96710
+ 1.07050
+ 0.98530
+ 0.96750
+ 1.00000
+ 1.02900
+ 1.05060
+ 0.97160
+ 0.89980
+ 1.07110
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFQPERN      10                   # Growth Factor: Weekly earnings to qualify for QPIP
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.09850
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.09850
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFRENTM      10                   # Adjustment Factor: Monthly rent
-    1.06690
-    1.04220
-    1.08830
-    1.06120
-    1.07570
-    1.07270
-    1.07640
-    1.05640
-    1.06450
-    1.13060
+ 1.06690
+ 1.04220
+ 1.08830
+ 1.06120
+ 1.07570
+ 1.07270
+ 1.07640
+ 1.05640
+ 1.06450
+ 1.13060
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFRPP        10                   # Growth Factor: Registered pension plan contributions (207)
-    1.12470
-    1.08440
-    1.10220
-    1.09220
-    1.10650
-    1.10240
-    1.12500
-    1.08320
-    1.04920
-    1.09050
+ 1.12470
+ 1.08440
+ 1.10220
+ 1.09220
+ 1.10650
+ 1.10240
+ 1.12500
+ 1.08320
+ 1.04920
+ 1.09050
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFRRSP       10                   # Growth Factor: RRSP contributions (208)
-    1.03760
-    1.04960
-    1.03230
-    1.14820
-    1.09460
-    1.11020
-    1.10640
-    1.04240
-    0.99400
-    1.13550
+ 1.03760
+ 1.04960
+ 1.03230
+ 1.14820
+ 1.09460
+ 1.11020
+ 1.10640
+ 1.04240
+ 0.99400
+ 1.13550
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFSTKDED     10                   # Growth Factor: Stock option deduction (249)
-    0.98470
-    1.00320
-    1.09550
-    1.15400
-    1.13260
-    1.11310
-    1.06430
-    1.14170
-    0.94180
-    1.13490
+ 0.98470
+ 1.00320
+ 1.09550
+ 1.15400
+ 1.13260
+ 1.11310
+ 1.06430
+ 1.14170
+ 0.94180
+ 1.13490
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFTRANSIT    10                   # Growth Factor: Public Transit
-    1.13520
-    1.00000
-    1.03580
-    1.08060
-    1.11370
-    1.06840
-    1.05090
-    1.02110
-    0.91120
-    1.10380
+ 1.13520
+ 1.00000
+ 1.03580
+ 1.08060
+ 1.11370
+ 1.06840
+ 1.05090
+ 1.02110
+ 0.91120
+ 1.10380
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFTUITN      10                   # Growth Factor: Tuition fees (320)
-    0.99780
-    1.09030
-    1.08940
-    1.01750
-    1.11180
-    1.07420
-    1.08240
-    1.07230
-    1.11890
-    1.15150
+ 0.99780
+ 1.09030
+ 1.08940
+ 1.01750
+ 1.11180
+ 1.07420
+ 1.08240
+ 1.07230
+ 1.11890
+ 1.15150
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFUIPRED     10                   # Growth Factor: Predicted benefits from EI
-    1.17190
-    1.11430
-    1.08740
-    1.12880
-    1.03980
-    1.04920
-    1.10530
-    1.23970
-    1.44550
-    1.13160
+ 1.17190
+ 1.11430
+ 1.08740
+ 1.12880
+ 1.03980
+ 1.04920
+ 1.10530
+ 1.23970
+ 1.44550
+ 1.13160
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
@@ -1611,16 +1611,16 @@ IEMPBRK      9                    # Adjustment Factor: Income breaks for income 
 ###
 
 EXPADJ       10                   # Adjustment Factor: All expenditure adjustment
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
                                   # Source: User-supplied
 
 GFFMX        30                   # Adjustment Factor: consumer expenditure categories 
@@ -1657,86 +1657,86 @@ GFFMX        30                   # Adjustment Factor: consumer expenditure cate
                                   # Source: Growth methodology:  06/04/19
 
 GFPRTAX      10                   # Adjustment Factor: Property tax
-    1.10850
-    1.03080
-    1.06720
-    1.07300
-    1.04000
-    1.04380
-    1.05680
-    1.06580
-    1.02210
-    1.04740
+ 1.10850
+ 1.03080
+ 1.06720
+ 1.07300
+ 1.04000
+ 1.04380
+ 1.05680
+ 1.06580
+ 1.02210
+ 1.04740
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFNES        10                   # Adjustment Factor: Not elsewhere stated
-    1.12390
-    1.03240
-    1.07110
-    1.07790
-    1.04040
-    1.04500
-    1.06030
-    1.07000
-    1.03520
-    1.03750
+ 1.12390
+ 1.03240
+ 1.07110
+ 1.07790
+ 1.04040
+ 1.04500
+ 1.06030
+ 1.07000
+ 1.03520
+ 1.03750
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFMORT       10                   # Adjustment Factor: Mortgage payments
-    1.13710
-    1.05410
-    1.09780
-    1.10330
-    1.03960
-    1.06350
-    1.08050
-    1.09630
-    1.04250
-    1.06510
+ 1.13710
+ 1.05410
+ 1.09780
+ 1.10330
+ 1.03960
+ 1.06350
+ 1.08050
+ 1.09630
+ 1.04250
+ 1.06510
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFCONDO      10                   # Adjustment Factor: Condominium fees
-    1.00000
-    1.00000
-    1.00000
-    1.00000
-    1.02100
-    1.02260
-    1.02420
-    1.04450
-    1.01430
-    1.03060
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.00000
+ 1.02100
+ 1.02260
+ 1.02420
+ 1.04450
+ 1.01430
+ 1.03060
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFDIFFP      10                   # Adjustment Factor: Positive account balancing difference
-    1.13410
-    1.03910
-    1.06180
-    1.06900
-    1.03710
-    1.03660
-    1.06410
-    1.08000
-    1.03110
-    1.02930
+ 1.13410
+ 1.03910
+ 1.06180
+ 1.06900
+ 1.03710
+ 1.03660
+ 1.06410
+ 1.08000
+ 1.03110
+ 1.02930
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
 GFDIFFN      10                   # Adjustment Factor: Negative account balancing difference
-    1.07760
-    1.02650
-    1.08310
-    1.09200
-    1.06420
-    1.05560
-    1.04490
-    1.04900
-    1.03590
-    1.09060
+ 1.07760
+ 1.02650
+ 1.08310
+ 1.09200
+ 1.06420
+ 1.05560
+ 1.04490
+ 1.04900
+ 1.03590
+ 1.09060
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 
@@ -1754,16 +1754,16 @@ GFGSTIDX     10                   # Adjustment Factor: GST on housing index
                                   # Source: Growth methodology:  06/04/19
 
 GFHRTCPR     10                   # Adjustment Factor: Home Renovation Tax Credit eligible expenses on principal residence
-    1.12780
-    1.02860
-    1.07070
-    1.09930
-    1.04790
-    1.04590
-    1.07190
-    1.06200
-    1.02680
-    1.05620
+ 1.12780
+ 1.02860
+ 1.07070
+ 1.09930
+ 1.04790
+ 1.04590
+ 1.07190
+ 1.06200
+ 1.02680
+ 1.05620
                                   # Source: Growth methodology:  06/04/19
                                   # Update: Factor=CPI
 

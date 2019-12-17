@@ -10,7 +10,7 @@
 
 CPRDESCE     Tax/transfer:2018 Population:2018 Incomes:2018 (2018$)             # English description of SPSM run 
 
-CPRDESCF     Impôts/transferts:2018 Population:2018 Revenus:2018 (2018$)
+CPRDESCF     Impôts/transferts:2018 Population:2018 Revenus:2018 (2018$)             # French description of SPSM run 
 
 CPRVER           27.1             # SPSD/M Release Version 
 
@@ -18,7 +18,7 @@ CPRSFILE     $SPSD/ba18.cpr             # Starting Control parameter file
 
 AUTHOR                            # Name of person doing simulation 
 
-OUTCPR       CTax_AB_271b.cpr             # Name of control parameter file (out) 
+OUTCPR       temp.cpr             # Name of control parameter file (out) 
 
 ALGDESC                           # Names of standard and alternate algorithms
  +---------+--------------------------------+--------------------------------+
@@ -76,7 +76,7 @@ ROUNDFLAG           1             # Round disposable and consumable income
 
 LOGFLAG             1             # Produce a .log file for this run
 
-OUTLOG       CTax_AB_271b.log             # Name of log file (out) 
+OUTLOG       temp.log             # Name of log file (out) 
 
 CREATEPARMFILES        1             # Force writing of parameter files
 
@@ -110,7 +110,7 @@ REFVARS                           # Reference results file variables
 
 AGENAME      Standard             # Name of database adjustment algorithm 
 
-INPAPR       CTax_AB.apr             # Name of database adjustment parameter file (in) 
+INPAPR       temp.apr             # Name of database adjustment parameter file (in) 
 
 OUTAPR       CTax_AB.apr             # Name of database adjustment parameter file (out) 
 
@@ -125,9 +125,9 @@ VARMETH             2             # Method of creating variant variables
 
 VARDESC      Current values for 2018             # Description of variant parameters 
 
-INPVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (in) 
+INPVARMPR    temp_V.mpr             # Name of variant tax/transfer parameter file (in) 
 
-OUTVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (out) 
+OUTVARMPR    temp_V.mpr             # Name of variant tax/transfer parameter file (out) 
 
 OUTMRSFLAG          0             # Variant results file creation flag
 
@@ -143,13 +143,13 @@ OUTMRSFRAC          0             # Variant results file preserves fractional pa
 ## 2.1.5 Base Information
 ###
 
-BASALG       Version 27.1 : 97-25             # Name of base algorithm 
+BASALG       Version 27.0 : 97-25             # Name of base algorithm 
 
 BASMETH             2             # Method of creating base variables
 
 BASDESC      Current values for 2018             # Description of base parameters 
 
-INPBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (in) 
+INPBASMPR    temp_B.mpr             # Name of base tax/transfer parameter file (in) 
 
 OUTBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (out) 
 
@@ -200,7 +200,7 @@ SELFLAG             1             # Selection facility activation flag
 SELUNIT             0             # Selection facility family level
 
 SELSPEC                           # Selection specification 
-hdprov==8 & hhncf==1
+hdprov==8
 SELMAX              0             # Selection facility maximum # of households
 
 
@@ -252,7 +252,14 @@ label(hhincp) = "Household Income Percentile";
 netctax=ctpcar-HH:imaclar;
 label(netctax) = "Net Carbon Cost";
 
-ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,
+ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,7
+,
+
+
+
+
+
+
 
 750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100);
 label(ctaxpay) = "Net Carbon Tax Costs";
@@ -260,15 +267,15 @@ label(ctaxpay) = "Net Carbon Tax Costs";
 
 if (idhhrh==0) {
 
- if      (nfnkids==0 & nfspoflg==0) fedbenefit= 444;
+ if      (nfnkids==0 & nfspoflg==0) fedbenefit= 400;
 
- else if (nfnkids==0 & nfspoflg==1) fedbenefit= 444+222;
+ else if (nfnkids==0 & nfspoflg==1) fedbenefit= 400+200;
 
- else if (nfnkids==1 & nfspoflg==0) fedbenefit= 444+222;
+ else if (nfnkids==1 & nfspoflg==0) fedbenefit= 400+200;
 
- else if (nfnkids>1 & nfspoflg==0) fedbenefit= 444+222+111*(nfnkids-1);
+ else if (nfnkids>1 & nfspoflg==0) fedbenefit= 400+200+100*(nfnkids-1);
 
- else if (nfnkids>0 & nfspoflg==1) fedbenefit= 444+222+111*nfnkids;
+ else if (nfnkids>0 & nfspoflg==1) fedbenefit= 400+200+100*nfnkids;
 
 }
 if (hdurb==4) { fedbenefit = fedbenefit*1.1; }
@@ -276,7 +283,14 @@ label(fedbenefit) = "Federal Rebate";
 
 netctaxfed=ctpcar-HH:fedbenefit;
 label(netctaxfed) = "Net Carbon Cost with Federal Rebate";
-ctaxpayfed=split(netctaxfed,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,525
+ctaxpayfed=split(netctaxfed,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,
+5
+
+
+
+
+
+
 
 ,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100);
 label(ctaxpayfed) = "Net Carbon Cost w Fed Rebate";
@@ -329,7 +343,7 @@ ASCVARS                           # Variables selected for text output
 ## 2.1.12 Reports
 ###
 
-OUTTBL       CTax_AB_271b.tbl             # Name of report file (out) 
+OUTTBL       temp.tbl             # Name of report file (out) 
 
 
 ###
@@ -451,7 +465,6 @@ HH: {ctpcar9/units} * hhinc+;
 HH: {ctpcar15/units} * hhinc+;
 
 IN: {units} * adult+ * getrebateind+;
-
 XTDBLFLAG           1             # X-tab double precision activation flag
 
 XTCOLS            132             # X-tab desired print width

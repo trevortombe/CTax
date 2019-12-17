@@ -1,0 +1,119 @@
+
+
+         +-------------------------------------------------------------+
+         |                                                             |
+         |              Welcome to the Statistics Canada               |
+         |                                                             |
+         |          Social Policy Simulation Database / Model          |
+         |                          ( SPSD/M )                         |
+         |                                                             |
+         |   Program Version                 : 27.10                   |
+         |   Database Adjustment Algorithm   : Standard                |
+         |   Standard Tax/Transfer Algorithm : Version 27.1 : 97-25    |
+         |   Alternate Tax/Transfer Algorithm: none/aucun              |
+         |                                                             |
+         |          Copyright (c) Statistics Canada, 1984-2019         |
+         |                                                             |
+         |                                                             |
+         +-------------------------------------------------------------+
+
+Press 'F1' for context-specific help.
+Press Ctrl-Break to terminate.
+
+============================= Control Parameters =============================
+
+Enter name of input control parameter file ==> CTax_AB_271b.cpr
+Loading control parameters from 'CTax_AB_271b.cpr'
+Enter specification for generating output files ==> 
+Output file names will be as specified in 'CTax_AB_271b.cpr'
+Current values of selected control parameters:
+Descriptive
+     CPRDESCE     Tax/transfer:2018 Population:2018 Incomes:2018 (2018$) 
+Selection/Sample
+     SELFLAG             1             # Selection facility activation flag
+     SAMPLEREQ     1.000000000         # Size of sample requested
+Input Databases
+     INPSPD       $SPSD/v270y15.spd    # Name of SPSD file (in) 
+     INPFXV       $SPSD/v270y15.fxv    # Name of SHS vector file (in) 
+     INPWGT       $SPSD/v270y18.wgt    # Name of weight file (in) 
+Growth
+     INPAPR       CTax_AB.apr          # Name of database adjustment parameter 
+Scenario Control (base computed using parms, variant computed using parms)
+     BASMETH             2             # Method of creating base variables
+     INPBASMPR    CTax_AB_B.mpr        # Name of base tax/transfer parameter fi
+     VARMETH             2             # Method of creating variant variables
+     INPVARMPR    CTax_AB_271b_V.mpr   # Name of variant tax/transfer parameter
+Output Files
+     OUTMRSFLAG          0             # Variant results file creation flag
+     OUTCPR       CTax_AB_271b.cpr     # Name of control parameter file (out) 
+Do you wish to modify any control parameters ? ==> N
+The following file(s) will be overwritten with these control parameters.
+   (1) CTax_AB_271b.cpr
+   (2) CTax_AB.apr
+   (3) CTax_AB_271b_V.mpr
+   (4) CTax_AB_B.mpr
+Any further control parameter changes ? ==> N
+Writing out control parameters to 'CTax_AB_271b.cpr'.
+
+======================= Database Adjustment Parameters =======================
+
+Loading database adjustment parameters from 'CTax_AB.apr'
+Current values of selected database adjustment parameters:
+ GFISE         10                  # Growth Factor: Self-employment income
+    1.00760
+    1.22790
+    1.13140
+    1.07540
+    1.00770
+    1.06440
+    1.08910
+    0.95800
+    0.91520
+    1.09060
+ GFIEMP        10                  # Growth Factor: Employment income 
+    1.05910  1.05910
+    1.06500  1.06500
+    1.04990  1.04990
+    1.08320  1.08320
+    1.06290  1.06290
+    1.07470  1.07470
+    1.07100  1.07100
+    1.02710  1.02710
+    0.91980  0.91980
+    1.08220  1.08220
+Do you wish to modify any database adjustment parameters ? ==> N
+Writing out database adjustment parameters to 'CTax_AB.apr'.
+
+=========================== Tax/Transfer Parameters ==========================
+
+Loading base    tax/transfer parameters from 'CTax_AB_B.mpr'
+Writing out base tax/transfer parameters to 'CTax_AB_B.mpr'.
+Loading variant tax/transfer parameters from 'CTax_AB_271b_V.mpr'
+Current values of selected variant tax/transfer parameters:
+ MPRDESCE     Current values for 2018 
+ CTFLAG              1             # Commodity tax activation flag
+ CTOPT               2             # Commodity tax calculation method 
+ TARGETYEAR       2018             # Year of analysis
+Do you wish to modify any variant tax/transfer parameters ? ==> Y
+==> UIFLAG
+      EI Activation flag
+          # Source: Permanent Program
+
+==> GO
+Writing out variant tax/transfer parameters to 'CTax_AB_271b_V.mpr'.
+
+=================================== Execution ================================
+
+ SPSM          started   on Tue Dec 17 08:38:48 2019
+ SPSM          completed on Tue Dec 17 08:38:52 2019
+ Elapsed time= 00:00:04
+ Number of households processed= 83415
+ Number of persons     selected=227695
+ Variant consumable income ($000,000):   117123.9
+ Increase from base        ($000,000):        0.0
+ Control parameter file . . . . . . . . CTax_AB_271b.cpr
+ Table output file  . . . . . . . . . . CTax_AB_271b.tbl
+    Producing quantiles from 83415 observations, please wait.
+ Database adjustment parameter file . . CTax_AB.apr
+ Base tax/transfer parameter file . . . CTax_AB_B.mpr
+ Variant tax/transfer parameter file  . CTax_AB_271b_V.mpr
