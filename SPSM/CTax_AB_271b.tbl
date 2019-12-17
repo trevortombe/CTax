@@ -1,4 +1,4 @@
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -64,7 +64,7 @@
 |      Other Ref. Prov. Cred.|     388.6|
 |  Provincial Net Balance    |    8981.8|
 +----------------------------+----------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -130,7 +130,7 @@
 |      Other Ref. Prov. Cred.|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|   388.6|     0.0|     388.6|
 |  Provincial Net Balance    |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|  8981.8|     0.0|    8981.8|
 +----------------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -180,7 +180,7 @@ Table 2U: imaclar/units for Households by Household Income Percentile and Provin
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |       0|       0|       0|       0|       0|       0|       0|       0|     269|       0|     269|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -242,7 +242,7 @@ Table 5U: imfstc/units for Households by Household Income Group and Province
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |       0|       0|       0|       0|       0|       0|       0|       0|     224|       0|     224|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -289,7 +289,7 @@ Table 7U: (ctpcar-ctpcar8-ctpcar9-ctpcar15)/(ctnexp-ctnexp8-ctnexp9-ct for House
 +--------------+----------+
 |All           |    0.0021|
 +--------------+----------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -340,7 +340,7 @@ Table 9U: (ctpcar-ctpcar8-ctpcar9-ctpcar15)/units for Households by Province
 +--------------+--------+
 |All           |     107|
 +--------------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -399,7 +399,7 @@ Table 12U: Unit Count (000) for Households by Receive Rebate and Province
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
 |All     |      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|   1445.3|      0.0|   1445.3|
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -484,7 +484,7 @@ Table 13U: Unit Count (000) for Households by Net Carbon Tax Costs and Household
 +-----------+-------+-------+-------+-------+-------+-------+-------+
 |All        |  173.6|  348.3|  313.9|  204.9|  140.3|  264.2| 1445.3|
 +-----------+-------+-------+-------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -573,7 +573,7 @@ Table 14U: Unit Count (000) for Households by Net Carbon Cost w Fed Rebate and H
 +----------------+-------+-------+-------+-------+-------+-------+-------+
 |All             |  173.6|  348.3|  313.9|  204.9|  140.3|  264.2| 1445.3|
 +----------------+-------+-------+-------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -636,7 +636,7 @@ Table 17U: ctpcar/units for Households by Household Income Group
 +-------------+-------+
 |All          |    395|
 +-------------+-------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -662,7 +662,7 @@ Table 20U: Alberta Climate Leadership Adjustment Rebate (M) for Households
 +-------------------------------------------------+------+
 |Alberta Climate Leadership Adjustment Rebate (M) | 388.6|
 +-------------------------------------------------+------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -746,7 +746,7 @@ Table 21U: netctax/immtot for Households by Net Carbon Tax Costs
 +-----------+--------+
 |All        |  0.0026|
 +-----------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -834,7 +834,7 @@ Table 22U: netctaxfed/immtot for Households by Net Carbon Cost w Fed Rebate
 +----------------+-----------+
 |All             |    -0.0062|
 +----------------+-----------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -890,7 +890,7 @@ Table 25U: imaclar/units for Households by Receive Rebate and Household type
 +-------+--------+--------+--------+--------+--------+--------+--------+
 |All    |     448|     328|     241|     302|     168|     270|     269|
 +-------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -936,7 +936,7 @@ Table 26U: Unit Count (000) for Households by Household Net Carbon Taxes Shares
 +--------------------+----------+
 |All                 |    1445.3|
 +--------------------+----------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -983,7 +983,7 @@ Table 27U: Unit Count (000) for Households by Household Net Carbon Taxes Shares 
 +--------------------+-------+-------+-------+-------+-------+-------+-------+
 |All                 |  173.6|  348.3|  313.9|  204.9|  140.3|  264.2| 1445.3|
 +--------------------+-------+-------+-------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1045,7 +1045,7 @@ Table 29U: Unit Count (000) for Households by Receive Rebate and Province
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
 |All     |      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|   1445.3|      0.0|   1445.3|
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1098,7 +1098,7 @@ Table 31U: (ctpcar-ctpcar8-ctpcar9-ctpcar15)/units for Households by Receive Reb
 +-------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All    |       0|       0|       0|       0|       0|       0|       0|       0|     107|       0|     107|
 +-------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1159,7 +1159,7 @@ Table 33U: Selected Quantities for Households by Household type and Province
 +-----------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All                    |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|   543.6|     0.0|   543.6|
 +-----------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1221,7 +1221,7 @@ Table 34U: Selected Quantities for Households by Household Income Group and Prov
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|   543.6|     0.0|   543.6|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1283,7 +1283,7 @@ Table 35U: ctnexp/units for Households by Household Income Group and Province
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |       0|       0|       0|       0|       0|       0|       0|       0|   53156|       0|   53156|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1342,7 +1342,7 @@ Table 38U: ctpcar15/units for Households by Household Income Group
 +-------------+--------+
 |All          |     138|
 +-------------+--------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'
@@ -1358,7 +1358,7 @@ Table 39U: Unit Count (000) for Individuals by Individual Age and Individual Rec
 +---------------+-------+-------+-------+-------+
 |Both           | 2160.0|    0.0| 1233.1| 3393.0|
 +---------------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Tue Dec 17 08:38:52 2019
+                                  SPSD/M (Database 27.00)                    Tue Dec 17 15:31:05 2019
                     Base Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.1 : 97-25, File: CTax_AB_271b_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8 & hhncf=='  AGENAME='Standard'

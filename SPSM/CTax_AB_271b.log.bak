@@ -37,10 +37,10 @@ Input Databases
      INPFXV       $SPSD/v270y15.fxv    # Name of SHS vector file (in) 
      INPWGT       $SPSD/v270y18.wgt    # Name of weight file (in) 
 Growth
-     INPAPR       CTax_AB_271b.apr     # Name of database adjustment parameter 
+     INPAPR       CTax_AB.apr          # Name of database adjustment parameter 
 Scenario Control (base computed using parms, variant computed using parms)
      BASMETH             2             # Method of creating base variables
-     INPBASMPR    CTax_AB_271b_B.mpr   # Name of base tax/transfer parameter fi
+     INPBASMPR    CTax_AB_B.mpr        # Name of base tax/transfer parameter fi
      VARMETH             2             # Method of creating variant variables
      INPVARMPR    CTax_AB_271b_V.mpr   # Name of variant tax/transfer parameter
 Output Files
@@ -57,7 +57,7 @@ Writing out control parameters to 'CTax_AB_271b.cpr'.
 
 ======================= Database Adjustment Parameters =======================
 
-Loading database adjustment parameters from 'CTax_AB_271b.apr'
+Loading database adjustment parameters from 'CTax_AB.apr'
 Current values of selected database adjustment parameters:
  GFISE         10                  # Growth Factor: Self-employment income
     1.00760
@@ -83,13 +83,11 @@ Current values of selected database adjustment parameters:
     1.08220  1.08220
 Do you wish to modify any database adjustment parameters ? ==> N
 Writing out database adjustment parameters to 'CTax_AB.apr'.
-Changing INPAPR from 'CTax_AB_271b.apr' to 'CTax_AB.apr'
 
 =========================== Tax/Transfer Parameters ==========================
 
-Loading base    tax/transfer parameters from 'CTax_AB_271b_B.mpr'
+Loading base    tax/transfer parameters from 'CTax_AB_B.mpr'
 Writing out base tax/transfer parameters to 'CTax_AB_B.mpr'.
-Changing INPBASMPR from 'CTax_AB_271b_B.mpr' to 'CTax_AB_B.mpr'
 Loading variant tax/transfer parameters from 'CTax_AB_271b_V.mpr'
 Current values of selected variant tax/transfer parameters:
  MPRDESCE     Current values for 2018 
@@ -106,16 +104,16 @@ Writing out variant tax/transfer parameters to 'CTax_AB_271b_V.mpr'.
 
 =================================== Execution ================================
 
- SPSM          started   on Tue Dec 17 08:26:41 2019
- SPSM          completed on Tue Dec 17 08:26:46 2019
- Elapsed time= 00:00:05
- Number of households processed=100428
- Number of persons     selected=294729
- Variant consumable income ($000,000):   149528.0
+ SPSM          started   on Tue Dec 17 08:38:48 2019
+ SPSM          completed on Tue Dec 17 08:38:52 2019
+ Elapsed time= 00:00:04
+ Number of households processed= 83415
+ Number of persons     selected=227695
+ Variant consumable income ($000,000):   117123.9
  Increase from base        ($000,000):        0.0
  Control parameter file . . . . . . . . CTax_AB_271b.cpr
  Table output file  . . . . . . . . . . CTax_AB_271b.tbl
-    Producing quantiles from 120481 observations, please wait.
+    Producing quantiles from 83415 observations, please wait.
  Database adjustment parameter file . . CTax_AB.apr
  Base tax/transfer parameter file . . . CTax_AB_B.mpr
  Variant tax/transfer parameter file  . CTax_AB_271b_V.mpr

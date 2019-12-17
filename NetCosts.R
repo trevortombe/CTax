@@ -33,7 +33,8 @@ ggplot(plotdata,aes(x=x2,y=1,fill=..x..))+
 ggsave("AllHouseholds.png",width=6.5,height=4,dpi=300)
 
 # Costs by Household Total Income
-plotdata<-read_excel("CTaxCosts.xlsx",sheet="NetCosts") %>%
+#plotdata<-read_excel("CTaxCosts.xlsx",sheet="NetCosts") %>%
+plotdata<-read_excel("CTaxCosts_update.xlsx",sheet="NetCostwithFed") %>% # using new Fed rebate numbers
   gather(income,number,-NetCost) %>%
   group_by(income) %>%
   mutate(share=number/sum(number)) %>%
@@ -138,11 +139,13 @@ ggplot(test,aes(x=x,y=reorder(income,order),fill=..x..))+
   labs(x="Net Carbon Tax Costs ($ per Year)",
        y="Total Household Annual Income                ",
        title="Net Cost to Households of Alberta's Carbon Tax in 2018",
-       subtitle="Source: Own calculations from Statistics Canada's SPSD/M version 27.",
+       subtitle="Source: Own calculations from Statistics Canada's SPSD/M version 27.
+Reflects Federal rebates of $444 (first adult), $222 (spouse), and $111 (child).",
        caption="Graph by @trevortombe")
+ggsave("Federal2020.png",width=6.5,height=4,dpi=300)
 
 # All incomes
-plotdata<-read_excel("CTaxCosts.xlsx",sheet="NetCostwithFed") %>%
+plotdata<-read_excel("CTaxCosts_update.xlsx",sheet="NetCostwithFed") %>%
   gather(income,number,-NetCost) %>%
   group_by(income) %>%
   mutate(share=number/sum(number)) %>%
@@ -154,11 +157,11 @@ plotdata <- data.frame(x = rep(plotdata$NetCost, 10*plotdata$number)) %>%
   ungroup()
 ggplot(plotdata,aes(x=x2,y=1,fill=..x..))+
   geom_density_ridges_gradient(show.legend = F)+
-  geom_point(aes(x=25,y=1.0035),color="transparent",show.legend = F)+
-  annotate("text",x=25,y=1.0033,label="CTax > Rebate",size=3,hjust=0)+
-  geom_segment(aes(x=25,xend=350,y=1.0031,yend=1.0031),arrow=arrow(length=unit(1,'mm')))+
-  annotate("text",x=-25,y=1.0033,label="Rebate > CTax",size=3,hjust=1)+
-  geom_segment(aes(x=-25,xend=-350,y=1.0031,yend=1.0031),arrow=arrow(length=unit(1,'mm')))+
+  geom_point(aes(x=25,y=1.00535),color="transparent",show.legend = F)+
+  annotate("text",x=25,y=Inf,label="CTax > Rebate",size=3,hjust=0,vjust=1.5)+
+  geom_segment(aes(x=25,xend=350,y=1.005,yend=1.005),arrow=arrow(length=unit(1,'mm')))+
+  annotate("text",x=-25,y=Inf,label="Rebate > CTax",size=3,hjust=1,vjust=1.5)+
+  geom_segment(aes(x=-25,xend=-350,y=1.005,yend=1.005),arrow=arrow(length=unit(1,'mm')))+
   scale_fill_viridis(name = "", option = "C")+
   geom_vline(xintercept = 0,size=1)+
   geom_hline(yintercept=0,size=1)+
@@ -166,10 +169,12 @@ ggplot(plotdata,aes(x=x2,y=1,fill=..x..))+
   scale_x_continuous(label=dollar)+
   scale_y_discrete(expand=c(0,0))+
   labs(x="Net Carbon Tax Costs ($ per Year)",
-       y="All Income Levels        ",
-       title="Net Cost to Households of Alberta's Carbon Tax in 2018",
-       subtitle="Source: Own calculations from Statistics Canada's SPSM/D version 27.",
+       y="Density of Households",
+       title="Net Cost to Households of the Federal $30/t Carbon Tax Minus 2020 Rebate",
+       subtitle="Source: Own calculations from Statistics Canada's SPSD/M version 27.1.
+Reflects Federal rebates of $444 (first adult), $222 (spouse), and $111 (child).",
        caption="Graph by @trevortombe")
+ggsave("Federal2020.png",width=7,height=4,dpi=300)
 
 ## Comparing Both Provincial and Federal On Same Graph
 data1<-read_excel("CTaxCosts.xlsx",sheet="NetCostwithFedx2") %>%

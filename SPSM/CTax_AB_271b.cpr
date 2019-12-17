@@ -1,6 +1,7 @@
 
 ###
 ## 2.1 Model Control Parameters
+##     $Id$
 ###
 
 
@@ -8,17 +9,17 @@
 ## 2.1.1 General information
 ###
 
-CPRDESCE     Tax/transfer:2018 Population:2018 Incomes:2018 (2018$)             # English description of SPSM run 
+CPRDESCE     Tax/transfer:2018 Population:2018 Incomes:2018 (2018$) 
 
-CPRDESCF     Impôts/transferts:2018 Population:2018 Revenus:2018 (2018$)
+CPRDESCF     Impôts/transferts:2018 Population:2018 Revenus:2018 (2018$) 
 
-CPRVER           27.1             # SPSD/M Release Version 
+CPRVER       27.1                 # SPSD/M Release Version 
 
-CPRSFILE     $SPSD/ba18.cpr             # Starting Control parameter file 
+CPRSFILE     $SPSD/ba18.cpr       # Starting Control parameter file 
 
 AUTHOR                            # Name of person doing simulation 
 
-OUTCPR       CTax_AB_271b.cpr             # Name of control parameter file (out) 
+OUTCPR       CTax_AB_271b.cpr     # Name of control parameter file (out) 
 
 ALGDESC                           # Names of standard and alternate algorithms
  +---------+--------------------------------+--------------------------------+
@@ -76,7 +77,7 @@ ROUNDFLAG           1             # Round disposable and consumable income
 
 LOGFLAG             1             # Produce a .log file for this run
 
-OUTLOG       CTax_AB_271b.log             # Name of log file (out) 
+OUTLOG       CTax_AB_271b.log     # Name of log file (out) 
 
 CREATEPARMFILES        1             # Force writing of parameter files
 
@@ -87,15 +88,15 @@ GLASSEXE                          # Name of glass box executable
 ## 2.1.2 SPSD input files
 ###
 
-INPSPD       $SPSD/v270y15.spd             # Name of SPSD file (in) 
+INPSPD       $SPSD/v270y15.spd    # Name of SPSD file (in) 
 
 FXVFLAG             1             # Read SHS expenditure vector file
 
-INPFXV       $SPSD/v270y15.fxv             # Name of SHS vector file (in) 
+INPFXV       $SPSD/v270y15.fxv    # Name of SHS vector file (in) 
 
 WGTFLAG             1             # Read weight file
 
-INPWGT       $SPSD/v270y18.wgt             # Name of weight file (in) 
+INPWGT       $SPSD/v270y18.wgt    # Name of weight file (in) 
 
 REFFLAG             0             # Read reference results file
 
@@ -110,24 +111,24 @@ REFVARS                           # Reference results file variables
 
 AGENAME      Standard             # Name of database adjustment algorithm 
 
-INPAPR       CTax_AB.apr             # Name of database adjustment parameter file (in) 
+INPAPR       CTax_AB.apr          # Name of database adjustment parameter file (in) 
 
-OUTAPR       CTax_AB.apr             # Name of database adjustment parameter file (out) 
+OUTAPR       CTax_AB.apr          # Name of database adjustment parameter file (out) 
 
 
 ###
 ## 2.1.4 Variant Information
 ###
 
-VARALG       Version 27.1 : 97-25             # Name of variant algorithm 
+VARALG       Version 27.1 : 97-25 # Name of variant algorithm 
 
 VARMETH             2             # Method of creating variant variables
 
-VARDESC      Current values for 2018             # Description of variant parameters 
+VARDESC      Current values for 2018 
 
-INPVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (in) 
+INPVARMPR    CTax_AB_271b_V.mpr   # Name of variant tax/transfer parameter file (in) 
 
-OUTVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (out) 
+OUTVARMPR    CTax_AB_271b_V.mpr   # Name of variant tax/transfer parameter file (out) 
 
 OUTMRSFLAG          0             # Variant results file creation flag
 
@@ -143,15 +144,15 @@ OUTMRSFRAC          0             # Variant results file preserves fractional pa
 ## 2.1.5 Base Information
 ###
 
-BASALG       Version 27.1 : 97-25             # Name of base algorithm 
+BASALG       Version 27.1 : 97-25 # Name of base algorithm 
 
 BASMETH             2             # Method of creating base variables
 
-BASDESC      Current values for 2018             # Description of base parameters 
+BASDESC      Current values for 2018 
 
-INPBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (in) 
+INPBASMPR    CTax_AB_B.mpr        # Name of base tax/transfer parameter file (in) 
 
-OUTBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (out) 
+OUTBASMPR    CTax_AB_B.mpr        # Name of base tax/transfer parameter file (out) 
 
 INPBASMRS                         # Name of base results file (in) 
 
@@ -162,33 +163,33 @@ INPMRSVARS                        # Base results file variables
 ## 2.1.6 Subsampling, random number seed
 ###
 
-SAMPLEREQ    1.000000000             # Size of sample requested
+SAMPLEREQ     1.000000000         # Size of sample requested
 
-SAMPLE       1.000000000             # Size of sample obtained
+SAMPLE        1.000000000         # Size of sample obtained
 
-WGTTOT       15313584             # Sum of weights on tax file
+WGTTOT         15313584           # Sum of weights on tax file
 
-SEED         20                   # Random number generator seeds
-       0
-       1
-       2
-       3
-       4
-       5
-       6
-       7
-       8
-       9
-      10
-      11
-      12
-      13
-      14
-      15
-      16
-      17
-      18
-      19
+SEED          20                  # Random number generator seeds
+          0
+          1
+          2
+          3
+          4
+          5
+          6
+          7
+          8
+          9
+         10
+         11
+         12
+         13
+         14
+         15
+         16
+         17
+         18
+         19
 
 
 ###
@@ -201,6 +202,7 @@ SELUNIT             0             # Selection facility family level
 
 SELSPEC                           # Selection specification 
 hdprov==8 & hhncf==1
+
 SELMAX              0             # Selection facility maximum # of households
 
 
@@ -214,9 +216,9 @@ MARBASEFLAG         0             # Save marginal results as base run flag
 
 MARAMT         100.00             # Amount to be added to variable for marginal calculation
 
-MARVAR         idiemp             # Variable to add MARAMT to 
+MARVAR       idiemp               # Variable to add MARAMT to 
 
-MARSPEC      idiemp>=1000             # Expression identifying recipients 
+MARSPEC      idiemp>=1000         # Expression identifying recipients 
 
 
 ###
@@ -225,15 +227,15 @@ MARSPEC      idiemp>=1000             # Expression identifying recipients
 
 TPFLAG              0             # Turning point facility activation flag
 
-TPSPEC              1             # Expression identifying individuals to change 
+TPSPEC       1                    # Expression identifying individuals to change 
 
-TPVARS         idiemp             # Variables to modify 
+TPVARS       idiemp               # Variables to modify 
 
 TPMETH              1             # Method for modifying variables 
 
 TPLL             0.00             # Lower limit for modified variables
 
-TPUL         100000.00             # Upper limit for modified variables
+TPUL         100000.00            # Upper limit for modified variables
 
 
 ###
@@ -253,6 +255,7 @@ netctax=ctpcar-HH:imaclar;
 label(netctax) = "Net Carbon Cost";
 
 ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,
+
 
 750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100);
 label(ctaxpay) = "Net Carbon Tax Costs";
@@ -277,6 +280,7 @@ label(fedbenefit) = "Federal Rebate";
 netctaxfed=ctpcar-HH:fedbenefit;
 label(netctaxfed) = "Net Carbon Cost with Federal Rebate";
 ctaxpayfed=split(netctaxfed,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,525
+
 
 ,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100);
 label(ctaxpayfed) = "Net Carbon Cost w Fed Rebate";
@@ -306,6 +310,7 @@ label(rebatechange) = "Moving to Feds";
 abchange=fedbenefit*0.67+0.33*ctpcar-imaclar;
 label(abchange) = "All-In to Feds";
 
+
 ###
 ## 2.1.11 Text output facility
 ###
@@ -329,7 +334,7 @@ ASCVARS                           # Variables selected for text output
 ## 2.1.12 Reports
 ###
 
-OUTTBL       CTax_AB_271b.tbl             # Name of report file (out) 
+OUTTBL       CTax_AB_271b.tbl     # Name of report file (out) 
 
 
 ###
@@ -372,18 +377,18 @@ TABUNIT             2             # Built-in tables family level
 
 TABDELTA        10.00             # Built-in tables winner/loser threshold
 
-INCVAR       _immicons             # Variable to use for table 2 
+INCVAR       _immicons            # Variable to use for table 2 
 
-INCGP        9                    # Income cutpoints for table 2 
-    5000
-   10000
-   15000
-   20000
-   25000
-   30000
-   35000
-   40000
-   50000
+INCGP          9                  # Income cutpoints for table 2 
+       5000
+      10000
+      15000
+      20000
+      25000
+      30000
+      35000
+      40000
+      50000
 
 
 ###
@@ -471,26 +476,26 @@ DISTFLAG            1             # Distribution facility activation flag
 
 DISTUNIT            2             # Distribution facility family level
 
-DISTVAR      rebatechange             # Distribution facility variable 
+DISTVAR      rebatechange         # Distribution facility variable 
 
 DISTSAMP      2000000             # Distribution facility sample size
 
 DISTZERO            1             # Distribution facility zero inclusion flag
 
-DISTP        13                   # Breakpoints for histogram plot 
-      1
-      5
-     10
-     20
-     30
-     40
-     50
-     60
-     70
-     80
-     90
-     95
-     99
+DISTP         13                  # Breakpoints for histogram plot 
+         1
+         5
+        10
+        20
+        30
+        40
+        50
+        60
+        70
+        80
+        90
+        95
+        99
 
 DISTPWID           70             # Width of histogram plot
 
@@ -498,10 +503,10 @@ DISTPHGT           17             # Height of histogram plot
 
 INEQFLAG            0             # Inequality measures facility activation flag
 
-INEQMEASURE  3                    # Type of inequality measure 
-    1.00 0.50
-    0.50 1.00
-    1.50 1.00
+INEQMEASURE    3                  # Type of inequality measure 
+   1.00 0.50
+   0.50 1.00
+   1.50 1.00
 
 
 ###
