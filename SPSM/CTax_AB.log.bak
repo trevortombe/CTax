@@ -104,9 +104,9 @@ Writing out variant tax/transfer parameters to 'CTax_AB_V.mpr'.
 
 =================================== Execution ================================
 
- SPSM          started   on Wed May 22 09:54:51 2019
- SPSM          completed on Wed May 22 09:54:56 2019
- Elapsed time= 00:00:05
+ SPSM          started   on Wed May 22 09:54:15 2019
+ SPSM          completed on Wed May 22 09:54:21 2019
+ Elapsed time= 00:00:06
  Number of households processed=100428
  Number of persons     selected=294729
  Variant consumable income ($000,000):   150600.3

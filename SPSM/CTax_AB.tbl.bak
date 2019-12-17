@@ -1,4 +1,4 @@
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -64,7 +64,7 @@
 |      Other Ref. Prov. Cred.|     562.3|
 |  Provincial Net Balance    |   11082.5|
 +----------------------------+----------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -130,7 +130,7 @@
 |      Other Ref. Prov. Cred.|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|   562.3|     0.0|     562.3|
 |  Provincial Net Balance    |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0| 11082.5|     0.0|   11082.5|
 +----------------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -180,7 +180,7 @@ Table 2U: imaclar/units for Households by Household Income Percentile and Provin
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |       0|       0|       0|       0|       0|       0|       0|       0|     325|       0|     325|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -242,7 +242,7 @@ Table 5U: imfstc/units for Households by Household Income Group and Province
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |       0|       0|       0|       0|       0|       0|       0|       0|     285|       0|     285|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -289,7 +289,7 @@ Table 7U: (ctpcar-ctpcar8-ctpcar9-ctpcar15)/(ctnexp-ctnexp8-ctnexp9-ct for House
 +--------------+----------+
 |All           |    0.0024|
 +--------------+----------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -340,7 +340,7 @@ Table 9U: (ctpcar-ctpcar8-ctpcar9-ctpcar15)/units for Households by Province
 +--------------+--------+
 |All           |     129|
 +--------------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -399,7 +399,7 @@ Table 12U: Unit Count (000) for Households by Receive Rebate and Province
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
 |All     |      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|   1729.0|      0.0|   1729.0|
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -484,7 +484,7 @@ Table 13U: Unit Count (000) for Households by Net Carbon Tax Costs and Household
 +-----------+-------+-------+-------+-------+-------+-------+-------+
 |All        |  180.1|  375.0|  352.2|  266.8|  190.8|  364.2| 1729.0|
 +-----------+-------+-------+-------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -573,7 +573,7 @@ Table 14U: Unit Count (000) for Households by Net Carbon Cost w Fed Rebate and H
 +----------------+-------+-------+-------+-------+-------+-------+-------+
 |All             |  180.1|  375.0|  352.2|  266.8|  190.8|  364.2| 1729.0|
 +----------------+-------+-------+-------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -636,7 +636,7 @@ Table 17U: ctpcar/units for Households by Household Income Group
 +-------------+-------+
 |All          |    382|
 +-------------+-------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -662,7 +662,7 @@ Table 20U: Alberta Climate Leadership Adjustment Rebate (M) for Households
 +-------------------------------------------------+------+
 |Alberta Climate Leadership Adjustment Rebate (M) | 562.3|
 +-------------------------------------------------+------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -746,7 +746,7 @@ Table 21U: netctax/immtot for Households by Net Carbon Tax Costs
 +-----------+--------+
 |All        |  0.0007|
 +-----------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -834,7 +834,7 @@ Table 22U: netctaxfed/immtot for Households by Net Carbon Cost w Fed Rebate
 +----------------+-----------+
 |All             |    -0.0048|
 +----------------+-----------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -890,7 +890,7 @@ Table 25U: imaclar/units for Households by Receive Rebate and Household type
 +-------+--------+--------+--------+--------+--------+--------+--------+
 |All    |     448|     413|     241|     374|     168|     331|     325|
 +-------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -936,7 +936,7 @@ Table 26U: Unit Count (000) for Households by Household Net Carbon Taxes Shares
 +--------------------+----------+
 |All                 |    1729.0|
 +--------------------+----------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -983,7 +983,7 @@ Table 27U: Unit Count (000) for Households by Household Net Carbon Taxes Shares 
 +--------------------+-------+-------+-------+-------+-------+-------+-------+
 |All                 |  180.1|  375.0|  352.2|  266.8|  190.8|  364.2| 1729.0|
 +--------------------+-------+-------+-------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1045,7 +1045,7 @@ Table 29U: Unit Count (000) for Households by Receive Rebate and Province
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
 |All     |      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|      0.0|   1729.0|      0.0|   1729.0|
 +--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1098,7 +1098,7 @@ Table 31U: (ctpcar-ctpcar8-ctpcar9-ctpcar15)/units for Households by Receive Reb
 +-------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All    |       0|       0|       0|       0|       0|       0|       0|       0|     129|       0|     129|
 +-------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1159,7 +1159,7 @@ Table 33U: Selected Quantities for Households by Household type and Province
 +-----------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All                    |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|   793.3|     0.0|   793.3|
 +-----------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1221,7 +1221,7 @@ Table 34U: Selected Quantities for Households by Household Income Group and Prov
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|   793.3|     0.0|   793.3|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1283,7 +1283,7 @@ Table 35U: ctnexp/units for Households by Household Income Group and Province
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
 |All          |       0|       0|       0|       0|       0|       0|       0|       0|   56614|       0|   56614|
 +-------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1343,7 +1343,7 @@ Table 38U: ctpcar15/units for Households by Household Income Group
 +-------------+--------+
 |All          |     182|
 +-------------+--------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1359,7 +1359,7 @@ Table 39U: Unit Count (000) for Individuals by Individual Age and Individual Rec
 +---------------+-------+-------+-------+-------+
 |Both           | 2758.6|    0.0| 1788.6| 4547.2|
 +---------------+-------+-------+-------+-------+
-                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:57 2019
+                                  SPSD/M (Database 27.00)                    Wed May 22 09:54:21 2019
                     Base Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_B.mpr]
                  Variant Description: Current values for 2018       [Driver: Version 27.0 : 97-25, File: CTax_AB_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -1372,47 +1372,47 @@ Distribution report: Moving to Feds for Census Families
    Descriptive Statistics:
 
    Sum of weights          =      2076092
-   Weighted Sum            =    442407750
-   Weighted Sum of Squares = 332013822217
-   Weighted Mean           =          213
+   Weighted Sum            =   1259987922
+   Weighted Sum of Squares = 3702585078019
+   Weighted Mean           =          607
 
    Extreme Values (with associated household numbers):
 
       Minima  hdseqhh                 Maxima  hdseqhh
 
-        -900   134629                   1210      576
-        -900   135460                   1210     4065
-        -900   226602                   1210    83511
-        -900   310033                   1210   107110
-        -600     2525                   1210   166541
+       -5400   134629                   8470      576
+       -5400   135460                   8470     4065
+       -5400   226602                   8470    83511
+       -5400   310033                   8470   107110
+       -3000     2525                   8470   166541
 
    Selected Quantiles:
 
-   Q1 = 100   P1=-500   P90= 600   P20= -15   P60= 300
-   Med= 300   P2=-450   P95= 759   P30= 100   P70= 400
-   Q3 = 410   P5=-300   P98= 880   P40= 100   P80= 465
-             P10=-300   P99= 900
+   Q1 =  100   P1=-1500   P90= 2100   P20=  -31   P60=  600
+   Med=  400   P2=-1200   P95= 3200   P30=  100   P70=  720
+   Q3 = 1200   P5= -600   P98= 3797   P40=  140   P80= 1200
+              P10= -300   P99= 4500
 
    Histogram Plot:
 
-                           +-----+                                        
-                           |     |                                        
-                           |     |              +--+                      
-                           |     |              |  |                      
-                           |     |              |  |                      
-                           |     |              |  |                      
-                           |     |              |  |                      
-                           |     +--------------+  |                      
-                           |                       |                      
-                           |                       |                      
-                           |                       +------+               
-                           |                              |               
-                           |                              |               
-   +---------+             |                              |               
-   |         +-------------+                              +--------------+
-   |                                                                     |
-   |                                                                     |
-   +---------+-------------+-----+---------+----+--+------+-------+------+
-   P1        P10           P20   P40       P60  P70       P90     P95    P99
-   -500      -300          -15   100       300  400       600     759    900
+                     +-+                                                   
+                     | |                                                   
+                     | |                                                   
+                     | |                                                   
+                     | |                                                   
+                     | |    ++                                             
+                     | |    ||                                             
+                     | |    ||                                             
+                     | |    ||                                             
+                     | |    ||                                             
+                     | |  +-+|                                             
+                     | +--+  |                                             
+                  +--+       |                                             
+                  |          |                                             
+                  |          +-----+                                       
+              +---+                +----------+                            
+   +----------+                               +------------+               
+   +----------+---+--+-+--+-++-----+----------+------------+--------------+
+   P1         P5  P10  P40  P60    P80        P90          P95            P99
+   -1500      -600   -31  400      1200       2100         3200           4500
 

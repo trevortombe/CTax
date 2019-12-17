@@ -1,7 +1,6 @@
 
 ###
 ## 2.3 Government Transfers and Personal Income Taxes
-##     $Id$
 ###
 
 
@@ -9,12 +8,12 @@
 ## 2.3.0 Parameter File Description
 ###
 
-MPRDESCE     Current values for 2018 
+MPRDESCE     Current values for 2018             # English description of tax/transfer parameter file
                                   # Source: Given as LABELE=...
                                   # Source : Donné comme LABELE=...
                                   # Update: Value=LABELE
 
-MPRDESCF     Valeurs courantes pour 2018 
+MPRDESCF     Valeurs courantes pour 2018             # French description of tax/transfer parameter file
                                   # Source: Given as LABELF=...
                                   # Source : Donné comme LABELF=...
                                   # Update: Value=LABELF
@@ -24,7 +23,7 @@ MPRVER          27.00             # SPSD/M Release Version
                                   # Source : Donné comme VERSION=...
                                   # Update: Value=VERSION
 
-MPRSFILE     $SPSD/ba18.mpr       # Starting tax/transfer parameter file
+MPRSFILE     $SPSD/ba18.mpr             # Starting tax/transfer parameter file
                                   # Source: Given as SFILE=...
                                   # Source : Donné comme SFILE=...
                                   # Update: Value=SFILE
@@ -56,7 +55,6 @@ GSTREBFLAG          1             # Database variable(gstreb) activation flag
 UIFLAG              1             # EI Activation flag
                                   # Source: Permanent Program
                                   # Source : Programme permanent
-                                  # Note: Preceding value modified interactively
 
 UIERNMAX       994.23             # Maximum insurable earnings
                                   # Source: CRA News Release 2017/11/16
@@ -76,7 +74,7 @@ UIEIREFTK     1.00000             # EI contribution refund take up
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-UITARGET      10                  # EI target for the number of cases
+UITARGET     10                   # EI target for the number of cases
     0.58301
     0.47603
     0.57227
@@ -95,29 +93,29 @@ UITARGET      10                  # EI target for the number of cases
 ## 2.3.2.1.1 Minimum Weeks to Qualify
 ###
 
-UIREGHRMIN     9                  # Min. hours to qualify for reg. benefits 
-          0      700  (-5.8333)
-          6      665 (-35.0000)
-          7      630 (-35.0000)
-          8      595 (-35.0000)
-          9      560 (-35.0000)
-         10      525 (-35.0000)
-         11      490 (-35.0000)
-         12      455 (-35.0000)
-         13      420 (-35.0000)
+UIREGHRMIN   9                    # Min. hours to qualify for reg. benefits 
+            0       700   (-5.8333)
+            6       665  (-35.0000)
+            7       630  (-35.0000)
+            8       595  (-35.0000)
+            9       560  (-35.0000)
+           10       525  (-35.0000)
+           11       490  (-35.0000)
+           12       455  (-35.0000)
+           13       420  (-35.0000)
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-UIFSHERMIN     9                  # Min. earnings to qualify for fish. benefits 
-          0     4200 (-33.3333)
-          6     4000 (-200.0000)
-          7     3800 (-200.0000)
-          8     3600 (-200.0000)
-          9     3400 (-200.0000)
-         10     3200 (-300.0000)
-         11     2900 (-200.0000)
-         12     2700 (-200.0000)
-         13     2500 (-200.0000)
+UIFSHERMIN   9                    # Min. earnings to qualify for fish. benefits 
+            0      4200  (-33.3333)
+            6      4000 (-200.0000)
+            7      3800 (-200.0000)
+            8      3600 (-200.0000)
+            9      3400 (-200.0000)
+           10      3200 (-300.0000)
+           11      2900 (-200.0000)
+           12      2700 (-200.0000)
+           13      2500 (-200.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[2]=NONE
@@ -155,30 +153,30 @@ UIEIDIVFLG          1             # EI minimum divisor flag
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-UIEIDIV        9                  # EI minimum divisor 
-          0       22 (-0.167)
-          6       21 (-1.000)
-          7       20 (-1.000)
-          8       19 (-1.000)
-          9       18 (-1.000)
-         10       17 (-1.000)
-         11       16 (-1.000)
-         12       15 (-1.000)
-         13       14 (-1.000)
+UIEIDIV      9                    # EI minimum divisor 
+            0        22  (-0.167)
+            6        21  (-1.000)
+            7        20  (-1.000)
+            8        19  (-1.000)
+            9        18  (-1.000)
+           10        17  (-1.000)
+           11        16  (-1.000)
+           12        15  (-1.000)
+           13        14  (-1.000)
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-UIEITKP       10                  # EI takeup rate 
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
+UIEITKP      10                   # EI takeup rate 
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
@@ -271,50 +269,50 @@ UILTWREGWKS         0             # Additional weeks for Long Tenured Workers in
                                   # Source: Federal Budget 2016
                                   # Source : Budget fédéral 2016
 
-UIEWK         43                  # Entitlement (weeks) 
-     0   0   0   0   0   0   0   0   0   0   0   0
-     0   0   0   0   0   0   0   0   0   0   0   0
-     0   0   0   0   0   0   0   0  26  28  30  32
-     0   0   0   0   0   0   0  24  26  28  30  32
-     0   0   0   0   0   0  23  25  27  29  31  33
-     0   0   0   0   0  21  23  25  27  29  31  33
-     0   0   0   0  20  22  24  26  28  30  32  34
-     0   0   0  18  20  22  24  26  28  30  32  34
-     0   0  17  19  21  23  25  27  29  31  33  35
-     0  15  17  19  21  23  25  27  29  31  33  35
-    14  16  18  20  22  24  26  28  30  32  34  36
-    14  16  18  20  22  24  26  28  30  32  34  36
-    15  17  19  21  23  25  27  29  31  33  35  37
-    15  17  19  21  23  25  27  29  31  33  35  37
-    16  18  20  22  24  26  28  30  32  34  36  38
-    16  18  20  22  24  26  28  30  32  34  36  38
-    17  19  21  23  25  27  29  31  33  35  37  39
-    17  19  21  23  25  27  29  31  33  35  37  39
-    18  20  22  24  26  28  30  32  34  36  38  40
-    18  20  22  24  26  28  30  32  34  36  38  40
-    19  21  23  25  27  29  31  33  35  37  39  41
-    19  21  23  25  27  29  31  33  35  37  39  41
-    20  22  24  26  28  30  32  34  36  38  40  42
-    20  22  24  26  28  30  32  34  36  38  40  42
-    21  23  25  27  29  31  33  35  37  39  41  43
-    21  23  25  27  29  31  33  35  37  39  41  43
-    22  24  26  28  30  32  34  36  38  40  42  44
-    22  24  26  28  30  32  34  36  38  40  42  44
-    23  25  27  29  31  33  35  37  39  41  43  45
-    23  25  27  29  31  33  35  37  39  41  43  45
-    24  26  28  30  32  34  36  38  40  42  44  45
-    25  27  29  31  33  35  37  39  41  43  45  45
-    26  28  30  32  34  36  38  40  42  44  45  45
-    27  29  31  33  35  37  39  41  43  45  45  45
-    28  30  32  34  36  38  40  42  44  45  45  45
-    29  31  33  35  37  39  41  43  45  45  45  45
-    30  32  34  36  38  40  42  44  45  45  45  45
-    31  33  35  37  39  41  43  45  45  45  45  45
-    32  34  36  38  40  42  44  45  45  45  45  45
-    33  35  37  39  41  43  45  45  45  45  45  45
-    34  36  38  40  42  44  45  45  45  45  45  45
-    35  37  39  41  43  45  45  45  45  45  45  45
-    36  38  40  42  44  45  45  45  45  45  45  45
+UIEWK        43                   # Entitlement (weeks) 
+     0  0  0  0  0  0  0  0  0  0  0  0
+     0  0  0  0  0  0  0  0  0  0  0  0
+     0  0  0  0  0  0  0  0 26 28 30 32
+     0  0  0  0  0  0  0 24 26 28 30 32
+     0  0  0  0  0  0 23 25 27 29 31 33
+     0  0  0  0  0 21 23 25 27 29 31 33
+     0  0  0  0 20 22 24 26 28 30 32 34
+     0  0  0 18 20 22 24 26 28 30 32 34
+     0  0 17 19 21 23 25 27 29 31 33 35
+     0 15 17 19 21 23 25 27 29 31 33 35
+    14 16 18 20 22 24 26 28 30 32 34 36
+    14 16 18 20 22 24 26 28 30 32 34 36
+    15 17 19 21 23 25 27 29 31 33 35 37
+    15 17 19 21 23 25 27 29 31 33 35 37
+    16 18 20 22 24 26 28 30 32 34 36 38
+    16 18 20 22 24 26 28 30 32 34 36 38
+    17 19 21 23 25 27 29 31 33 35 37 39
+    17 19 21 23 25 27 29 31 33 35 37 39
+    18 20 22 24 26 28 30 32 34 36 38 40
+    18 20 22 24 26 28 30 32 34 36 38 40
+    19 21 23 25 27 29 31 33 35 37 39 41
+    19 21 23 25 27 29 31 33 35 37 39 41
+    20 22 24 26 28 30 32 34 36 38 40 42
+    20 22 24 26 28 30 32 34 36 38 40 42
+    21 23 25 27 29 31 33 35 37 39 41 43
+    21 23 25 27 29 31 33 35 37 39 41 43
+    22 24 26 28 30 32 34 36 38 40 42 44
+    22 24 26 28 30 32 34 36 38 40 42 44
+    23 25 27 29 31 33 35 37 39 41 43 45
+    23 25 27 29 31 33 35 37 39 41 43 45
+    24 26 28 30 32 34 36 38 40 42 44 45
+    25 27 29 31 33 35 37 39 41 43 45 45
+    26 28 30 32 34 36 38 40 42 44 45 45
+    27 29 31 33 35 37 39 41 43 45 45 45
+    28 30 32 34 36 38 40 42 44 45 45 45
+    29 31 33 35 37 39 41 43 45 45 45 45
+    30 32 34 36 38 40 42 44 45 45 45 45
+    31 33 35 37 39 41 43 45 45 45 45 45
+    32 34 36 38 40 42 44 45 45 45 45 45
+    33 35 37 39 41 43 45 45 45 45 45 45
+    34 36 38 40 42 44 45 45 45 45 45 45
+    35 37 39 41 43 45 45 45 45 45 45 45
+    36 38 40 42 44 45 45 45 45 45 45 45
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
@@ -347,9 +345,9 @@ UIOTHWKFCT    0.00000             # EI other benefits weeks adjustment factor
 ## 2.3.2.1.4 Benefit Rates
 ###
 
-UIEIRATE       2                  # Benefit rate under EI reform 
-          0    0.550   (0.0000)
-         10    0.550   (0.0000)
+UIEIRATE     2                    # Benefit rate under EI reform 
+            0     0.550    (0.0000)
+           10     0.550    (0.0000)
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
@@ -412,137 +410,137 @@ UIEIMFSP      0.80000             # EI Maximum family supplement percent of earn
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-UIEIFS1       22                  # Max fam supplement 1 child
-          0   31.300  (-0.0000)
-      20921   31.250  (-0.0084)
-      21250   28.500  (-0.0082)
-      21500   26.450  (-0.0080)
-      21750   24.450  (-0.0076)
-      22000   22.550  (-0.0074)
-      22250   20.700  (-0.0072)
-      22500   18.900  (-0.0070)
-      22750   17.150  (-0.0068)
-      23000   15.450  (-0.0066)
-      23250   13.800  (-0.0062)
-      23500   12.250  (-0.0062)
-      23750   10.700  (-0.0058)
-      24000    9.250  (-0.0056)
-      24250    7.850  (-0.0052)
-      24500    6.550  (-0.0052)
-      24750    5.250  (-0.0050)
-      25000    4.000  (-0.0046)
-      25250    2.850  (-0.0044)
-      25500    1.750  (-0.0042)
-      25750    0.700  (-0.0041)
-      25920    0.000  (-0.0041)
+UIEIFS1      22                   # Max fam supplement 1 child
+            0    31.300   (-0.0000)
+        20921    31.250   (-0.0084)
+        21250    28.500   (-0.0082)
+        21500    26.450   (-0.0080)
+        21750    24.450   (-0.0076)
+        22000    22.550   (-0.0074)
+        22250    20.700   (-0.0072)
+        22500    18.900   (-0.0070)
+        22750    17.150   (-0.0068)
+        23000    15.450   (-0.0066)
+        23250    13.800   (-0.0062)
+        23500    12.250   (-0.0062)
+        23750    10.700   (-0.0058)
+        24000     9.250   (-0.0056)
+        24250     7.850   (-0.0052)
+        24500     6.550   (-0.0052)
+        24750     5.250   (-0.0050)
+        25000     4.000   (-0.0046)
+        25250     2.850   (-0.0044)
+        25500     1.750   (-0.0042)
+        25750     0.700   (-0.0041)
+        25920     0.000   (-0.0041)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
 
-UIEIFS2       22                  # Max fam supplement 2 children
-          0   58.700  (-0.0000)
-      20921   58.600  (-0.0152)
-      21250   53.600  (-0.0148)
-      21500   49.900  (-0.0146)
-      21750   46.250  (-0.0142)
-      22000   42.700  (-0.0136)
-      22250   39.300  (-0.0134)
-      22500   35.950  (-0.0130)
-      22750   32.700  (-0.0126)
-      23000   29.550  (-0.0122)
-      23250   26.500  (-0.0118)
-      23500   23.550  (-0.0114)
-      23750   20.700  (-0.0110)
-      24000   17.950  (-0.0106)
-      24250   15.300  (-0.0102)
-      24500   12.750  (-0.0100)
-      24750   10.250  (-0.0094)
-      25000    7.900  (-0.0090)
-      25250    5.650  (-0.0088)
-      25500    3.450  (-0.0082)
-      25750    1.400  (-0.0082)
-      25920    0.000  (-0.0082)
+UIEIFS2      22                   # Max fam supplement 2 children
+            0    58.700   (-0.0000)
+        20921    58.600   (-0.0152)
+        21250    53.600   (-0.0148)
+        21500    49.900   (-0.0146)
+        21750    46.250   (-0.0142)
+        22000    42.700   (-0.0136)
+        22250    39.300   (-0.0134)
+        22500    35.950   (-0.0130)
+        22750    32.700   (-0.0126)
+        23000    29.550   (-0.0122)
+        23250    26.500   (-0.0118)
+        23500    23.550   (-0.0114)
+        23750    20.700   (-0.0110)
+        24000    17.950   (-0.0106)
+        24250    15.300   (-0.0102)
+        24500    12.750   (-0.0100)
+        24750    10.250   (-0.0094)
+        25000     7.900   (-0.0090)
+        25250     5.650   (-0.0088)
+        25500     3.450   (-0.0082)
+        25750     1.400   (-0.0082)
+        25920     0.000   (-0.0082)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
 
-UIEIFS3       22                  # Max fam supplement 3+ children
-          0   86.100  (-0.0000)
-      20921   86.000  (-0.0219)
-      21250   78.800  (-0.0214)
-      21500   73.450  (-0.0210)
-      21750   68.200  (-0.0202)
-      22000   63.150  (-0.0200)
-      22250   58.150  (-0.0194)
-      22500   53.300  (-0.0188)
-      22750   48.600  (-0.0184)
-      23000   44.000  (-0.0178)
-      23250   39.550  (-0.0172)
-      23500   35.250  (-0.0168)
-      23750   31.050  (-0.0164)
-      24000   26.950  (-0.0156)
-      24250   23.050  (-0.0154)
-      24500   19.200  (-0.0146)
-      24750   15.550  (-0.0142)
-      25000   12.000  (-0.0138)
-      25250    8.550  (-0.0132)
-      25500    5.250  (-0.0126)
-      25750    2.100  (-0.0124)
-      25920    0.000  (-0.0124)
+UIEIFS3      22                   # Max fam supplement 3+ children
+            0    86.100   (-0.0000)
+        20921    86.000   (-0.0219)
+        21250    78.800   (-0.0214)
+        21500    73.450   (-0.0210)
+        21750    68.200   (-0.0202)
+        22000    63.150   (-0.0200)
+        22250    58.150   (-0.0194)
+        22500    53.300   (-0.0188)
+        22750    48.600   (-0.0184)
+        23000    44.000   (-0.0178)
+        23250    39.550   (-0.0172)
+        23500    35.250   (-0.0168)
+        23750    31.050   (-0.0164)
+        24000    26.950   (-0.0156)
+        24250    23.050   (-0.0154)
+        24500    19.200   (-0.0146)
+        24750    15.550   (-0.0142)
+        25000    12.000   (-0.0138)
+        25250     8.550   (-0.0132)
+        25500     5.250   (-0.0126)
+        25750     2.100   (-0.0124)
+        25920     0.000   (-0.0124)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
 
-UIEIFSTOPUP   22                  # Max fam supplement top up for more than 3 kids
-          0   27.450  (-0.0000)
-      20921   27.400  (-0.0055)
-      21250   25.600  (-0.0054)
-      21500   24.250  (-0.0056)
-      21750   22.850  (-0.0054)
-      22000   21.500  (-0.0054)
-      22250   20.150  (-0.0056)
-      22500   18.750  (-0.0054)
-      22750   17.400  (-0.0056)
-      23000   16.000  (-0.0054)
-      23250   14.650  (-0.0054)
-      23500   13.300  (-0.0056)
-      23750   11.900  (-0.0054)
-      24000   10.550  (-0.0056)
-      24250    9.150  (-0.0054)
-      24500    7.800  (-0.0054)
-      24750    6.450  (-0.0056)
-      25000    5.050  (-0.0054)
-      25250    3.700  (-0.0056)
-      25500    2.300  (-0.0054)
-      25750    0.950  (-0.0056)
-      25920    0.000  (-0.0056)
+UIEIFSTOPUP  22                   # Max fam supplement top up for more than 3 kids
+            0    27.450   (-0.0000)
+        20921    27.400   (-0.0055)
+        21250    25.600   (-0.0054)
+        21500    24.250   (-0.0056)
+        21750    22.850   (-0.0054)
+        22000    21.500   (-0.0054)
+        22250    20.150   (-0.0056)
+        22500    18.750   (-0.0054)
+        22750    17.400   (-0.0056)
+        23000    16.000   (-0.0054)
+        23250    14.650   (-0.0054)
+        23500    13.300   (-0.0056)
+        23750    11.900   (-0.0054)
+        24000    10.550   (-0.0056)
+        24250     9.150   (-0.0054)
+        24500     7.800   (-0.0054)
+        24750     6.450   (-0.0056)
+        25000     5.050   (-0.0054)
+        25250     3.700   (-0.0056)
+        25500     2.300   (-0.0054)
+        25750     0.950   (-0.0056)
+        25920     0.000   (-0.0056)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
 
-UIEIFSYNG     22                  # Max fam supplement top up for young children
-          0    4.150  (-0.0000)
-      20921    4.100  (-0.0008)
-      21250    3.850  (-0.0008)
-      21500    3.650  (-0.0008)
-      21750    3.450  (-0.0008)
-      22000    3.250  (-0.0008)
-      22250    3.050  (-0.0010)
-      22500    2.800  (-0.0008)
-      22750    2.600  (-0.0008)
-      23000    2.400  (-0.0008)
-      23250    2.200  (-0.0008)
-      23500    2.000  (-0.0008)
-      23750    1.800  (-0.0008)
-      24000    1.600  (-0.0008)
-      24250    1.400  (-0.0008)
-      24500    1.200  (-0.0008)
-      24750    1.000  (-0.0010)
-      25000    0.750  (-0.0008)
-      25250    0.550  (-0.0008)
-      25500    0.350  (-0.0008)
-      25750    0.150  (-0.0009)
-      25920    0.000  (-0.0009)
+UIEIFSYNG    22                   # Max fam supplement top up for young children
+            0     4.150   (-0.0000)
+        20921     4.100   (-0.0008)
+        21250     3.850   (-0.0008)
+        21500     3.650   (-0.0008)
+        21750     3.450   (-0.0008)
+        22000     3.250   (-0.0008)
+        22250     3.050   (-0.0010)
+        22500     2.800   (-0.0008)
+        22750     2.600   (-0.0008)
+        23000     2.400   (-0.0008)
+        23250     2.200   (-0.0008)
+        23500     2.000   (-0.0008)
+        23750     1.800   (-0.0008)
+        24000     1.600   (-0.0008)
+        24250     1.400   (-0.0008)
+        24500     1.200   (-0.0008)
+        24750     1.000   (-0.0010)
+        25000     0.750   (-0.0008)
+        25250     0.550   (-0.0008)
+        25500     0.350   (-0.0008)
+        25750     0.150   (-0.0009)
+        25920     0.000   (-0.0009)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -564,9 +562,9 @@ UIEIRPR       0.30000             # EI benefit clawback rate
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-UIEIBRP        2                  # Maximum clawback under EI reform 
-          0    0.000   (0.0000)
-          0    0.000   (0.0000)
+UIEIBRP      2                    # Maximum clawback under EI reform 
+            0     0.000    (0.0000)
+            0     0.000    (0.0000)
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
@@ -669,29 +667,29 @@ QPIPSFR       0.80000             # Quebec parental insurance plan supplement fr
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QPIPSBN       22                  # Quebec parental insurance plan low income supplement table 
-          0   67.000  (-0.0000)
-      20921   66.800  (-0.0167)
-      21250   61.300  (-0.0164)
-      21500   57.200  (-0.0162)
-      21750   53.150  (-0.0158)
-      22000   49.200  (-0.0152)
-      22250   45.400  (-0.0154)
-      22500   41.550  (-0.0146)
-      22750   37.900  (-0.0142)
-      23000   34.350  (-0.0138)
-      23250   30.900  (-0.0134)
-      23500   27.550  (-0.0130)
-      23750   24.300  (-0.0126)
-      24000   21.150  (-0.0122)
-      24250   18.100  (-0.0118)
-      24500   15.150  (-0.0116)
-      24750   12.250  (-0.0114)
-      25000    9.400  (-0.0106)
-      25250    6.750  (-0.0104)
-      25500    4.150  (-0.0098)
-      25750    1.700  (-0.0100)
-      25920    0.000  (-0.0100)
+QPIPSBN      22                   # Quebec parental insurance plan low income supplement table 
+            0    67.000   (-0.0000)
+        20921    66.800   (-0.0167)
+        21250    61.300   (-0.0164)
+        21500    57.200   (-0.0162)
+        21750    53.150   (-0.0158)
+        22000    49.200   (-0.0152)
+        22250    45.400   (-0.0154)
+        22500    41.550   (-0.0146)
+        22750    37.900   (-0.0142)
+        23000    34.350   (-0.0138)
+        23250    30.900   (-0.0134)
+        23500    27.550   (-0.0130)
+        23750    24.300   (-0.0126)
+        24000    21.150   (-0.0122)
+        24250    18.100   (-0.0118)
+        24500    15.150   (-0.0116)
+        24750    12.250   (-0.0114)
+        25000     9.400   (-0.0106)
+        25250     6.750   (-0.0104)
+        25500     4.150   (-0.0098)
+        25750     1.700   (-0.0100)
+        25920     0.000   (-0.0100)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -788,20 +786,20 @@ QCBCS            0.00             # Quebec Child benefit supplement child aged 1
                                   # Source : Augmenté de ba17.mpr avec CPIM3=1.000000
                                   # Update: Factor=CPIM3
 
-QFPSL          4                  # Quebec provincial family allowance 
-          0     0.00     0.00
-          1   (0.00)     0.00
-          2   (0.00)     0.00
-          3   (0.00)     0.00
+QFPSL        4                    # Quebec provincial family allowance 
+            0      0.00      0.00
+            1    (0.00)      0.00
+            2    (0.00)      0.00
+            3    (0.00)      0.00
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor[2,3]=CPI
 
-QNBFA          4                  # Quebec newborn family allowance 
-       0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00
+QNBFA        4                    # Quebec newborn family allowance 
+       0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00
                                   # Source: Grown from ba17.mpr using DEFAULT=1.0000
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor=DEFAULT
@@ -878,7 +876,7 @@ NETOASFLG           1             # Net the clawback from Old Age Security
                                   # Source: FLAG
                                   # Source : Drapeau
 
-OASTD         75910.00            # OAS turndown income
+OASTD        75910.00             # OAS turndown income
                                   # Source: Income Security Programs Information Cards - 2018
                                   # Source : Carte de renseignements des Programmes de la sécurité du revenu - 2018
                                   # Update: Factor=CPI
@@ -1018,38 +1016,38 @@ GISTURFLAG          1             # GIS take-up flag: apply 5 take-up tables
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-GISST          2                  # GIS take-up rate: single pensioner by benefit level 
-          0    1.000   (0.0000)
-       5034    1.000   (0.0000)
+GISST        2                    # GIS take-up rate: single pensioner by benefit level 
+            0     1.000    (0.0000)
+         5034     1.000    (0.0000)
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor[1]=CPI
 
-GISCT          2                  # GIS take-up rate: pensioner couple by benefit level 
-          0    1.000   (0.0000)
-       3355    1.000   (0.0000)
+GISCT        2                    # GIS take-up rate: pensioner couple by benefit level 
+            0     1.000    (0.0000)
+         3355     1.000    (0.0000)
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor[1]=CPI
 
-GISOT          2                  # GIS take-up rate: one pensioner couple by benefit level 
-          0    1.000   (0.0000)
-       5390    1.000   (0.0000)
+GISOT        2                    # GIS take-up rate: one pensioner couple by benefit level 
+            0     1.000    (0.0000)
+         5390     1.000    (0.0000)
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor[1]=CPI
 
-SPAT           3                  # SPA take-up rate by benefit level 
-          0    0.450  (-0.0000)
-       9476    0.010   (0.0003)
-      12635    1.000   (0.0003)
+SPAT         3                    # SPA take-up rate by benefit level 
+            0     0.450   (-0.0000)
+         9476     0.010    (0.0003)
+        12635     1.000    (0.0003)
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor[1]=CPI
 
-ESPAT          2                  # Extended SPA take-up rate by benefit level 
-          0    0.500   (0.0000)
-      10003    1.000   (0.0000)
+ESPAT        2                    # Extended SPA take-up rate by benefit level 
+            0     0.500    (0.0000)
+        10003     1.000    (0.0000)
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor[1]=CPI
@@ -1171,7 +1169,7 @@ MFFSAFLAG           1             # Manitoba GIS supplement: flag that only peop
                                   # Source: Manitoba 55 Plus Program
                                   # Source : Manitoba programme 55 ans et plus
 
-MFFPSBEN       7                  # Manitoba GIS supplement: maximum benefit for senior component
+MFFPSBEN     7                    # Manitoba GIS supplement: maximum benefit for senior component
        0.00
      647.20
      695.60
@@ -1183,33 +1181,33 @@ MFFPSBEN       7                  # Manitoba GIS supplement: maximum benefit for
                                   # Source : Manitoba programme 55 ans et plus
                                   # Update: Factor=DEFAULT
 
-MFFPSRR        7                  # Manitoba GIS supplement: reduction rate for senior component
-   0.00000
-   0.72500
-   0.36250
-   0.36250
-   0.18133
-   1.08712
-   1.08712
+MFFPSRR      7                    # Manitoba GIS supplement: reduction rate for senior component
+    0.00000
+    0.72500
+    0.36250
+    0.36250
+    0.18133
+    1.08712
+    1.08712
                                   # Source: Manitoba 55 Plus Program
                                   # Source : Manitoba programme 55 ans et plus
 
-MFFPJBEN       2                  # Manitoba GIS supplement: maximum benefit for junior component
+MFFPJBEN     2                    # Manitoba GIS supplement: maximum benefit for junior component
      647.20
      695.60
                                   # Source: Manitoba 55 Plus Program
                                   # Source : Manitoba programme 55 ans et plus
                                   # Update: Factor=DEFAULT
 
-MFFPJRR        2                  # Manitoba GIS supplement: reduction rate for junior component
-   0.72500
-   0.36250
+MFFPJRR      2                    # Manitoba GIS supplement: reduction rate for junior component
+    0.72500
+    0.36250
                                   # Source: Manitoba 55 Plus Program
                                   # Source : Manitoba programme 55 ans et plus
 
-MFFPJTD        2                  # Manitoba GIS supplement: turndown for junior component
+MFFPJTD      2                    # Manitoba GIS supplement: turndown for junior component
     8930.40
-   14479.20
+    14479.20
                                   # Source: Manitoba 55 Plus Program
                                   # Source : Manitoba programme 55 ans et plus
                                   # Update: Factor=DEFAULT
@@ -1303,13 +1301,13 @@ ASBRENT          0.00             # Alberta seniors benefit renter supplement
                                   # Source : Règlements de la prestation pour personnes âgées de l'Alberta (64/2018)
                                   # Update: Factor=NONE
 
-ASBNOAS        6                  # Alberta seniors benefit reduction if no OAS 
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
+ASBNOAS      6                    # Alberta seniors benefit reduction if no OAS 
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
                                   # Source: Not in effect, Repealed Alberta Seniors Benefit regulations (112/2013)
                                   # Source : Pas en vigueur - Abrogé Règlements de la prestation pour personnes âgées de l'Alberta (112/2013)
 
@@ -1326,13 +1324,13 @@ ASBEMPDD      3600.00             # Alberta seniors benefit employment income ma
                                   # Source : Règlements de la prestation pour personnes âgées de l'Alberta (64/2018)
                                   # Update: Factor=NONE
 
-ASBRR          6                  # Alberta seniors benefit reduction rate 
-   0.16418
-   0.16418
-   0.16422
-   0.16422
-   0.16422
-   0.16422
+ASBRR        6                    # Alberta seniors benefit reduction rate 
+    0.16418
+    0.16418
+    0.16422
+    0.16422
+    0.16422
+    0.16422
                                   # Source: Alberta Seniors Benefit regulations (64/2018)
                                   # Source : Règlements de la prestation pour personnes âgées de l'Alberta (64/2018)
 
@@ -1378,13 +1376,13 @@ ASBRENTP         0.00             # Alberta seniors benefit renter supplement fo
                                   # Source : Règlements de la prestation pour personnes âgées de l'Alberta (95/2017)
                                   # Update: Factor=NONE
 
-ASBNOASP       6                  # Alberta seniors benefit reduction if no OAS for 1st half of year 
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
+ASBNOASP     6                    # Alberta seniors benefit reduction if no OAS for 1st half of year 
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
                                   # Source: Not in effect, Repealed Alberta Seniors Benefit regulations (112/2013)
                                   # Source : Pas en vigueur - Abrogé Règlements de la prestation pour personnes âgées de l'Alberta (112/2013)
 
@@ -1401,13 +1399,13 @@ ASBEMPDDP     3600.00             # Alberta seniors benefit employment income ma
                                   # Source : Règlements de la prestation pour personnes âgées de l'Alberta (95/2017)
                                   # Update: Factor=NONE
 
-ASBRRP         6                  # Alberta seniors benefit reduction rate for 1st half of year 
-   0.16420
-   0.16420
-   0.16450
-   0.16450
-   0.16450
-   0.16450
+ASBRRP       6                    # Alberta seniors benefit reduction rate for 1st half of year 
+    0.16420
+    0.16420
+    0.16450
+    0.16450
+    0.16450
+    0.16450
                                   # Source: Alberta Seniors Benefit regulations (95/2017)
                                   # Source : Règlements de la prestation pour personnes âgées de l'Alberta (95/2017)
 
@@ -1503,11 +1501,11 @@ GSTASPFLAG          1             # Maximum GST additional credit for single par
                                   # Source: GST/HST Calculation Sheet - July 2018
                                   # Source : Feuille de calcul de la TPS/TVH - juillet 2018
 
-GSTCTUNC       4                  # GST credit take up by number of children
-          0    1.000   (0.0000)
-          1    1.000   (0.0000)
-          2    1.000   (0.0000)
-          3    1.000   (0.0000)
+GSTCTUNC     4                    # GST credit take up by number of children
+            0     1.000    (0.0000)
+            1     1.000    (0.0000)
+            2     1.000    (0.0000)
+            3     1.000    (0.0000)
                                   # Source: User Supplied
                                   # Source : Valeur fournie par l'utilisateur
 
@@ -1838,7 +1836,7 @@ CCBTD2       65975.00             # Canada Child Benefit 2nd Turndown Level
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 18)
                                   # Update: Factor=CPI
 
-CCBRR1         4                  # Canada Child Benefit 1st Reduction Rate 
+CCBRR1       4                    # Canada Child Benefit 1st Reduction Rate 
     0.07000
     0.13500
     0.19000
@@ -1846,7 +1844,7 @@ CCBRR1         4                  # Canada Child Benefit 1st Reduction Rate
                                   # Source: Canada Child Benefit - Guide T4114 (July 18)
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 18)
 
-CCBRR2         4                  # Canada Child Benefit 2nd Reduction Rate 
+CCBRR2       4                    # Canada Child Benefit 2nd Reduction Rate 
     0.03200
     0.05700
     0.08000
@@ -1883,7 +1881,7 @@ CCBTD2P      65000.00             # Canada Child Benefit 2nd Turndown Level for 
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 17)
                                   # Update: Factor=CPILAG
 
-CCBRR1P        4                  # Canada Child Benefit 1st Reduction Rate 
+CCBRR1P      4                    # Canada Child Benefit 1st Reduction Rate 
     0.07000
     0.13500
     0.19000
@@ -1891,7 +1889,7 @@ CCBRR1P        4                  # Canada Child Benefit 1st Reduction Rate
                                   # Source: Canada Child Benefit - Guide T4114 (July 17)
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 17)
 
-CCBRR2P        4                  # Canada Child Benefit 2nd Reduction Rate 
+CCBRR2P      4                    # Canada Child Benefit 2nd Reduction Rate 
     0.03200
     0.05700
     0.08000
@@ -2233,7 +2231,7 @@ QCAFLAG             1             # Quebec Child Assistance refundable tax credi
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
 
-QCAMIN         4                  # Quebec Child Assistance Minimum 
+QCAMIN       4                    # Quebec Child Assistance Minimum 
      682.00
      630.00
      630.00
@@ -2242,7 +2240,7 @@ QCAMIN         4                  # Quebec Child Assistance Minimum
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor=CPIQU
 
-QCAMAX         4                  # Quebec Child Assistance Maximum 
+QCAMAX       4                    # Quebec Child Assistance Maximum 
     2430.00
     1214.00
     1214.00
@@ -2372,10 +2370,10 @@ OCWISSP          0.00             # Ont. Child Care Working Income Supplement ma
                                   # Source : Pas en vigueur
                                   # Update: Factor=NONE
 
-OCWISRR        3                  # Ont. Child Care Working Income Supplement Rate 
-          1    0.000   (0.0000)
-          2    0.000   (0.0000)
-          3    0.000   (0.0000)
+OCWISRR      3                    # Ont. Child Care Working Income Supplement Rate 
+            1     0.000    (0.0000)
+            2     0.000    (0.0000)
+            3     0.000    (0.0000)
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
@@ -2433,15 +2431,15 @@ OCWISTDP         0.00             # Ont. Child Care Working Income Supplement mi
                                   # Source : Pas en vigueur
                                   # Update: Factor=NONE
 
-OCWISSPP         0.00             # Ont. Child Care Working Income Supplement maximum benefit for single parents for 1st half of yea
+OCWISSPP         0.00             # Ont. Child Care Working Income Supplement maximum benefit for single parents for 1st half of year
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
                                   # Update: Factor=NONE
 
-OCWISRRP       3                  # Ont. Child Care Working Income Supplement Rate 
-          1    0.000   (0.0000)
-          2    0.000   (0.0000)
-          3    0.000   (0.0000)
+OCWISRRP     3                    # Ont. Child Care Working Income Supplement Rate 
+            1     0.000    (0.0000)
+            2     0.000    (0.0000)
+            3     0.000    (0.0000)
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
@@ -2551,29 +2549,29 @@ SCBTD2           0.00             # Sask Child Benefit 2nd turndown
                                   # Source : Pas en vigueur
                                   # Update: Factor=DEFAULT
 
-SCBRR1         9                  # Sask Child Benefit 1st reduction rate 
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
+SCBRR1       9                    # Sask Child Benefit 1st reduction rate 
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
-SCBRR2         9                  # Sask Child Benefit 2nd reduction rate 
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
+SCBRR2       9                    # Sask Child Benefit 2nd reduction rate 
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
@@ -2612,29 +2610,29 @@ SCBTD2P          0.00             # Sask Child Benefit 2nd turndown for 1st half
                                   # Source : Pas en vigueur
                                   # Update: Factor=DEFAULT
 
-SCBRR1P        9                  # Sask Child Benefit 1st reduction rate 
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
+SCBRR1P      9                    # Sask Child Benefit 1st reduction rate 
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
-SCBRR2P        9                  # Sask Child Benefit 2nd reduction rate 
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
-   0.000000
+SCBRR2P      9                    # Sask Child Benefit 2nd reduction rate 
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
+    0.000000
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
@@ -2652,7 +2650,7 @@ AFETCFLAG           1             # Alberta Family Employment Tax Credit Activat
                                   # Source: Canada Child Benefit - Guide T4114 (July 18)
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 18)
 
-AFETCAPC       4                  # Alberta Family Employment Tax Credit Amount Per Child 
+AFETCAPC     4                    # Alberta Family Employment Tax Credit Amount Per Child 
      783.00
      712.00
      427.00
@@ -2692,7 +2690,7 @@ AFETCPI       1.00000             # Alberta Family Employment Tax Credit phase i
 ## 2.3.2.10.9.1 Alberta Family Employment Tax Credit for the calendar year
 ###
 
-AFETCAPCP      4                  # Alberta Family Employment Tax Credit Amount Per Child for 1st half of year
+AFETCAPCP    4                    # Alberta Family Employment Tax Credit Amount Per Child for 1st half of year
      773.00
      703.00
      422.00
@@ -2736,11 +2734,11 @@ ALBCBFLAG           1             # Alberta Child Benefit Activation Flag
                                   # Source: Canada Child Benefit - Guide T4114 (July 18)
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 18)
 
-ALBCBAPC       4                  # Alberta Child Benefit Amount Per Child 
-    1128.00
-     564.00
-     564.00
-     564.00
+ALBCBAPC     4                    # Alberta Child Benefit Amount Per Child 
+ 1128.00
+  564.00
+  564.00
+  564.00
                                   # Source: Canada Child Benefit - Guide T4114 (July 18)
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 18)
                                   # Update: Factor=CPIAL
@@ -2754,7 +2752,7 @@ ALBCBTD      26141.00             # Alberta Child Benefit Turndown Level
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 18)
                                   # Update: Factor=CPIAL
 
-ALBCBRR        4                  # Alberta Child Benefit Reduction Rate 
+ALBCBRR      4                    # Alberta Child Benefit Reduction Rate 
     0.07000
     0.10500
     0.14000
@@ -2771,11 +2769,11 @@ ALBCBPI       1.00000             # Alberta Child Benefit phase in
 ## 2.3.2.10.10.1 Alberta Child Benefit for the calendar year
 ###
 
-ALBCBAPCP      4                  # Alberta Child Benefit Amount Per Child 
-    1114.00
-     557.00
-     557.00
-     557.00
+ALBCBAPCP    4                    # Alberta Child Benefit Amount Per Child 
+ 1114.00
+  557.00
+  557.00
+  557.00
                                   # Source: Canada Child Benefit - Guide T4114 (July 17)
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 17)
                                   # Update: Factor=CPIALLAG
@@ -2789,7 +2787,7 @@ ALBCBTDP     25832.00             # Alberta Child Benefit Turndown Level for 1st
                                   # Source : Allocation canadienne pour enfants - T4114 (juillet 17)
                                   # Update: Factor=CPIALLAG
 
-ALBCBRRP       4                  # Alberta Child Benefit Reduction Rate 
+ALBCBRRP     4                    # Alberta Child Benefit Reduction Rate 
     0.07000
     0.10500
     0.14000
@@ -3029,12 +3027,12 @@ CECTBAMT       660.00             # B.C. Early Childhood Tax Benefit amount
                                   # Source : 'B.C. Family and Social Supports'
                                   # Update: Factor=NONE
 
-CECTBTD      100000.00            # B.C. Early Childhood Tax Benefit turndown threshold
+CECTBTD      100000.00             # B.C. Early Childhood Tax Benefit turndown threshold
                                   # Source: B.C. Family and Social Supports
                                   # Source : 'B.C. Family and Social Supports'
                                   # Update: Factor=NONE
 
-CECTBPO      150000.00            # B.C. Early Childhood Tax Benefit phase-out threshold
+CECTBPO      150000.00             # B.C. Early Childhood Tax Benefit phase-out threshold
                                   # Source: B.C. Family and Social Supports
                                   # Source : 'B.C. Family and Social Supports''
                                   # Update: Factor=NONE
@@ -3053,12 +3051,12 @@ CECTBAMTP      660.00             # B.C. Early Childhood Tax Benefit amount for 
                                   # Source : 'B.C. Family and Social Supports'
                                   # Update: Factor=NONE
 
-CECTBTDP     100000.00            # B.C. Early Childhood Tax Benefit turndown threshold for 1st half of year
+CECTBTDP     100000.00             # B.C. Early Childhood Tax Benefit turndown threshold for 1st half of year
                                   # Source: B.C. Family and Social Supports
                                   # Source : 'B.C. Family and Social Supports'
                                   # Update: Factor=NONE
 
-CECTBPOP     150000.00            # B.C. Early Childhood Tax Benefit phase-out threshold for 1st half of year
+CECTBPOP     150000.00             # B.C. Early Childhood Tax Benefit phase-out threshold for 1st half of year
                                   # Source: B.C. Family and Social Supports
                                   # Source : 'B.C. Family and Social Supports'
                                   # Update: Factor=NONE
@@ -3080,7 +3078,7 @@ SAFLAG              1             # Social assistance flag
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-SAELDOPTPR    10                  # SA for elderly calculation method 
+SAELDOPTPR   10                   # SA for elderly calculation method 
          5
          5
          5
@@ -3135,50 +3133,50 @@ WITBFLAG            1             # Working Income Tax Benefit activation flag
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
 
-WITBAMTA       4                  # Working Income Tax Benefit Amount 
-    1059.00  1059.00  1059.00  1059.00  1675.67  1059.00  1059.00  1059.00  1139.00  1218.00
-    1922.00  1922.00  1922.00  1922.00  2614.98  1922.00  1922.00  1922.00  1708.00  1932.00
-    1922.00  1922.00  1922.00  1922.00   980.88  1922.00  1922.00  1922.00  1708.00  1932.00
-    1922.00  1922.00  1922.00  1922.00  1020.48  1922.00  1922.00  1922.00  1708.00  1932.00
+WITBAMTA     4                    # Working Income Tax Benefit Amount 
+    1059.00 1059.00 1059.00 1059.00 1675.67 1059.00 1059.00 1059.00 1139.00 1218.00
+    1922.00 1922.00 1922.00 1922.00 2614.98 1922.00 1922.00 1922.00 1708.00 1932.00
+    1922.00 1922.00 1922.00 1922.00  980.88 1922.00 1922.00 1922.00 1708.00 1932.00
+    1922.00 1922.00 1922.00 1922.00 1020.48 1922.00 1922.00 1922.00 1708.00 1932.00
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
                                   # Update: Factor=CPI
 
-WITBPOA        4                  # WITB Net Income Phase-out Threshold 
-   12016.00 12016.00 12016.00 12016.00 12048.62 12016.00 12016.00 12016.00 12588.00 13160.00
-   16593.00 16593.00 16593.00 16593.00 18509.60 16593.00 16593.00 16593.00 17165.00 17737.00
-   16593.00 16593.00 16593.00 16593.00 12064.12 16593.00 16593.00 16593.00 17165.00 17737.00
-   16593.00 16593.00 16593.00 16593.00 18538.15 16593.00 16593.00 16593.00 17165.00 17737.00
+WITBPOA      4                    # WITB Net Income Phase-out Threshold 
+    12016.00 12016.00 12016.00 12016.00 12048.62 12016.00 12016.00 12016.00 12588.00 13160.00
+    16593.00 16593.00 16593.00 16593.00 18509.60 16593.00 16593.00 16593.00 17165.00 17737.00
+    16593.00 16593.00 16593.00 16593.00 12064.12 16593.00 16593.00 16593.00 17165.00 17737.00
+    16593.00 16593.00 16593.00 16593.00 18538.15 16593.00 16593.00 16593.00 17165.00 17737.00
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
                                   # Update: Factor=CPI
 
-WITBMINEA      4                  # Working Income Tax Benefit Minimum Earnings Threshold 
-    3000.00  3000.00  3000.00  3000.00  2400.00  3000.00  3000.00  3000.00  2760.00  4750.00
-    3000.00  3000.00  3000.00  3000.00  3600.00  3000.00  3000.00  3000.00  2760.00  4750.00
-    3000.00  3000.00  3000.00  3000.00  2400.00  3000.00  3000.00  3000.00  2760.00  4750.00
-    3000.00  3000.00  3000.00  3000.00  3600.00  3000.00  3000.00  3000.00  2760.00  4750.00
+WITBMINEA    4                    # Working Income Tax Benefit Minimum Earnings Threshold 
+    3000.00 3000.00 3000.00 3000.00 2400.00 3000.00 3000.00 3000.00 2760.00 4750.00
+    3000.00 3000.00 3000.00 3000.00 3600.00 3000.00 3000.00 3000.00 2760.00 4750.00
+    3000.00 3000.00 3000.00 3000.00 2400.00 3000.00 3000.00 3000.00 2760.00 4750.00
+    3000.00 3000.00 3000.00 3000.00 3600.00 3000.00 3000.00 3000.00 2760.00 4750.00
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
                                   # Update: Factor=NONE
 
-WITBRRA        4                  # Working Income Tax Benefit Reduction Rate 
-   0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
-   0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
-   0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
-   0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
+WITBRRA      4                    # Working Income Tax Benefit Reduction Rate 
+    0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
+    0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
+    0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
+    0.15000 0.15000 0.15000 0.15000 0.20000 0.15000 0.15000 0.15000 0.14800 0.15700
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
 
-WITBPIRA       4                  # Working Income Tax Benefit Phase in Rate 
-   0.25000 0.25000 0.25000 0.25000 0.20500 0.25000 0.25000 0.25000 0.19700 0.19400
-   0.25000 0.25000 0.25000 0.25000 0.20500 0.25000 0.25000 0.25000 0.19700 0.19400
-   0.25000 0.25000 0.25000 0.25000 0.12000 0.25000 0.25000 0.25000 0.19700 0.19400
-   0.25000 0.25000 0.25000 0.25000 0.08000 0.25000 0.25000 0.25000 0.19700 0.19400
+WITBPIRA     4                    # Working Income Tax Benefit Phase in Rate 
+    0.25000 0.25000 0.25000 0.25000 0.20500 0.25000 0.25000 0.25000 0.19700 0.19400
+    0.25000 0.25000 0.25000 0.25000 0.20500 0.25000 0.25000 0.25000 0.19700 0.19400
+    0.25000 0.25000 0.25000 0.25000 0.12000 0.25000 0.25000 0.25000 0.19700 0.19400
+    0.25000 0.25000 0.25000 0.25000 0.08000 0.25000 0.25000 0.25000 0.19700 0.19400
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
 
-WITBSMINEA    10                  # WITB Supplement for Disabilities Minimum Earnings Threshold 
+WITBSMINEA   10                   # WITB Supplement for Disabilities Minimum Earnings Threshold 
     1150.00
     1150.00
     1150.00
@@ -3193,7 +3191,7 @@ WITBSMINEA    10                  # WITB Supplement for Disabilities Minimum Ear
                                   # Source : Ministère des finances
                                   # Update: Factor=NONE
 
-WITBSAMTA     10                  # WITB Supplement for Disabilities Amount 
+WITBSAMTA    10                   # WITB Supplement for Disabilities Amount 
      529.00
      529.00
      529.00
@@ -3208,47 +3206,47 @@ WITBSAMTA     10                  # WITB Supplement for Disabilities Amount
                                   # Source : Ministère des finances
                                   # Update: Factor=CPI
 
-WITBSRRA      10                  # WITB Supplement for Disabilities Reduction Rate when only 1 person eligible 
-   0.15000
-   0.15000
-   0.15000
-   0.15000
-   0.20000
-   0.15000
-   0.15000
-   0.15000
-   0.15000
-   0.17000
+WITBSRRA     10                   # WITB Supplement for Disabilities Reduction Rate when only 1 person eligible 
+    0.15000
+    0.15000
+    0.15000
+    0.15000
+    0.20000
+    0.15000
+    0.15000
+    0.15000
+    0.15000
+    0.17000
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
 
-WITBSCRRA     10                  # WITB Supplement for Disabilities Reduction Rate when 2 people eligible 
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.10000
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.08500
+WITBSCRRA    10                   # WITB Supplement for Disabilities Reduction Rate when 2 people eligible 
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.10000
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.08500
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
 
-WITBSPIRA      4                  # WITB Supplement for Disabilities Phase in Rate 
-   0.25000 0.25000 0.25000 0.25000 0.40000 0.25000 0.25000 0.25000 0.25000 0.21000
-   0.25000 0.25000 0.25000 0.25000 0.20000 0.25000 0.25000 0.25000 0.25000 0.21000
-   0.25000 0.25000 0.25000 0.25000 0.40000 0.25000 0.25000 0.25000 0.25000 0.21000
-   0.25000 0.25000 0.25000 0.25000 0.20000 0.25000 0.25000 0.25000 0.25000 0.21000
+WITBSPIRA    4                    # WITB Supplement for Disabilities Phase in Rate 
+    0.25000 0.25000 0.25000 0.25000 0.40000 0.25000 0.25000 0.25000 0.25000 0.21000
+    0.25000 0.25000 0.25000 0.25000 0.20000 0.25000 0.25000 0.25000 0.25000 0.21000
+    0.25000 0.25000 0.25000 0.25000 0.40000 0.25000 0.25000 0.25000 0.25000 0.21000
+    0.25000 0.25000 0.25000 0.25000 0.20000 0.25000 0.25000 0.25000 0.25000 0.21000
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
 
-WITBSPOA       4                  # WITB Supplement for Disabilities Net Income Phase-out Threshold 
-   19073.00 19073.00 19073.00 19073.00 20426.97 19073.00 19073.00 19073.00 20293.00 20901.00
-   29410.00 29410.00 29410.00 29410.00 31584.50 29410.00 29410.00 29410.00 28723.00 30022.00
-   29410.00 29410.00 29410.00 29410.00 16968.52 29410.00 29410.00 29410.00 28723.00 30022.00
-   29410.00 29410.00 29410.00 29410.00 23640.55 29410.00 29410.00 29410.00 28723.00 30022.00
+WITBSPOA     4                    # WITB Supplement for Disabilities Net Income Phase-out Threshold 
+    19073.00 19073.00 19073.00 19073.00 20426.97 19073.00 19073.00 19073.00 20293.00 20901.00
+    29410.00 29410.00 29410.00 29410.00 31584.50 29410.00 29410.00 29410.00 28723.00 30022.00
+    29410.00 29410.00 29410.00 29410.00 16968.52 29410.00 29410.00 29410.00 28723.00 30022.00
+    29410.00 29410.00 29410.00 29410.00 23640.55 29410.00 29410.00 29410.00 28723.00 30022.00
                                   # Source: Department of Finance
                                   # Source : Ministère des finances
                                   # Update: Factor=CPI
@@ -3354,7 +3352,7 @@ VHEATFLG            1             # Nova Scotia Home Heating Assistance Rebate a
                                   # Source: Service Nova Scotia and Municipal Relations
                                   # Source : Services Nouvelle-Écosse et Relations avec les municipalités
 
-VHEATREBT      5                  # Nova Scotia home heating fuel rebate amount for oil
+VHEATREBT    5                    # Nova Scotia home heating fuel rebate amount for oil
      200.00
      175.00
      150.00
@@ -3369,22 +3367,22 @@ VHEATERB         0.00             # Nova Scotia home heating fuel rebate amount 
                                   # Source : Pas en vigueur
                                   # Update: Factor=NONE
 
-VHEATSTDT      5                  # Nova Scotia home heating fuel rebate income turndown for singles
-   27000.00
-   27500.00
-   28000.00
-   28500.00
-   29000.00
+VHEATSTDT    5                    # Nova Scotia home heating fuel rebate income turndown for singles
+    27000.00
+    27500.00
+    28000.00
+    28500.00
+    29000.00
                                   # Source: Service Nova Scotia and Municipal Relations
                                   # Source : Services Nouvelle-Écosse et Relations avec les municipalités
                                   # Update: Factor=NONE
 
-VHEATFTDT      5                  # Nova Scotia home heating fuel rebate income turndown for families
-   42000.00
-   42500.00
-   43000.00
-   43500.00
-   44000.00
+VHEATFTDT    5                    # Nova Scotia home heating fuel rebate income turndown for families
+    42000.00
+    42500.00
+    43000.00
+    43500.00
+    44000.00
                                   # Source: Service Nova Scotia and Municipal Relations
                                   # Source : Services Nouvelle-Écosse et Relations avec les municipalités
                                   # Update: Factor=NONE
@@ -3402,9 +3400,9 @@ BHEATFLG            1             # New Brunswick Home Heating Benefit activatio
                                   # Source: N.B. Department of Finance
                                   # Source : Ministère des finances du N.-B.
 
-BHEATBEN       2                  # New Brunswick Home Heating Benefit 
-          0  100.000   (0.0000)
-      30000  100.000   (0.0000)
+BHEATBEN     2                    # New Brunswick Home Heating Benefit 
+            0   100.000    (0.0000)
+        30000   100.000    (0.0000)
                                   # Source: N.B. Department of Finance - 2018 N.B. Home Energy Assistance Program
                                   # Source : Ministère des finances du N.-B. - Programme d'aide pour l'energie domestique du N.-B. 2018
                                   # Update: Factor[1,2]=NONE
@@ -3621,7 +3619,7 @@ REPNETFLAG          1             # Social program repayments reduce net income 
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-CAPGEXMX     854299.44            # Capital Gains Deduction Maximum
+CAPGEXMX     854299.44             # Capital Gains Deduction Maximum
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor=CPI
@@ -3739,7 +3737,7 @@ AXM           7333.00             # Age amount
                                   # Source : Formulaire TD1 F (18)
                                   # Update: Factor=CPI
 
-AXTD          36976.00            # Age amount net income turndown
+AXTD         36976.00             # Age amount net income turndown
                                   # Source: Form TD1 E (18)
                                   # Source : Formulaire TD1 F (18)
                                   # Update: Factor=CPI
@@ -3818,7 +3816,7 @@ CPPXM         3500.00             # CPP/QPP exemptible earnings
                                   # Source : Communiqué de presse de l'ARC 2017/11/16
                                   # Update: Factor=NONE
 
-YMPE          55900.00            # CPP/QPP maximum pensionable earnings
+YMPE         55900.00             # CPP/QPP maximum pensionable earnings
                                   # Source: CRA News Release 2017/11/01
                                   # Source : Communiqué de presse de l'ARC 2017/11/01
                                   # Update: Factor=AIW
@@ -3843,18 +3841,18 @@ WSCM          2.00000             # Ratio of self-employed to employed contribut
                                   # Source: CRA News Release 2017/11/01
                                   # Source : Communiqué de presse de l'ARC 2017/11/01
 
-CPP60T64       2                  # CPP/QPP Contributions Take up (60 - 64) by earnings with CPP income
-          0    1.000   (0.0000)
-      10000    1.000   (0.0000)
+CPP60T64     2                    # CPP/QPP Contributions Take up (60 - 64) by earnings with CPP income
+            0     1.000    (0.0000)
+        10000     1.000    (0.0000)
                                   # Source: Post-retirement Benefit
                                   # Source : Prestation après-retraite
                                   # Update: Factor[1]=NONE
 
-CPPGT64        4                  # CPP/QPP Contributions Take up (over 64) by earnings with CPP income
-          0    0.496   (0.0000)
-      10000    0.517   (0.0000)
-      20000    0.517  (-0.0000)
-      30000    0.501  (-0.0000)
+CPPGT64      4                    # CPP/QPP Contributions Take up (over 64) by earnings with CPP income
+            0     0.496    (0.0000)
+        10000     0.517    (0.0000)
+        20000     0.517   (-0.0000)
+        30000     0.501   (-0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
@@ -3884,7 +3882,7 @@ EYMPEFLG            0             # Enhanced CPP/QPP maximum pensionable earning
                                   # Source: Schedule 2, BILL C-36 (2016)
                                   # Source : Annexe 2, PROJET DE LOI C-26. (2016)
 
-EYMPE             0.00            # Enhanced CPP/QPP maximum pensionable earnings
+EYMPE            0.00             # Enhanced CPP/QPP maximum pensionable earnings
                                   # Source: Not in Effect
                                   # Source : Pas en vigueur
                                   # Update: Factor=AIW
@@ -4187,7 +4185,7 @@ HICDF               1             # Activation Flag for Higher Income Charitable
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-HICDL1       207310.07            # Taxable Income Threshold for Higher Income Charitable Donors
+HICDL1       207310.07             # Taxable Income Threshold for Higher Income Charitable Donors
                                   # Source: Grown from ba17.mpr using CPI=1.022239
                                   # Source : Augmenté de ba17.mpr avec CPI=1.022239
                                   # Update: Factor=CPI
@@ -4257,12 +4255,12 @@ FFTCCMAX         0.00             # Family Tax Cut Credit Maximum Credit Amount
 ## 2.3.4.3.1 Basic Federal Tax
 ###
 
-FTX            5                  # Federal tax table 
-          0     0.0000   0.150000
-      46605 (6990.7500)   0.205000
-      93208 (16544.3650)   0.260000
-     144489 (29877.4250)   0.290000
-     205842 (47669.7950)   0.330000
+FTX          5                    # Federal tax table 
+            0      0.0000    0.150000
+        46605 (6990.7500)    0.205000
+        93208 (16544.3650)    0.260000
+       144489 (29877.4250)    0.290000
+       205842 (47669.7950)    0.330000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPI
@@ -4321,10 +4319,10 @@ FSURTRRL         0.00             # Federal surtax reduction reduction level
 ## 2.3.4.3.3 Federal Political Contribution
 ###
 
-FPTC           3                  # Federal political contribution table 
-          0        0    0.750
-        400    (300)    0.500
-        750    (475)    0.333
+FPTC         3                    # Federal political contribution table 
+            0         0     0.750
+          400     (300)     0.500
+          750     (475)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -4339,17 +4337,17 @@ FPTCBEN        650.00             # Maximum federal political tax credit allowed
 ## 2.3.4.3.4 Federal Labour Sponsored Funds Tax Credit
 ###
 
-FLVCRT        10                  # Percent of labour-sponsored funds cost allowed as credit 
-   0.15000
-   0.00000
-   0.15000
-   0.15000
-   0.15000
-   0.00000
-   0.15000
-   0.15000
-   0.15000
-   0.15000
+FLVCRT       10                   # Percent of labour-sponsored funds cost allowed as credit 
+    0.15000
+    0.00000
+    0.15000
+    0.15000
+    0.15000
+    0.00000
+    0.15000
+    0.15000
+    0.15000
+    0.15000
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
@@ -4363,7 +4361,7 @@ FLVCMAX        750.00             # Maximum labour-sponsored funds tax credit al
 ## 2.3.4.3.5 Federal Alternate Minimum Tax
 ###
 
-AMTEX         40000.00            # Alternate minimum tax: exemption level
+AMTEX        40000.00             # Alternate minimum tax: exemption level
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
@@ -4400,7 +4398,7 @@ AMTNEGTI            1             # Alternative minimum tax: Allow Negative Taxa
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-AMTPRVDF      10                  # Alternative minimum tax: prov. tax difference definition
+AMTPRVDF     10                   # Alternative minimum tax: prov. tax difference definition
          1
          1
          1
@@ -4455,10 +4453,10 @@ NSF2          0.00000             # Newfoundland provincial surtax rate 2
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-NPTC           3                  # Newfoundland political contribution table 
-          0        0    0.750
-        100     (75)    0.500
-        550    (300)    0.333
+NPTC         3                    # Newfoundland political contribution table 
+            0         0     0.750
+          100      (75)     0.500
+          550     (300)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -4548,7 +4546,7 @@ NAXM          5903.00             # NL Age Amount
                                   # Source : Formulaire TD1NL F (18)
                                   # Update: Factor=CPINF
 
-NAXTD         32348.00            # NL Age Amount net income turndown
+NAXTD        32348.00             # NL Age Amount net income turndown
                                   # Source: Form TD1NL E (18)
                                   # Source : Formulaire TD1NL F (18)
                                   # Update: Factor=CPINF
@@ -4633,12 +4631,12 @@ NMAXET        5000.00             # NL maximum on transfer of education and tuit
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-NPTX           5                  # NL tax table 
-          0     0.0000   0.087000
-      36926 (3212.5620)   0.145000
-      73852 (8566.8320)   0.158000
-     131850 (17730.5160)   0.173000
-     184590 (26854.5360)   0.183000
+NPTX         5                    # NL tax table 
+            0      0.0000    0.087000
+        36926 (3212.5620)    0.145000
+        73852 (8566.8320)    0.158000
+       131850 (17730.5160)    0.173000
+       184590 (26854.5360)    0.183000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPINF
@@ -4725,43 +4723,43 @@ NTDRLFLAG           1             # NL Temporary Deficit Reduction Levy activati
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
 
-NTDRLBASE     36                  # NL Temporary Deficit Reduction Levy table 
-      50000        0    0.100
-      51000    (100)    0.000
-      55000    (100)    0.100
-      56000    (200)    0.000
-      60000    (200)    0.100
-      61000    (300)    0.000
-      65000    (300)    0.100
-      66000    (400)    0.000
-      70000    (400)    0.100
-      71000    (500)    0.000
-      75000    (500)    0.100
-      76000    (600)    0.000
-      80000    (600)    0.100
-      81000    (700)    0.000
-     100000    (700)    0.100
-     101000    (800)    0.000
-     125000    (800)    0.100
-     126000    (900)    0.000
-     175000    (900)    0.100
-     176000   (1000)    0.000
-     250000   (1000)    0.100
-     251000   (1100)    0.000
-     300000   (1100)    0.100
-     301000   (1200)    0.000
-     350000   (1200)    0.100
-     351000   (1300)    0.000
-     400000   (1300)    0.100
-     401000   (1400)    0.000
-     450000   (1400)    0.100
-     451000   (1500)    0.000
-     500000   (1500)    0.100
-     501000   (1600)    0.000
-     550000   (1600)    0.100
-     551000   (1700)    0.000
-     600000   (1700)    0.100
-     601000   (1800)    0.000
+NTDRLBASE    36                   # NL Temporary Deficit Reduction Levy table 
+        50000         0     0.100
+        51000     (100)     0.000
+        55000     (100)     0.100
+        56000     (200)     0.000
+        60000     (200)     0.100
+        61000     (300)     0.000
+        65000     (300)     0.100
+        66000     (400)     0.000
+        70000     (400)     0.100
+        71000     (500)     0.000
+        75000     (500)     0.100
+        76000     (600)     0.000
+        80000     (600)     0.100
+        81000     (700)     0.000
+       100000     (700)     0.100
+       101000     (800)     0.000
+       125000     (800)     0.100
+       126000     (900)     0.000
+       175000     (900)     0.100
+       176000    (1000)     0.000
+       250000    (1000)     0.100
+       251000    (1100)     0.000
+       300000    (1100)     0.100
+       301000    (1200)     0.000
+       350000    (1200)     0.100
+       351000    (1300)     0.000
+       400000    (1300)     0.100
+       401000    (1400)     0.000
+       450000    (1400)     0.100
+       451000    (1500)     0.000
+       500000    (1500)     0.100
+       501000    (1600)     0.000
+       550000    (1600)     0.100
+       551000    (1700)     0.000
+       600000    (1700)     0.100
+       601000    (1800)     0.000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=NONE
@@ -4833,7 +4831,7 @@ NISUPPRR      0.09000             # NL Income Supplement Reduction Rate
 
 
 ###
-## 2.3.4.4.1.2 Newfoundland Income Supplement for the calendar year
+## 2.3.4.4.1.2.1 Newfoundland Income Supplement for the calendar year
 ###
 
 NISUPPAMTP     220.00             # NL Income Supplement Basic Amount for 1st half of year
@@ -4906,10 +4904,10 @@ PSF           0.10000             # P.E.I. provincial surtax rate
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
 
-PPTC           3                  # P.E.I. political contribution table 
-          0        0    0.750
-        100     (75)    0.500
-        550    (300)    0.333
+PPTC         3                    # P.E.I. political contribution table 
+            0         0     0.750
+          100      (75)     0.500
+          550     (300)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -5005,7 +5003,7 @@ PAXM          3764.00             # P.E.I. Age Amount
                                   # Source : Formulaire TD1PE F (18)
                                   # Update: Factor=DEFAULT
 
-PAXTD         28019.00            # P.E.I. Age Amount net income turndown
+PAXTD        28019.00             # P.E.I. Age Amount net income turndown
                                   # Source: Form TD1PE E (18)
                                   # Source : Formulaire TD1PE F (18)
                                   # Update: Factor=DEFAULT
@@ -5095,10 +5093,10 @@ PYCTCPI       1.00000             # P.E.I. Young Child Tax Credit Phase in
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-PPTX           3                  # P.E.I. tax table 
-          0     0.0000   0.098000
-      31984 (3134.4320)   0.138000
-      63969 (7548.3620)   0.167000
+PPTX         3                    # P.E.I. tax table 
+            0      0.0000    0.098000
+        31984 (3134.4320)    0.138000
+        63969 (7548.3620)    0.167000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=DEFAULT
@@ -5269,8 +5267,8 @@ VSF2          0.00000             # Nova Scotia provincial surtax rate (2nd leve
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-VPTC           1                  # Nova Scotia political contribution table 
-          0        0    0.750
+VPTC         1                    # Nova Scotia political contribution table 
+            0         0     0.750
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -5381,7 +5379,7 @@ VMXMSRR       0.06000             # N.S. Spouse/Equivalent Amount Enhancement Re
                                   # Source: Nova Scotia Budget 2017-18, page 35
                                   # Source : Budget de la Nouvelle-Écosse 2017-18, page 35
 
-VMXMSTD       25000.00            # N.S. Spouse/Equivalent Amount Enhancement Taxable Income Turndown
+VMXMSTD      25000.00             # N.S. Spouse/Equivalent Amount Enhancement Taxable Income Turndown
                                   # Source: Nova Scotia Budget 2017-18, page 35
                                   # Source : Budget de la Nouvelle-Écosse 2017-18, page 35
                                   # Update: Factor=NONE
@@ -5404,7 +5402,7 @@ VBXMSRR       0.06000             # N.S. Basic Amount Enhancement Reduction Rate
                                   # Source: Nova Scotia Budget 2017-18, page 35
                                   # Source : Budget de la Nouvelle-Écosse 2017-18, page 35
 
-VBXMSTD       25000.00            # N.S. Basic Amount Enhancement Taxable Income Turndown
+VBXMSTD      25000.00             # N.S. Basic Amount Enhancement Taxable Income Turndown
                                   # Source: Nova Scotia Budget 2017-18, page 35
                                   # Source : Budget de la Nouvelle-Écosse 2017-18, page 35
                                   # Update: Factor=NONE
@@ -5414,7 +5412,7 @@ VAXM          4141.00             # N.S. Age Amount
                                   # Source : Formulaire TD1NS F (18)
                                   # Update: Factor=NONE
 
-VAXTD         30828.00            # N.S. Age Amount net income turndown
+VAXTD        30828.00             # N.S. Age Amount net income turndown
                                   # Source: Form TD1NS E (18)
                                   # Source : Formulaire TD1NS F (18)
                                   # Update: Factor=NONE
@@ -5432,7 +5430,7 @@ VAXMSRR       0.02930             # N.S. Age Amount Enhancement Reduction Rate
                                   # Source: Nova Scotia Budget 2017-18, page 36
                                   # Source : Budget de la Nouvelle-Écosse 2017-18, page 36
 
-VAXMSTD       25000.00            # N.S. Age Amount Enhancement Taxable Income Turndown
+VAXMSTD      25000.00             # N.S. Age Amount Enhancement Taxable Income Turndown
                                   # Source: Nova Scotia Budget 2017-18, page 36
                                   # Source : Budget de la Nouvelle-Écosse 2017-18, page 36
                                   # Update: Factor=NONE
@@ -5518,12 +5516,12 @@ VYCTCPI       1.00000             # N.S. Young Child Tax Credit Phase in
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-VPTX           5                  # N.S. tax table 
-          0     0.0000   0.087900
-      29590 (2600.9610)   0.149500
-      59180 (7024.6660)   0.166700
-      93000 (12662.4600)   0.175000
-     150000 (22637.4600)   0.210000
+VPTX         5                    # N.S. tax table 
+            0      0.0000    0.087900
+        29590 (2600.9610)    0.149500
+        59180 (7024.6660)    0.166700
+        93000 (12662.4600)    0.175000
+       150000 (22637.4600)    0.210000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=NONE
@@ -5719,10 +5717,10 @@ BSF           0.00000             # New Brunswick provincial surtax rate
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-BPTC           3                  # New Brunsw. political contribution table 
-          0        0    0.750
-        200    (150)    0.500
-        550    (325)    0.333
+BPTC         3                    # New Brunsw. political contribution table 
+            0         0     0.750
+          200     (150)     0.500
+          550     (325)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -5803,7 +5801,7 @@ BAXM          4904.00             # N.B. Age Amount
                                   # Source : Formulaire TD1NB F (18)
                                   # Update: Factor=CPINB
 
-BAXTD         36507.00            # N.B. Age Amount net income turndown
+BAXTD        36507.00             # N.B. Age Amount net income turndown
                                   # Source: Form TD1NB E (18)
                                   # Source : Formulaire TD1NB F (18)
                                   # Update: Factor=CPINB
@@ -5884,12 +5882,12 @@ BMAXET           0.00             # N.B. maximum on transfer of education and tu
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-BPTX           5                  # N.B. tax table 
-          0     0.0000   0.096800
-      41675 (4034.1400)   0.148200
-      83351 (10210.5232)   0.165200
-     135510 (18827.1900)   0.178400
-     154382 (22193.9548)   0.203000
+BPTX         5                    # N.B. tax table 
+            0      0.0000    0.096800
+        41675 (4034.1400)    0.148200
+        83351 (10210.5232)    0.165200
+       135510 (18827.1900)    0.178400
+       154382 (22193.9548)    0.203000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPINB
@@ -6177,7 +6175,7 @@ QHICDF              1             # Quebec Activation Flag for Higher Income Cha
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QHICDL1      106289.77            # Quebec Taxable Income Threshold for Higher Income Charitable Donors
+QHICDL1      106289.77             # Quebec Taxable Income Threshold for Higher Income Charitable Donors
                                   # Source: Grown from ba17.mpr using CPIQU=1.022853
                                   # Source : Augmenté de ba17.mpr avec CPIQU=1.022853
                                   # Update: Factor=CPIQU
@@ -6383,13 +6381,13 @@ QEWERNM       5000.00             # Quebec Minimum eligible earnings for Tax Cre
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-QEWEINCT       6                  # Quebec Eligible earning amount for the Tax Credit for Experienced Worker 
-          0        0 (49.180)
-         61     3000 (2000.000)
-         62     5000 (2000.000)
-         63     7000 (2000.000)
-         64     9000 (2000.000)
-         65    11000 (2000.000)
+QEWEINCT     6                    # Quebec Eligible earning amount for the Tax Credit for Experienced Worker 
+            0         0  (49.180)
+           61      3000 (2000.000)
+           62      5000 (2000.000)
+           63      7000 (2000.000)
+           64      9000 (2000.000)
+           65     11000 (2000.000)
                                   # Source: Quebec Budget 2018, Economic Plan, Section C
                                   # Source : Budget du Québec 2018, Le Plan Économique - section C
                                   # Update: Factor[2]=NONE
@@ -6511,7 +6509,7 @@ QESSNEEDS    10306.00             # Quebec essential needs for transfer of paren
 
 
 ###
-## 2.3.4.4.5.3.2 Living Alone Exemptions/CreditsQu‚bec
+## 2.3.4.4.5.3.2 Living Alone Exemptions/CreditsQu,bec
 ###
 
 QLAXM         1721.00             # Quebec living alone exemption/amount
@@ -6554,7 +6552,7 @@ QMXM             0.00             # Quebec married exemption/amount
 
 
 ###
-## 2.3.4.4.4 Taxable Income and Non-refundable Credits
+## 2.3.4.4.5.4 Taxable Income and Non-refundable Credits
 ###
 
 QDTCR         0.06280             # Quebec dividend tax credit rate
@@ -6565,11 +6563,11 @@ QDTCRLC       0.11860             # Quebec dividend tax credit rate from large (
                                   # Source: Quebec Budget 2018, Economic Plan - Additional Information, Section A
                                   # Source : Budget du Québec 2018, Le Plan Économique - Renseignements additionnels - section A
 
-QTX            4                  # Quebec income tax table 
-          0     0.0000   0.150000
-      43055 (6458.2500)   0.200000
-      86105 (15068.2500)   0.240000
-     104765 (19546.6500)   0.257500
+QTX          4                    # Quebec income tax table 
+            0      0.0000    0.150000
+        43055 (6458.2500)    0.200000
+        86105 (15068.2500)    0.240000
+       104765 (19546.6500)    0.257500
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor[1,2]=CPIQU
@@ -6582,7 +6580,7 @@ QFAMRAT       0.18750             # Quebec family income rate
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QFAMDED       34030.00            # Quebec Family related deduction on income in refundable credits
+QFAMDED      34030.00             # Quebec Family related deduction on income in refundable credits
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor=CPIQU
@@ -6613,14 +6611,14 @@ QTUITCR       0.08000             # Quebec tuition tax credit rate
 
 
 ###
-## 2.3.4.4.4.1 Alternative Minimum Tax
+## 2.3.4.4.5.4.1 Alternative Minimum Tax
 ###
 
 QAMTTX        0.15000             # QAMTX tax rate
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QAMTX         40000.00            # QAMTX exemption level
+QAMTX        40000.00             # QAMTX exemption level
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
@@ -6645,7 +6643,7 @@ QAMTDIVFLG          0             # Quebec Alternative Minimum Tax - dividend le
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QAMTDIV           0.00            # Quebec Alternative Minimum Tax Taxable Dividend Limit
+QAMTDIV          0.00             # Quebec Alternative Minimum Tax Taxable Dividend Limit
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
@@ -6660,42 +6658,42 @@ QAMTSTTC            0             # Quebec Alternative Minimum Tax Spouse Transf
 
 
 ###
-## 2.3.4.4.4.2 Child Care Credit
+## 2.3.4.4.5.4.2 Child Care Credit
 ###
 
-QCCETCR       32                  # Refundable CCE credit rate 
-          0    0.750  (-0.0000)
-      35345    0.740  (-0.0000)
-      36655    0.730  (-0.0000)
-      37970    0.720  (-0.0000)
-      39270    0.710  (-0.0000)
-      40580    0.700  (-0.0000)
-      41885    0.690  (-0.0000)
-      43210    0.680  (-0.0000)
-      44515    0.670  (-0.0000)
-      45820    0.660  (-0.0000)
-      47120    0.650  (-0.0000)
-      48445    0.640  (-0.0000)
-      49750    0.630  (-0.0000)
-      51055    0.620  (-0.0000)
-      52360    0.610  (-0.0000)
-      53675    0.600  (-0.0000)
-      96875    0.570  (-0.0000)
-     139070    0.540  (-0.0000)
-     140395    0.520  (-0.0000)
-     141710    0.500  (-0.0000)
-     143025    0.480  (-0.0000)
-     144345    0.460  (-0.0000)
-     145665    0.440  (-0.0000)
-     146975    0.420  (-0.0000)
-     148300    0.400  (-0.0000)
-     149615    0.380  (-0.0000)
-     150920    0.360  (-0.0000)
-     152250    0.340  (-0.0000)
-     153565    0.320  (-0.0000)
-     154895    0.300  (-0.0000)
-     156210    0.280  (-0.0000)
-     157525    0.260  (-0.0000)
+QCCETCR      32                   # Refundable CCE credit rate 
+            0     0.750   (-0.0000)
+        35345     0.740   (-0.0000)
+        36655     0.730   (-0.0000)
+        37970     0.720   (-0.0000)
+        39270     0.710   (-0.0000)
+        40580     0.700   (-0.0000)
+        41885     0.690   (-0.0000)
+        43210     0.680   (-0.0000)
+        44515     0.670   (-0.0000)
+        45820     0.660   (-0.0000)
+        47120     0.650   (-0.0000)
+        48445     0.640   (-0.0000)
+        49750     0.630   (-0.0000)
+        51055     0.620   (-0.0000)
+        52360     0.610   (-0.0000)
+        53675     0.600   (-0.0000)
+        96875     0.570   (-0.0000)
+       139070     0.540   (-0.0000)
+       140395     0.520   (-0.0000)
+       141710     0.500   (-0.0000)
+       143025     0.480   (-0.0000)
+       144345     0.460   (-0.0000)
+       145665     0.440   (-0.0000)
+       146975     0.420   (-0.0000)
+       148300     0.400   (-0.0000)
+       149615     0.380   (-0.0000)
+       150920     0.360   (-0.0000)
+       152250     0.340   (-0.0000)
+       153565     0.320   (-0.0000)
+       154895     0.300   (-0.0000)
+       156210     0.280   (-0.0000)
+       157525     0.260   (-0.0000)
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor[1]=CPIQU
@@ -6714,7 +6712,7 @@ QCCEINCDF           0             # Quebec Refundable CCE Income Definition flag
 
 
 ###
-## 2.3.4.4.4.3 Family Tax Reduction
+## 2.3.4.4.5.4.3 Family Tax Reduction
 ###
 
 QFTRA1           0.00             # Quebec family tax reduction family type #1
@@ -6747,7 +6745,7 @@ QFTRRR        0.00000             # Quebec family tax reduction reduction rate
 
 
 ###
-## 2.3.4.4.4.4 Surtax and Anti-Poverty Fund
+## 2.3.4.4.5.4.4 Surtax and Anti-Poverty Fund
 ###
 
 QHSCI            0.00             # Quebec surtax first cut-in level
@@ -6778,7 +6776,7 @@ QAPFRAT       0.00000             # Quebec anti-poverty fund rate
 
 
 ###
-## 2.3.4.4.4.5 Tax Reduction
+## 2.3.4.4.5.4.5 Tax Reduction
 ###
 
 QTRBE            0.00             # Quebec Tax Reduction Breakeven
@@ -6792,7 +6790,7 @@ QTRP          0.00000             # Quebec tax Reduction proportion
 
 
 ###
-## 2.3.4.4.4.6 Simplified Tax System Tax Credit
+## 2.3.4.4.5.4.6 Simplified Tax System Tax Credit
 ###
 
 QSFTC            0.00             # Quebec Simplified Form tax credit
@@ -6827,7 +6825,7 @@ QSFMEDFLAG          0             # Quebec Simplified Form medical expense tax c
 
 
 ###
-## 2.3.4.4.4.7 Labour-sponsored Funds Tax Credit
+## 2.3.4.4.5.4.7 Labour-sponsored Funds Tax Credit
 ###
 
 QLVCRT        0.15000             # Percent of Quebec labour-sponsored funds cost allowed as credit
@@ -6845,7 +6843,7 @@ QLVCAGE            65             # Quebec labour-sponsored funds eligible age l
 
 
 ###
-## 2.3.4.4.4.8 Improved Tax System for Self-Employed Workers
+## 2.3.4.4.5.4.8 Improved Tax System for Self-Employed Workers
 ###
 
 QITSFSEW            1             # Quebec improved tax system for self-employed worker activation flag
@@ -6858,7 +6856,7 @@ QITSSEF       0.50000             # Quebec percentage of self-employ CPP/QPP con
 
 
 ###
-## 2.3.4.4.4.9 Health Contribution
+## 2.3.4.4.5.4.9 Health Contribution
 ###
 
 QHCFLAG             0             # Quebec Health Contribution activation flag
@@ -6870,7 +6868,7 @@ QHCAMT           0.00             # Quebec Health Contribution base amount
                                   # Source : Le Plan Économique du Québec, Mise À Jour D'Octobre 2016 (éliminé)
                                   # Update: Factor=NONE
 
-QHCINCT        4                  # Quebec Health Contribution Income Threshold 
+QHCINCT      4                    # Quebec Health Contribution Income Threshold 
        0.00
        0.00
        0.00
@@ -6891,14 +6889,14 @@ QHCOPT              1             # Quebec Health Contribution calculation optio
                                   # Source: The Quebec Economic Plan October 2016 Update (eliminated)
                                   # Source : Le Plan Économique du Québec, Mise À Jour D'Octobre 2016 (éliminé)
 
-QHCBASE        2                  # Quebec Health Contribution table 
-          0    0.000   (0.0000)
-          0    0.000   (0.0000)
+QHCBASE      2                    # Quebec Health Contribution table 
+            0     0.000    (0.0000)
+            0     0.000    (0.0000)
                                   # Source: The Quebec Economic Plan October 2016 Update (eliminated)
                                   # Source : Le Plan Économique du Québec, Mise À Jour D'Octobre 2016 (éliminé)
                                   # Update: Factor[1]=CPIQU
 
-QHCRATE        3                  # Quebec Health Contribution rate
+QHCRATE      3                    # Quebec Health Contribution rate
     0.00000
     0.00000
     0.00000
@@ -6911,19 +6909,19 @@ QHCINTAX            0             # Quebec Health Contribution added to provinci
 
 
 ###
-## 2.3.4.4.4.10 Additional Contribution for subsidized educational childcare
+## 2.3.4.4.5.4.10 Additional Contribution for subsidized educational childcare
 ###
 
 QADDCONTFLG         1             # Quebec Additional Contribution for Subsidized Childcare activation flag
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QADDCONTINC1  52083.67            # Quebec Additional Contribution for Subsidized Childcare first income threshold
+QADDCONTINC1 52083.67             # Quebec Additional Contribution for Subsidized Childcare first income threshold
                                   # Source: Grown from ba17.mpr using CPIQU=1.022853
                                   # Source : Augmenté de ba17.mpr avec CPIQU=1.022853
                                   # Update: Factor=CPIQU
 
-QADDCONTINC2  78125.51            # Quebec Additional Contribution for Subsidized Childcare second income threshold
+QADDCONTINC2 78125.51             # Quebec Additional Contribution for Subsidized Childcare second income threshold
                                   # Source: Grown from ba17.mpr using CPIQU=1.022853
                                   # Source : Augmenté de ba17.mpr avec CPIQU=1.022853
                                   # Update: Factor=CPIQU
@@ -6952,12 +6950,12 @@ QADDCONTRED   0.50000             # Quebec Additional Contribution for Subsidize
 
 
 ###
-## 2.3.4.4.5 Refundable Tax Credit
+## 2.3.4.4.5.5 Refundable Tax Credit
 ###
 
 
 ###
-## 2.3.4.4.5.1 Consumer Tax Credit
+## 2.3.4.4.5.5.1 Consumer Tax Credit
 ###
 
 QSTRBCRD         0.00             # Quebec sales tax rebate base credit
@@ -6999,7 +6997,7 @@ QSTREXT          0.00             # Quebec sales tax rebate extra amount
 
 
 ###
-## 2.3.4.4.5.2 Family Allowance Tax Credit
+## 2.3.4.4.5.5.2 Family Allowance Tax Credit
 ###
 
 QFATCMIN         0.00             # QFATC minimum benefit paid
@@ -7007,23 +7005,23 @@ QFATCMIN         0.00             # QFATC minimum benefit paid
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor=DEFAULT
 
-QFATCMNK       2                  # QFATC Minimum benefits by kid rank
-          1    0.000   (0.0000)
-          2    0.000   (0.0000)
+QFATCMNK     2                    # QFATC Minimum benefits by kid rank
+            1     0.000    (0.0000)
+            2     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using DEFAULT=1.0000
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor[2]=DEFAULT
 
-QFATCMRR       2                  # QFATC turn down income levels and reduction rate for married parents
-      21825    0.000   (0.0000)
-      25825    0.000   (0.0000)
+QFATCMRR     2                    # QFATC turn down income levels and reduction rate for married parents
+        21825     0.000    (0.0000)
+        25825     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using DEFAULT=1.0000
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor[1]=DEFAULT
 
-QFATCMXK       2                  # QFATC Maximum benefits by kid rank
-          1    0.000   (0.0000)
-          2    0.000   (0.0000)
+QFATCMXK     2                    # QFATC Maximum benefits by kid rank
+            1     0.000    (0.0000)
+            2     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using DEFAULT=1.0000
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor[2]=DEFAULT
@@ -7032,9 +7030,9 @@ QFATCOPT            3             # Quebec Family Allowance Tax Credit Option
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QFATCSRR       2                  # QFATC turn down income levels and reduction rate for single parent
-          0    0.000   (0.0000)
-          0    0.000   (0.0000)
+QFATCSRR     2                    # QFATC turn down income levels and reduction rate for single parent
+            0     0.000    (0.0000)
+            0     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using DEFAULT=1.0000
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor[1]=DEFAULT
@@ -7054,15 +7052,15 @@ QFATD4KI         0.00             # QFATC turn down income increase by child for
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor=DEFAULT
 
-QFATCTK        2                  # QFATC Take-up rates by total income
-          0    0.000   (0.0000)
-          0    0.000   (0.0000)
+QFATCTK      2                    # QFATC Take-up rates by total income
+            0     0.000    (0.0000)
+            0     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
 
-QFATCK6        1                  # QFATC Supplement for kids under 6 in large families 
-       0.00     0.00     0.00     0.00     0.00     0.00     0.00
+QFATCK6      1                    # QFATC Supplement for kids under 6 in large families 
+       0.00    0.00    0.00    0.00    0.00    0.00    0.00
                                   # Source: Grown from ba17.mpr using DEFAULT=1.0000
                                   # Source : Augmenté de ba17.mpr avec DEFAULT=1.0000
                                   # Update: Factor=DEFAULT
@@ -7090,7 +7088,7 @@ QFAMNETI            1             # Quebec family allowance tax credit net incom
 
 
 ###
-## 2.3.4.4.5.3 Housing Parent Tax Credit
+## 2.3.4.4.5.5.3 Housing Parent Tax Credit
 ###
 
 QHPTC            0.00             # Quebec Housing Parent Tax Credit
@@ -7108,7 +7106,7 @@ QHPTCMODELFLG        0             # Quebec Housing Parent Tax Credit Calculatio
 
 
 ###
-## 2.3.4.4.5.4 Income Definition
+## 2.3.4.4.5.5.4 Income Definition
 ###
 
 QEIA1            0.00             # Quebec eligible income family type #1
@@ -7143,7 +7141,7 @@ QEIAA            0.00             # Quebec eligible income aged amount
 
 
 ###
-## 2.3.4.4.5.5 Property tax Credit
+## 2.3.4.4.5.5.5 Property tax Credit
 ###
 
 QPTRMTP          0.00             # Quebec property tax minimum tax per person
@@ -7170,7 +7168,7 @@ QRTRFLAG            0             # Quebec real estate rebate activation flag
 
 
 ###
-## 2.3.4.4.5.6 Medical Expenses Refundable Tax Credit
+## 2.3.4.4.5.5.6 Medical Expenses Refundable Tax Credit
 ###
 
 QMEDRMIN      3030.00             # Minimum earnings for Quebec refundable tax credit for medical expenses
@@ -7206,22 +7204,22 @@ QMEDINC             1             # Income definition for Que. refundable tax cr
 
 
 ###
-## 2.3.4.4.5.7 Work Premium Refundable Tax Credit Credit
+## 2.3.4.4.5.5.7 Work Premium Refundable Tax Credit Credit
 ###
 
 QWPFLAG             1             # Quebec Work Premium refundable tax credit flag
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
 
-QWPCR          4                  # Quebec Work Premium Credit Rate 
-   0.09400
-   0.09400
-   0.30000
-   0.25000
+QWPCR        4                    # Quebec Work Premium Credit Rate 
+    0.09400
+    0.09400
+    0.30000
+    0.25000
                                   # Source: The Quebec Economic Plan - November 2017 Update
                                   # Source : Le Plan Économique du Québec - Mise À Jour de Novembre 2017
 
-QWPEIPI        4                  # Quebec Work Premium Employment Income Phase In 
+QWPEIPI      4                    # Quebec Work Premium Employment Income Phase In 
     2400.00
     3600.00
     2400.00
@@ -7230,11 +7228,11 @@ QWPEIPI        4                  # Quebec Work Premium Employment Income Phase 
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-QWPTD          4                  # Quebec Work Premium Income Turndown 
-   10574.00
-   16356.00
-   10574.00
-   16356.00
+QWPTD        4                    # Quebec Work Premium Income Turndown 
+    10574.00
+    16356.00
+    10574.00
+    16356.00
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor=CPIQU
@@ -7257,22 +7255,22 @@ QWPFTSTD            0             # Quebec Work Premium full-time student eligib
 
 
 ###
-## 2.3.4.4.5.8 Adapted Work Premium Refundable Tax Credit for Disabled
+## 2.3.4.4.5.5.8 Adapted Work Premium Refundable Tax Credit for Disabled
 ###
 
 QAWPFLAG            1             # Quebec Adapted Work Premium for Disabled refundable tax credit flag
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
 
-QAWPCR         4                  # Quebec Adapted Work Premium for Disabled Credit Rate 
-   0.11400
-   0.11400
-   0.25000
-   0.20000
+QAWPCR       4                    # Quebec Adapted Work Premium for Disabled Credit Rate 
+    0.11400
+    0.11400
+    0.25000
+    0.20000
                                   # Source: The Quebec Economic Plan - November 2017 Update
                                   # Source : Le Plan Économique du Québec - Mise À Jour de Novembre 2017
 
-QAWPEIPI       4                  # Quebec Adapted Work Premium for Disabled Employment Income Phase In 
+QAWPEIPI     4                    # Quebec Adapted Work Premium for Disabled Employment Income Phase In 
     1200.00
     1200.00
     1200.00
@@ -7281,11 +7279,11 @@ QAWPEIPI       4                  # Quebec Adapted Work Premium for Disabled Emp
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-QAWPTD         4                  # Quebec Adapted Work Premium for Disabled Income Turndown 
-   13536.00
-   19694.00
-   13536.00
-   19694.00
+QAWPTD       4                    # Quebec Adapted Work Premium for Disabled Income Turndown 
+    13536.00
+    19694.00
+    13536.00
+    19694.00
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor=CPIQU
@@ -7296,7 +7294,7 @@ QAWPRR        0.10000             # Quebec Adapted Work Premium for Disabled Red
 
 
 ###
-## 2.3.4.4.5.9 Refundable Natural Caregivers Tax Credit 
+## 2.3.4.4.5.5.9 Refundable Natural Caregivers Tax Credit 
 ###
 
 QRNCGTC       1202.88             # Quebec Natural Caregivers Tax Credit
@@ -7333,7 +7331,7 @@ QRNCGMR        541.09             # Quebec Natural Caregivers Tax Credit maximum
 
 
 ###
-## 2.3.4.4.5.10 Tax Credit for Home Improvement and Renovation 
+## 2.3.4.4.5.5.10 Tax Credit for Home Improvement and Renovation 
 ###
 
 QHRTCFLAG           0             # Quebec Tax Credit for Home Improvement and Renovation activation flag
@@ -7356,7 +7354,7 @@ QHRTCR        0.00000             # Quebec Tax Credit for Home Improvement and R
 
 
 ###
-## 2.3.4.4.5.11 Solidarity Tax Credit
+## 2.3.4.4.5.5.11 Solidarity Tax Credit
 ###
 
 QSTCFLAG            1             # Quebec Solidarity Tax Credit activation flag
@@ -7413,18 +7411,18 @@ QSTCHC         119.00             # Quebec Solidarity Tax Credit housing compone
 
 
 ###
-## 2.3.4.4.5.11.1 Solidarity Tax Credit for the calendar year
+## 2.3.4.4.5.5.11.1 Solidarity Tax Credit for the calendar year
 ###
 
 QSTCCYFLG           0             # Quebec Solidarity Tax Credit for the calendar year activation flag
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QSTCRRFP      0.06000             # Quebec Solidarity Tax Credit reduction rate if eligible for both QST and housing for 1st half of
+QSTCRRFP      0.06000             # Quebec Solidarity Tax Credit reduction rate if eligible for both QST and housing for 1st half of year
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QSTCRRPP      0.03000             # Quebec Solidarity Tax Credit reduction rate if eligible for only QST component for 1st half of y
+QSTCRRPP      0.03000             # Quebec Solidarity Tax Credit reduction rate if eligible for only QST component for 1st half of year
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
@@ -7470,7 +7468,7 @@ QSTCHCP        118.00             # Quebec Solidarity Tax Credit housing compone
 
 
 ###
-## 2.3.4.4.5.12 Tax Credit for Children's Activities
+## 2.3.4.4.5.5.12 Tax Credit for Children's Activities
 ###
 
 QFITFLAG            1             # Quebec Tax Credit for Children's Activities Flag
@@ -7482,7 +7480,7 @@ QFITEXPMAX     500.00             # Quebec Tax Credit for Children's Activities 
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-QFITINCTH    136195.00            # Quebec Tax Credit for Children's Activities Income Phase-out Threshold
+QFITINCTH    136195.00             # Quebec Tax Credit for Children's Activities Income Phase-out Threshold
                                   # Source: Finances Quebec: Parameters of the Personal Income Tax System for 2018
                                   # Source : Finances Québec: Paramètres du régime d'imposition des particuliers pour l'année d'imposition 2018
                                   # Update: Factor=CPIQU
@@ -7495,11 +7493,11 @@ QACTTUFLG           0             # Quebec Tax Credit for Children's Activities 
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-QACTEXPTU      4                  # Quebec Tax Credit for Children's Activities Additional Take-up Table
-          0    0.000   (0.0000)
-      10000    0.000   (0.0000)
-      20000    0.000   (0.0000)
-      30000    0.000   (0.0000)
+QACTEXPTU    4                    # Quebec Tax Credit for Children's Activities Additional Take-up Table
+            0     0.000    (0.0000)
+        10000     0.000    (0.0000)
+        20000     0.000    (0.0000)
+        30000     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
@@ -7543,10 +7541,10 @@ OPTCFLAG            1             # Ontario political contribution refundable ta
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-OPTC           3                  # Ontario political contribution table 
-          0        0    0.750
-        399    (299)    0.500
-       1330    (765)    0.333
+OPTC         3                    # Ontario political contribution table 
+            0         0     0.750
+          399     (299)     0.500
+         1330     (765)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -7583,17 +7581,17 @@ OHPFLAG             1             # Ontario Health Premium activation flag
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
 
-OHPBASE       10                  # Ontario Health Premium table 
-      20000        0    0.060
-      25000    (300)    0.000
-      36000    (300)    0.060
-      38500    (450)    0.000
-      48000    (450)    0.250
-      48600    (600)    0.000
-      72000    (600)    0.250
-      72600    (750)    0.000
-     200000    (750)    0.250
-     200600    (900)    0.000
+OHPBASE      10                   # Ontario Health Premium table 
+        20000         0     0.060
+        25000     (300)     0.000
+        36000     (300)     0.060
+        38500     (450)     0.000
+        48000     (450)     0.250
+        48600     (600)     0.000
+        72000     (600)     0.250
+        72600     (750)     0.000
+       200000     (750)     0.250
+       200600     (900)     0.000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=NONE
@@ -7933,7 +7931,7 @@ OSTTBRR       0.00000             # Ontario Sales Tax Transition Benefit Reducti
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-OSTTBTDF          0.00            # Ontario Sales Tax Transition Benefit Turndown for families
+OSTTBTDF         0.00             # Ontario Sales Tax Transition Benefit Turndown for families
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
@@ -7952,7 +7950,7 @@ OEHTFLAG            0             # OEHT - Ontario Employer Health Tax Flag
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-OEHTEX            0.00            # OEHT - Exemption
+OEHTEX           0.00             # OEHT - Exemption
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
@@ -8008,7 +8006,7 @@ OAXM          5055.00             # Ont. Age Amount
                                   # Source : Formulaire TD1ON F (18)
                                   # Update: Factor=CPION
 
-OAXTD         37635.00            # Ont. Age Amount net income turndown
+OAXTD        37635.00             # Ont. Age Amount net income turndown
                                   # Source: Form TD1ON E (18)
                                   # Source : Formulaire TD1ON F (18)
                                   # Update: Factor=CPION
@@ -8084,7 +8082,7 @@ OEDELGPCT        0.00             # Ont. Education related credits eligible stud
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
-OEDTXCPCT      2                  # Ont. Education related credits amount percentage 
+OEDTXCPCT    2                    # Ont. Education related credits amount percentage 
     0.00000
     0.00000
                                   # Source: Not in effect
@@ -8099,10 +8097,10 @@ OMAXET           0.00             # Ont. maximum on transfer of education and tu
                                   # Source : Pas en vigueur
                                   # Update: Factor=CPION
 
-OPTX           3                  # Ont. tax table 
-          0     0.0000   0.050500
-      42960 (2169.4800)   0.091500
-      85293 (6042.9495)   0.111600
+OPTX         3                    # Ont. tax table 
+            0      0.0000    0.050500
+        42960 (2169.4800)    0.091500
+        85293 (6042.9495)    0.111600
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPION
@@ -8111,7 +8109,7 @@ OPTXFBFLG           1             # Ont. Fixed Bracket Threshold activation flag
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
 
-OPTXFBT1     150000.00            # Ont. First fixed tax bracket threshold level
+OPTXFBT1     150000.00             # Ont. First fixed tax bracket threshold level
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor=NONE
@@ -8120,7 +8118,7 @@ OPTXFBR1      0.12160             # Ont. First fixed tax bracket tax rate
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
 
-OPTXFBT2     220000.00            # Ont. Second fixed tax bracket threshold level
+OPTXFBT2     220000.00             # Ont. Second fixed tax bracket threshold level
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor=NONE
@@ -8260,7 +8258,7 @@ OSHPTGPOC    60000.00             # Ont. Senior Homeowners' Property Tax Grant i
 
 
 ###
-## 2.3.4.4.6.10 Ontario Children’s Activity tax credit
+## 2.3.4.4.6.10 Ontario Children's Activity tax credit
 ###
 
 OFITFLAG            0             # Ontario Children's Activity tax credit activation flag
@@ -8288,11 +8286,11 @@ OACTTUFLG           0             # Ontario Children's Activity tax credit Addit
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-OACTEXPTU      4                  # Ontario Children's Activity tax credit Additional Take-up Table
-          0    0.000   (0.0000)
-      10000    0.000   (0.0000)
-      20000    0.000   (0.0000)
-      30000    0.000   (0.0000)
+OACTEXPTU    4                    # Ontario Children's Activity tax credit Additional Take-up Table
+            0     0.000    (0.0000)
+        10000     0.000    (0.0000)
+        20000     0.000    (0.0000)
+        30000     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
@@ -8324,20 +8322,20 @@ OESPFLAG            1             # Ontario Electricity Support Program (OESP) a
                                   # Source: Ontario Electricity Support Program
                                   # Source : Programme Ontarien D'Aide Relative aux Frais D'Electricité
 
-OESPTD         4                  # OESP income thresholds
-   28000.00
-   39000.00
-   48000.00
-   52000.00
+OESPTD       4                    # OESP income thresholds
+    28000.00
+    39000.00
+    48000.00
+    52000.00
                                   # Source: Ontario Electricity Support Program
                                   # Source : Programme Ontarien D'Aide Relative aux Frais D'Electricité
                                   # Update: Factor=NONE
 
-OESPCRED       4                  # OESP credit table 
-       0.00   540.00   540.00   612.00   684.00   756.00   900.00   900.00
-       0.00     0.00   480.00   540.00   612.00   684.00   756.00   900.00
-       0.00     0.00     0.00   420.00   480.00   540.00   612.00   684.00
-       0.00     0.00     0.00     0.00     0.00   420.00   480.00   540.00
+OESPCRED     4                    # OESP credit table 
+       0.00  540.00  540.00  612.00  684.00  756.00  900.00  900.00
+       0.00    0.00  480.00  540.00  612.00  684.00  756.00  900.00
+       0.00    0.00    0.00  420.00  480.00  540.00  612.00  684.00
+       0.00    0.00    0.00    0.00    0.00  420.00  480.00  540.00
                                   # Source: Ontario Electricity Support Program
                                   # Source : Programme Ontarien D'Aide Relative aux Frais D'Electricité
                                   # Update: Factor=NONE
@@ -8409,10 +8407,10 @@ MNITR         0.00000             # Manitoba net income tax rate
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-MPTC           3                  # Manitoba political contribution table 
-          0        0    0.750
-        400    (300)    0.500
-        750    (475)    0.333
+MPTC         3                    # Manitoba political contribution table 
+            0         0     0.750
+          400     (300)     0.500
+          750     (475)     0.333
                                   # Source: Manitoba Budget 2017 - Budget Paper C, page C6
                                   # Source : Budget du Manitoba 2017, document budgétaire C, page C6
                                   # Update: Factor[1,2]=NONE
@@ -8426,7 +8424,7 @@ MANLTCF       0.00000             # Manitoba learning tax credit factor
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-MANLTMAX            0.00          # Manitoba learning tax credit maximum amount per student
+MANLTMAX         0.00             # Manitoba learning tax credit maximum amount per student
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
@@ -8769,7 +8767,7 @@ MAXM          3728.00             # Man. Age Amount
                                   # Source : Formulaire TD1MB F (18)
                                   # Update: Factor=NONE
 
-MAXTD         27749.00            # Man. Age Amount net income turndown
+MAXTD        27749.00             # Man. Age Amount net income turndown
                                   # Source: Form TD1MB E (18)
                                   # Source : Formulaire TD1MB F (18)
                                   # Update: Factor=NONE
@@ -8854,10 +8852,10 @@ MMAXET        5000.00             # Man. maximum on transfer of education and tu
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-MPTX           3                  # Man. tax table 
-          0     0.0000   0.108000
-      31843 (3439.0440)   0.127500
-      68821 (8153.7390)   0.174000
+MPTX         3                    # Man. tax table 
+            0      0.0000    0.108000
+        31843 (3439.0440)    0.127500
+        68821 (8153.7390)    0.174000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPIMA
@@ -9065,10 +9063,10 @@ STRBA            0.00             # Saskatchewan tax reduction base amount
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-SPTC           3                  # Saskatchewan political contribution table 
-          0        0    0.750
-        400    (300)    0.500
-        750    (475)    0.333
+SPTC         3                    # Saskatchewan political contribution table 
+            0         0     0.750
+          400     (300)     0.500
+          750     (475)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -9312,7 +9310,7 @@ SAXM          4894.00             # Sask. Age Amount
                                   # Source : Formulaire TD1SK F (18)
                                   # Update: Factor=NONE
 
-SAXTD         36430.00            # Sask. Age Amount net income turndown
+SAXTD        36430.00             # Sask. Age Amount net income turndown
                                   # Source: Form TD1SK E (18)
                                   # Source : Formulaire TD1SK F (18)
                                   # Update: Factor=NONE
@@ -9397,7 +9395,7 @@ SEDELGPCT        0.00             # Sask. Education related credits eligible stu
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
-SEDTXCPCT      2                  # Sask. Education related credits amount percentage 
+SEDTXCPCT    2                    # Sask. Education related credits amount percentage 
     0.00000
     0.00000
                                   # Source: Not in effect
@@ -9412,10 +9410,10 @@ SMAXET        5000.00             # Sask. maximum on transfer of education and t
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-SPTX           3                  # Sask. tax table 
-          0     0.0000   0.105000
-      45225 (4748.6250)   0.125000
-     129214 (15247.2500)   0.145000
+SPTX         3                    # Sask. tax table 
+            0      0.0000    0.105000
+        45225 (4748.6250)    0.125000
+       129214 (15247.2500)    0.145000
                                   # Source: Saskatchewan 2017-18 Budget Plan, page 50
                                   # Source : Saskatchewan 2016-17 plan budgétaire p.50
                                   # Update: Factor[1,2]=NONE
@@ -9519,11 +9517,11 @@ SACTTUFLG           0             # Saskatchewan Active Families tax credit Addi
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-SACTEXPTU      4                  # Saskatchewan Active Families tax credit Additional Take-up Table
-          0    0.000   (0.0000)
-      10000    0.000   (0.0000)
-      20000    0.000   (0.0000)
-      30000    0.000   (0.0000)
+SACTEXPTU    4                    # Saskatchewan Active Families tax credit Additional Take-up Table
+            0     0.000    (0.0000)
+        10000     0.000    (0.0000)
+        20000     0.000    (0.0000)
+        30000     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
@@ -9587,10 +9585,10 @@ ATRF          0.00000             # Alberta tax reduction fraction
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-APTC           3                  # Alberta political contribution table 
-          0        0    0.750
-        200    (150)    0.500
-       1100    (600)    0.333
+APTC         3                    # Alberta political contribution table 
+            0         0     0.750
+          200     (150)     0.500
+         1100     (600)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -9632,7 +9630,7 @@ AHCIPSR       0.00000             # Alberta Health Care Insurance Plan Subsidy R
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-AHCIPIT        6                  # Alberta Health Care Insurance Plan Income Threshold 
+AHCIPIT      6                    # Alberta Health Care Insurance Plan Income Threshold 
        0.00
        0.00
        0.00
@@ -9647,16 +9645,16 @@ AHCIPSOPT           2             # Alberta Health Care Insurance Plan Subsidy o
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-AHCIPSSB       2                  # Alberta Health Care Insurance Plan Single Subsidy Table
-          0    0.000   (0.0000)
-          0    0.000   (0.0000)
+AHCIPSSB     2                    # Alberta Health Care Insurance Plan Single Subsidy Table
+            0     0.000    (0.0000)
+            0     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
 
-AHCIPFSB       2                  # Alberta Health Care Insurance Plan Family Subsidy Table
-          0    0.000   (0.0000)
-          0    0.000   (0.0000)
+AHCIPFSB     2                    # Alberta Health Care Insurance Plan Family Subsidy Table
+            0     0.000    (0.0000)
+            0     0.000    (0.0000)
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1]=NONE
@@ -9712,7 +9710,7 @@ AAXM          5271.00             # Alta Age Amount
                                   # Source : Formulaire TD1AB F (18)
                                   # Update: Factor=CPIAL
 
-AAXTD         39238.00            # Alta Age Amount net income turndown
+AAXTD        39238.00             # Alta Age Amount net income turndown
                                   # Source: Form TD1AB E (18)
                                   # Source : Formulaire TD1AB F (18)
                                   # Update: Factor=CPIAL
@@ -9793,12 +9791,12 @@ AMAXET        5000.00             # Alta maximum on transfer of education and tu
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-APTX           5                  # Alta tax table 
-          0     0.0000   0.100000
-     128145 (12814.5000)   0.120000
-     153773 (15889.8600)   0.130000
-     205031 (22553.4000)   0.140000
-     307547 (36905.6400)   0.150000
+APTX         5                    # Alta tax table 
+            0      0.0000    0.100000
+       128145 (12814.5000)    0.120000
+       153773 (15889.8600)    0.130000
+       205031 (22553.4000)    0.140000
+       307547 (36905.6400)    0.150000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPIAL
@@ -9991,10 +9989,10 @@ CSDC             0.00             # British Columbia provincial surtax dependant
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-CPTC           3                  # B.C. political contribution table 
-          0        0    0.750
-        100     (75)    0.500
-        550    (300)    0.333
+CPTC         3                    # B.C. political contribution table 
+            0         0     0.750
+          100      (75)     0.500
+          550     (300)     0.333
                                   # Source: Grown from ba17.mpr using NONE=1.0000
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor[1,2]=NONE
@@ -10083,9 +10081,9 @@ CMSPFLAG            1             # B.C. Medical Services Plan activation flag
                                   # Source: B.C. Ministry of Health Services
                                   # Source : Ministère de services de santé de la C.-B.
 
-CMSP           2                  # B.C. Medical Services Plan Premium 
-          1  450.000 (450.0000)
-          2  900.000 (450.0000)
+CMSP         2                    # B.C. Medical Services Plan Premium 
+            1   450.000  (450.0000)
+            2   900.000  (450.0000)
                                   # Source: B.C. September Budget Update 2017 - Budget and Fiscal Plan, Tax Measures
                                   # Source : Mise à jour budgétaire de la C.-B. de sep 2017, 'Budget and Fiscal Plan, Tax Measures'
                                   # Update: Factor[2]=NONE
@@ -10114,14 +10112,14 @@ CMSPDDED      3000.00             # B.C. Medical Services Plan Disability Deduct
                                   # Source : Budget de la C.-B. 2017 - 'Budget and Fiscal Plan, Tax Measures'
                                   # Update: Factor=NONE
 
-CMSPRATE       7                  # B.C. Medical Services Plan Subsidy Rate 
-          0    1.000  (-0.0000)
-      26000    0.853  (-0.0000)
-      28000    0.776  (-0.0000)
-      30000    0.705  (-0.0000)
-      34000    0.641  (-0.0000)
-      38000    0.583  (-0.0001)
-      42000    0.000  (-0.0001)
+CMSPRATE     7                    # B.C. Medical Services Plan Subsidy Rate 
+            0     1.000   (-0.0000)
+        26000     0.853   (-0.0000)
+        28000     0.776   (-0.0000)
+        30000     0.705   (-0.0000)
+        34000     0.641   (-0.0000)
+        38000     0.583   (-0.0001)
+        42000     0.000   (-0.0001)
                                   # Source: B.C. September Budget Update 2017 - Budget and Fiscal Plan, Tax Measures
                                   # Source : Mise à jour budgétaire de la C.-B. de sep 2017, 'Budget and Fiscal Plan, Tax Measures'
                                   # Update: Factor[1]=NONE
@@ -10177,7 +10175,7 @@ CAXM          4669.00             # B.C. Age Amount
                                   # Source : Formulaire TD1BC F (18)
                                   # Update: Factor=CPIBC
 
-CAXTD         34757.00            # B.C. Age Amount net income turndown
+CAXTD        34757.00             # B.C. Age Amount net income turndown
                                   # Source: Form TD1BC E (18)
                                   # Source : Formulaire TD1BC F (18)
                                   # Update: Factor=CPIBC
@@ -10262,12 +10260,12 @@ CMAXET        5000.00             # B.C. maximum on transfer of education and tu
                                   # Source : Augmenté de ba17.mpr avec NONE=1.0000
                                   # Update: Factor=NONE
 
-CPTX           5                  # B.C. tax table 
-          0     0.0000   0.050600
-      39676 (2007.6056)   0.077000
-      79353 (5062.7346)   0.105000
-      91107 (6296.9046)   0.122900
-     110630 (8696.2813)   0.147000
+CPTX         5                    # B.C. tax table 
+            0      0.0000    0.050600
+        39676 (2007.6056)    0.077000
+        79353 (5062.7346)    0.105000
+        91107 (6296.9046)    0.122900
+       110630 (8696.2813)    0.147000
                                   # Source: Payroll Deductions Formulas 2018 - T4127
                                   # Source : Formules pour le calcul des retenues sur la paie 2018 - T4127
                                   # Update: Factor[1,2]=CPIBC
@@ -10276,7 +10274,7 @@ CPTXFBFLG           1             # B.C. Fixed Bracket Threshold activation flag
                                   # Source: B.C. September Budget Update 2017 - Budget and Fiscal Plan, Tax Measures
                                   # Source : Mise à jour budgétaire de la C.-B. de sep 2017, 'Budget and Fiscal Plan, Tax Measures'
 
-CPTXFBT1     150000.00            # B.C. First fixed tax bracket threshold level
+CPTXFBT1     150000.00             # B.C. First fixed tax bracket threshold level
                                   # Source: B.C. September Budget Update 2017 - Budget and Fiscal Plan, Tax Measures
                                   # Source : Mise à jour budgétaire de la C.-B. de sep 2017, 'Budget and Fiscal Plan, Tax Measures'
                                   # Update: Factor=NONE
@@ -10528,380 +10526,380 @@ CTCSNAFLG           0             # Commodity tax CSNA97 variable name activatio
                                   # Source: Not in effect
                                   # Source : Pas en vigueur
 
-CTFCID        30                  # Federal custom import duties 
-   0.00227
-   0.00869
-   0.00297
-   0.04844
-   0.00023
-   0.00007
-   0.00105
-   0.00019
-   0.00017
-   0.00038
-   0.01948
-   0.00487
-   0.00088
-   0.00047
-   0.00746
-   0.00017
-   0.00307
-   0.00014
-   0.00052
-   0.00019
-   0.00023
-   0.00389
-   0.00040
-   0.00031
-   0.00091
-   0.00008
-   0.00005
-   0.00012
-   0.00049
-   0.00514
+CTFCID       30                   # Federal custom import duties 
+    0.00227
+    0.00869
+    0.00297
+    0.04844
+    0.00023
+    0.00007
+    0.00105
+    0.00019
+    0.00017
+    0.00038
+    0.01948
+    0.00487
+    0.00088
+    0.00047
+    0.00746
+    0.00017
+    0.00307
+    0.00014
+    0.00052
+    0.00019
+    0.00023
+    0.00389
+    0.00040
+    0.00031
+    0.00091
+    0.00008
+    0.00005
+    0.00012
+    0.00049
+    0.00514
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTFEXD        30                  # Federal excise duties 
-   0.00008
-   0.10507
-   0.48155
-   0.00009
-   0.00005
-   0.00001
-   0.00005
-   0.00003
-   0.00002
-   0.00006
-   0.00008
-   0.00010
-   0.00009
-   0.00005
-   0.00003
-   0.00003
-   0.00011
-   0.00009
-   0.00005
-   0.00004
-   0.00013
-   0.00007
-   0.00037
-   0.00006
-   0.00160
-   0.00004
-   0.00003
-   0.00005
-   0.00006
-   0.00010
+CTFEXD       30                   # Federal excise duties 
+    0.00008
+    0.10507
+    0.48155
+    0.00009
+    0.00005
+    0.00001
+    0.00005
+    0.00003
+    0.00002
+    0.00006
+    0.00008
+    0.00010
+    0.00009
+    0.00005
+    0.00003
+    0.00003
+    0.00011
+    0.00009
+    0.00005
+    0.00004
+    0.00013
+    0.00007
+    0.00037
+    0.00006
+    0.00160
+    0.00004
+    0.00003
+    0.00005
+    0.00006
+    0.00010
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTFEXT        30                  # Federal excise taxes 
-   0.00172
-   0.00132
-   0.00105
-   0.00097
-   0.00080
-   0.00012
-   0.00204
-   0.00049
-   0.00090
-   0.00390
-   0.00107
-   0.00194
-   0.00113
-   0.00100
-   0.00294
-   0.11795
-   0.00180
-   0.02808
-   0.00627
-   0.00088
-   0.00120
-   0.00105
-   0.00078
-   0.00153
-   0.00092
-   0.00088
-   0.00054
-   0.00074
-   0.00074
-   0.00111
+CTFEXT       30                   # Federal excise taxes 
+    0.00172
+    0.00132
+    0.00105
+    0.00097
+    0.00080
+    0.00012
+    0.00204
+    0.00049
+    0.00090
+    0.00390
+    0.00107
+    0.00194
+    0.00113
+    0.00100
+    0.00294
+    0.11795
+    0.00180
+    0.02808
+    0.00627
+    0.00088
+    0.00120
+    0.00105
+    0.00078
+    0.00153
+    0.00092
+    0.00088
+    0.00054
+    0.00074
+    0.00074
+    0.00111
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTFGST        30                  # Federal GST 
-   0.00828
-   0.08859
-   0.08873
-   0.05545
-   0.00787
-   0.00356
-   0.01509
-   0.05529
-   0.05767
-   0.06760
-   0.04992
-   0.04745
-   0.00833
-   0.00856
-   0.04512
-   0.06614
-   0.04641
-   0.01497
-   0.02287
-   0.05023
-   0.05547
-   0.05160
-   0.03999
-   0.00902
-   0.04444
-   0.00917
-   0.00561
-   0.01608
-   0.00678
-   0.03578
+CTFGST       30                   # Federal GST 
+    0.00828
+    0.08859
+    0.08873
+    0.05545
+    0.00787
+    0.00356
+    0.01509
+    0.05529
+    0.05767
+    0.06760
+    0.04992
+    0.04745
+    0.00833
+    0.00856
+    0.04512
+    0.06614
+    0.04641
+    0.01497
+    0.02287
+    0.05023
+    0.05547
+    0.05160
+    0.03999
+    0.00902
+    0.04444
+    0.00917
+    0.00561
+    0.01608
+    0.00678
+    0.03578
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTFGSTHOUSE   10                  # Gst on housing to be allocated 
-       40630.80904      7698.43619
-       12046.73040      3185.07442
-       82881.10023     22004.23810
-       50860.72370     13019.48467
-      701779.84173    329146.96638
-     2406358.44850    768969.33066
-      139789.33439     39213.03456
-      129540.74326     32917.03698
-      672954.09015    181921.27234
-     1225873.64850    435805.01707
+CTFGSTHOUSE  10                   # Gst on housing to be allocated 
+       40630.80904     7698.43619
+       12046.73040     3185.07442
+       82881.10023    22004.23810
+       50860.72370    13019.48467
+      701779.84173   329146.96638
+     2406358.44850   768969.33066
+      139789.33439    39213.03456
+      129540.74326    32917.03698
+      672954.09015   181921.27234
+     1225873.64850   435805.01707
                                   # Source: COMTAX
                                   # Source : COMTAX
                                   # Update: Factor=CPI
 
-CTFNEW        30                  # New federal commodity tax 
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
+CTFNEW       30                   # New federal commodity tax 
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
                                   # Source: User
                                   # Source : Valeur fournie par l'utilisateur
 
-CTPPLQ        10                  # Provincial profits on liquor commissions 
-   0.70571
-   0.49390
-   0.79152
-   0.91472
-   0.38289
-   0.56381
-   0.67583
-   0.54566
-   0.60315
-   0.55589
+CTPPLQ       10                   # Provincial profits on liquor commissions 
+    0.70571
+    0.49390
+    0.79152
+    0.91472
+    0.38289
+    0.56381
+    0.67583
+    0.54566
+    0.60315
+    0.55589
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPLGL        10                  # Provincial liquor gallonage tax 
-   0.46473
-   0.00000
-   0.00000
-   0.00000
-   0.22288
-   0.15459
-   0.00000
-   0.00000
-   0.00000
-   0.00000
+CTPLGL       10                   # Provincial liquor gallonage tax 
+    0.46473
+    0.00000
+    0.00000
+    0.00000
+    0.22288
+    0.15459
+    0.00000
+    0.00000
+    0.00000
+    0.00000
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPGAS        30                  # Provincial gasoline tax 
-   0.00265 0.00328 0.00284 0.00489 0.00261 0.00210 0.00352 0.00733 0.00330 0.00237
-   0.00337 0.00216 0.00211 0.00602 0.00187 0.00234 0.00194 0.00428 0.00217 0.00184
-   0.00153 0.00140 0.00124 0.00131 0.00200 0.00162 0.00102 0.00182 0.00160 0.00187
-   0.00168 0.00112 0.00140 0.00213 0.00175 0.00151 0.00144 0.00240 0.00172 0.00161
-   0.00182 0.00077 0.00107 0.00167 0.00110 0.00107 0.00106 0.00157 0.00155 0.00086
-   0.00020 0.00014 0.00015 0.00031 0.00025 0.00013 0.00015 0.00025 0.00023 0.00012
-   0.00363 0.00170 0.00208 0.00425 0.00521 0.00299 0.00248 0.00269 0.00392 0.00245
-   0.00053 0.00038 0.00089 0.00272 0.00093 0.00055 0.00050 0.00141 0.00225 0.00142
-   0.03039 0.00273 0.05947 0.00413 0.00224 0.00055 0.00152 0.00301 0.00171 0.03829
-   0.00097 0.00033 0.00033 0.00209 0.00809 0.00381 0.01877 0.01726 0.06730 0.01578
-   0.00171 0.00131 0.00162 0.00278 0.00214 0.00171 0.00181 0.00334 0.00210 0.00160
-   0.00408 0.00176 0.00255 0.00320 0.00305 0.00259 0.00267 0.00441 0.00493 0.00257
-   0.00152 0.00115 0.00125 0.00155 0.00214 0.00192 0.00132 0.00207 0.00177 0.00185
-   0.00183 0.00085 0.00173 0.00152 0.00134 0.00139 0.00219 0.00158 0.00110 0.00147
-   0.00065 0.00049 0.00070 0.00142 0.00087 0.00072 0.00118 0.00222 0.00109 0.00097
-   0.25629 0.15277 0.17950 0.17457 0.23401 0.15778 0.14538 0.19667 0.15072 0.17565
-   0.00338 0.00126 0.00230 0.00352 0.00301 0.00281 0.00241 0.00425 0.00338 0.00273
-   0.00480 0.00053 0.00147 0.00477 0.00293 0.00777 0.01064 0.00391 0.00084 0.00236
-   0.01603 0.00759 0.01005 0.03993 0.01273 0.01207 0.02220 0.04305 0.01869 0.01070
-   0.00169 0.00056 0.00122 0.00161 0.00158 0.00125 0.00112 0.00228 0.00125 0.00132
-   0.00263 0.00185 0.00138 0.00323 0.00227 0.00179 0.00178 0.00362 0.00207 0.00197
-   0.00164 0.00135 0.00137 0.00225 0.00205 0.00161 0.00172 0.00335 0.00169 0.00155
-   0.00118 0.00075 0.00091 0.00133 0.00135 0.00101 0.00078 0.00123 0.00095 0.00097
-   0.00403 0.00087 0.00147 0.00249 0.00326 0.00197 0.00256 0.00363 0.00177 0.00147
-   0.00177 0.00162 0.00142 0.00272 0.00144 0.00115 0.00174 0.00306 0.00135 0.00120
-   0.00167 0.00073 0.00092 0.00111 0.00113 0.00115 0.00095 0.00172 0.00124 0.00133
-   0.00065 0.00050 0.00055 0.00075 0.00064 0.00067 0.00073 0.00106 0.00079 0.00100
-   0.00104 0.00056 0.00071 0.00115 0.00082 0.00086 0.00085 0.00096 0.00097 0.00091
-   0.00107 0.00057 0.00075 0.00098 0.00093 0.00103 0.00122 0.00131 0.00104 0.00104
-   0.00153 0.00098 0.00116 0.00197 0.00214 0.00153 0.00144 0.00247 0.00186 0.00153
+CTPGAS       30                   # Provincial gasoline tax 
+    0.00265 0.00328 0.00284 0.00489 0.00261 0.00210 0.00352 0.00733 0.00330 0.00237
+    0.00337 0.00216 0.00211 0.00602 0.00187 0.00234 0.00194 0.00428 0.00217 0.00184
+    0.00153 0.00140 0.00124 0.00131 0.00200 0.00162 0.00102 0.00182 0.00160 0.00187
+    0.00168 0.00112 0.00140 0.00213 0.00175 0.00151 0.00144 0.00240 0.00172 0.00161
+    0.00182 0.00077 0.00107 0.00167 0.00110 0.00107 0.00106 0.00157 0.00155 0.00086
+    0.00020 0.00014 0.00015 0.00031 0.00025 0.00013 0.00015 0.00025 0.00023 0.00012
+    0.00363 0.00170 0.00208 0.00425 0.00521 0.00299 0.00248 0.00269 0.00392 0.00245
+    0.00053 0.00038 0.00089 0.00272 0.00093 0.00055 0.00050 0.00141 0.00225 0.00142
+    0.03039 0.00273 0.05947 0.00413 0.00224 0.00055 0.00152 0.00301 0.00171 0.03829
+    0.00097 0.00033 0.00033 0.00209 0.00809 0.00381 0.01877 0.01726 0.06730 0.01578
+    0.00171 0.00131 0.00162 0.00278 0.00214 0.00171 0.00181 0.00334 0.00210 0.00160
+    0.00408 0.00176 0.00255 0.00320 0.00305 0.00259 0.00267 0.00441 0.00493 0.00257
+    0.00152 0.00115 0.00125 0.00155 0.00214 0.00192 0.00132 0.00207 0.00177 0.00185
+    0.00183 0.00085 0.00173 0.00152 0.00134 0.00139 0.00219 0.00158 0.00110 0.00147
+    0.00065 0.00049 0.00070 0.00142 0.00087 0.00072 0.00118 0.00222 0.00109 0.00097
+    0.25629 0.15277 0.17950 0.17457 0.23401 0.15778 0.14538 0.19667 0.15072 0.17565
+    0.00338 0.00126 0.00230 0.00352 0.00301 0.00281 0.00241 0.00425 0.00338 0.00273
+    0.00480 0.00053 0.00147 0.00477 0.00293 0.00777 0.01064 0.00391 0.00084 0.00236
+    0.01603 0.00759 0.01005 0.03993 0.01273 0.01207 0.02220 0.04305 0.01869 0.01070
+    0.00169 0.00056 0.00122 0.00161 0.00158 0.00125 0.00112 0.00228 0.00125 0.00132
+    0.00263 0.00185 0.00138 0.00323 0.00227 0.00179 0.00178 0.00362 0.00207 0.00197
+    0.00164 0.00135 0.00137 0.00225 0.00205 0.00161 0.00172 0.00335 0.00169 0.00155
+    0.00118 0.00075 0.00091 0.00133 0.00135 0.00101 0.00078 0.00123 0.00095 0.00097
+    0.00403 0.00087 0.00147 0.00249 0.00326 0.00197 0.00256 0.00363 0.00177 0.00147
+    0.00177 0.00162 0.00142 0.00272 0.00144 0.00115 0.00174 0.00306 0.00135 0.00120
+    0.00167 0.00073 0.00092 0.00111 0.00113 0.00115 0.00095 0.00172 0.00124 0.00133
+    0.00065 0.00050 0.00055 0.00075 0.00064 0.00067 0.00073 0.00106 0.00079 0.00100
+    0.00104 0.00056 0.00071 0.00115 0.00082 0.00086 0.00085 0.00096 0.00097 0.00091
+    0.00107 0.00057 0.00075 0.00098 0.00093 0.00103 0.00122 0.00131 0.00104 0.00104
+    0.00153 0.00098 0.00116 0.00197 0.00214 0.00153 0.00144 0.00247 0.00186 0.00153
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPAMU        10                  # Provincial amusement tax 
-   0.00000
-   0.00734
-   0.01458
-   0.00134
-   0.00204
-   0.02017
-   0.00113
-   0.00000
-   0.00077
-   0.00000
+CTPAMU       10                   # Provincial amusement tax 
+    0.00000
+    0.00734
+    0.01458
+    0.00134
+    0.00204
+    0.02017
+    0.00113
+    0.00000
+    0.00077
+    0.00000
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPTOB        10                  # Provincial tobacco tax 
-   1.18419
-   0.91969
-   0.93525
-   0.68144
-   0.68588
-   0.57449
-   0.68201
-   0.82533
-   0.82656
-   0.88749
+CTPTOB       10                   # Provincial tobacco tax 
+    1.18419
+    0.91969
+    0.93525
+    0.68144
+    0.68588
+    0.57449
+    0.68201
+    0.82533
+    0.82656
+    0.88749
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPRST        30                  # Provincial retail sales tax 
-   0.02059 0.01749 0.01835 0.01851 0.01749 0.01492 0.02258 0.00933 0.00008 0.00398
-   0.21104 0.57170 0.18542 0.19127 0.17236 0.15367 0.14661 0.19709 0.00007 0.17029
-   0.23357 0.21026 0.20148 0.15259 0.00407 0.12506 0.12781 0.12065 0.00010 0.00494
-   0.11201 0.08755 0.09597 0.10450 0.11572 0.08083 0.08090 0.08249 0.00008 0.06675
-   0.01821 0.01457 0.01863 0.01680 0.01016 0.01694 0.01251 0.01248 0.00020 0.00511
-   0.00892 0.00628 0.00759 0.00846 0.00484 0.00738 0.00166 0.00258 0.00002 0.00115
-   0.05200 0.03271 0.04148 0.03647 0.07203 0.02646 0.02835 0.02005 0.00015 0.02127
-   0.11696 0.09119 0.03882 0.09013 0.11135 0.09829 0.03714 0.00781 0.00013 0.00442
-   0.15736 0.10933 0.00749 0.07983 0.11355 0.10039 0.02190 0.00996 0.00006 0.00728
-   0.04589 0.00765 0.00037 0.10845 0.14648 0.12831 0.05205 0.04000 0.00191 0.03474
-   0.10294 0.09036 0.09361 0.08965 0.10081 0.08282 0.08578 0.07070 0.00008 0.07150
-   0.08684 0.08073 0.08790 0.08543 0.09480 0.08313 0.07883 0.06027 0.00017 0.06045
-   0.01257 0.01441 0.01374 0.01117 0.01638 0.01525 0.01777 0.01745 0.00009 0.00483
-   0.01874 0.01939 0.01455 0.01722 0.02501 0.01731 0.01756 0.00899 0.00019 0.00942
-   0.11633 0.10235 0.11016 0.10977 0.10371 0.09273 0.08499 0.09079 0.00004 0.08194
-   0.12677 0.11429 0.12018 0.11605 0.14691 0.10745 0.00698 0.01072 0.00013 0.00607
-   0.09137 0.06495 0.08484 0.08268 0.09476 0.07802 0.07223 0.06098 0.00021 0.06492
-   0.04716 0.05199 0.03019 0.03968 0.01587 0.01378 0.01265 0.00659 0.00035 0.00556
-   0.07622 0.08481 0.06457 0.06194 0.04507 0.03804 0.01665 0.01803 0.00021 0.01285
-   0.08743 0.09064 0.09385 0.09024 0.10327 0.08652 0.08333 0.06905 0.00009 0.06684
-   0.07034 0.05452 0.05787 0.05182 0.04966 0.02749 0.04607 0.01256 0.00011 0.00920
-   0.10757 0.09476 0.10142 0.09509 0.10800 0.09022 0.08636 0.07140 0.00007 0.07674
-   0.06751 0.07674 0.07488 0.07574 0.07908 0.07612 0.02578 0.02248 0.00018 0.01806
-   0.03629 0.02786 0.01071 0.02553 0.02683 0.01381 0.01120 0.00819 0.00027 0.00534
-   0.08747 0.08781 0.08360 0.08766 0.09169 0.06717 0.08121 0.08315 0.00289 0.02713
-   0.04808 0.01609 0.01685 0.01686 0.06550 0.01793 0.06347 0.04154 0.00014 0.00397
-   0.07825 0.01094 0.01011 0.01142 0.17912 0.09082 0.02205 0.02494 0.00009 0.00299
-   0.02662 0.02555 0.02964 0.03172 0.00993 0.03170 0.00979 0.00815 0.00019 0.00525
-   0.00880 0.01488 0.01131 0.01806 0.02616 0.01089 0.02310 0.00981 0.00014 0.01121
-   0.06215 0.06195 0.05995 0.06505 0.07953 0.05954 0.04872 0.03451 0.00017 0.04014
+CTPRST       30                   # Provincial retail sales tax 
+    0.02059 0.01749 0.01835 0.01851 0.01749 0.01492 0.02258 0.00933 0.00008 0.00398
+    0.21104 0.57170 0.18542 0.19127 0.17236 0.15367 0.14661 0.19709 0.00007 0.17029
+    0.23357 0.21026 0.20148 0.15259 0.00407 0.12506 0.12781 0.12065 0.00010 0.00494
+    0.11201 0.08755 0.09597 0.10450 0.11572 0.08083 0.08090 0.08249 0.00008 0.06675
+    0.01821 0.01457 0.01863 0.01680 0.01016 0.01694 0.01251 0.01248 0.00020 0.00511
+    0.00892 0.00628 0.00759 0.00846 0.00484 0.00738 0.00166 0.00258 0.00002 0.00115
+    0.05200 0.03271 0.04148 0.03647 0.07203 0.02646 0.02835 0.02005 0.00015 0.02127
+    0.11696 0.09119 0.03882 0.09013 0.11135 0.09829 0.03714 0.00781 0.00013 0.00442
+    0.15736 0.10933 0.00749 0.07983 0.11355 0.10039 0.02190 0.00996 0.00006 0.00728
+    0.04589 0.00765 0.00037 0.10845 0.14648 0.12831 0.05205 0.04000 0.00191 0.03474
+    0.10294 0.09036 0.09361 0.08965 0.10081 0.08282 0.08578 0.07070 0.00008 0.07150
+    0.08684 0.08073 0.08790 0.08543 0.09480 0.08313 0.07883 0.06027 0.00017 0.06045
+    0.01257 0.01441 0.01374 0.01117 0.01638 0.01525 0.01777 0.01745 0.00009 0.00483
+    0.01874 0.01939 0.01455 0.01722 0.02501 0.01731 0.01756 0.00899 0.00019 0.00942
+    0.11633 0.10235 0.11016 0.10977 0.10371 0.09273 0.08499 0.09079 0.00004 0.08194
+    0.12677 0.11429 0.12018 0.11605 0.14691 0.10745 0.00698 0.01072 0.00013 0.00607
+    0.09137 0.06495 0.08484 0.08268 0.09476 0.07802 0.07223 0.06098 0.00021 0.06492
+    0.04716 0.05199 0.03019 0.03968 0.01587 0.01378 0.01265 0.00659 0.00035 0.00556
+    0.07622 0.08481 0.06457 0.06194 0.04507 0.03804 0.01665 0.01803 0.00021 0.01285
+    0.08743 0.09064 0.09385 0.09024 0.10327 0.08652 0.08333 0.06905 0.00009 0.06684
+    0.07034 0.05452 0.05787 0.05182 0.04966 0.02749 0.04607 0.01256 0.00011 0.00920
+    0.10757 0.09476 0.10142 0.09509 0.10800 0.09022 0.08636 0.07140 0.00007 0.07674
+    0.06751 0.07674 0.07488 0.07574 0.07908 0.07612 0.02578 0.02248 0.00018 0.01806
+    0.03629 0.02786 0.01071 0.02553 0.02683 0.01381 0.01120 0.00819 0.00027 0.00534
+    0.08747 0.08781 0.08360 0.08766 0.09169 0.06717 0.08121 0.08315 0.00289 0.02713
+    0.04808 0.01609 0.01685 0.01686 0.06550 0.01793 0.06347 0.04154 0.00014 0.00397
+    0.07825 0.01094 0.01011 0.01142 0.17912 0.09082 0.02205 0.02494 0.00009 0.00299
+    0.02662 0.02555 0.02964 0.03172 0.00993 0.03170 0.00979 0.00815 0.00019 0.00525
+    0.00880 0.01488 0.01131 0.01806 0.02616 0.01089 0.02310 0.00981 0.00014 0.01121
+    0.06215 0.06195 0.05995 0.06505 0.07953 0.05954 0.04872 0.03451 0.00017 0.04014
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPCAR        30                  # Provincial environmental tax 
-   0.00023 0.00017 0.00063 0.00007 0.00000 0.00000 0.00083 0.00048 0.00275 0.00249
-   0.00639 0.00003 0.01859 0.00006 0.00000 0.00000 0.02233 0.01899 0.00313 0.00210
-   0.00000 0.00001 0.00003 0.00001 0.00000 0.00000 0.00003 0.00002 0.00136 0.00223
-   0.00001 0.00002 0.00004 0.00002 0.00000 0.00000 0.00005 0.00003 0.00149 0.00183
-   0.00000 0.00001 0.00002 0.00002 0.00000 0.00000 0.00004 0.00002 0.00147 0.00255
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00023 0.00014
-   0.00001 0.00003 0.00009 0.00004 0.00000 0.00000 0.00008 0.00001 0.00585 0.00260
-   0.00001 0.00004 0.00011 0.00001 0.00000 0.00000 0.00039 0.00001 0.00287 0.00449
-   0.00017 0.00007 0.00014 0.00005 0.00000 0.00000 0.00003 0.00001 0.09227 0.43685
-   0.00000 0.00001 0.00001 0.00005 0.00000 0.00001 0.00051 0.00005 0.09385 0.03690
-   0.00001 0.00002 0.00004 0.00003 0.00000 0.00000 0.00006 0.00003 0.00179 0.00169
-   0.00001 0.00003 0.00005 0.00004 0.00000 0.00000 0.00007 0.00003 0.00375 0.00227
-   0.00001 0.00002 0.00004 0.00002 0.00000 0.00000 0.00004 0.00002 0.00147 0.00197
-   0.00000 0.00001 0.00001 0.00001 0.00000 0.00002 0.00004 0.00001 0.00105 0.00127
-   0.00000 0.00001 0.00002 0.00001 0.00000 0.00009 0.00002 0.00001 0.00091 0.00083
-   0.00001 0.00001 0.00002 0.00008 0.00000 0.00000 0.00004 0.00001 0.08704 0.07207
-   0.00026 0.00328 0.00161 0.00409 0.00000 0.00000 0.00135 0.00003 0.00434 0.00423
-   0.00001 0.00003 0.00003 0.00005 0.00000 0.00000 0.00008 0.00003 0.00086 0.00322
-   0.00001 0.00029 0.00019 0.00041 0.00000 0.00001 0.00015 0.00003 0.01610 0.00815
-   0.00000 0.00001 0.00002 0.00001 0.00000 0.00001 0.00003 0.00001 0.00096 0.00102
-   0.00001 0.00003 0.00004 0.00003 0.00000 0.00001 0.00006 0.00004 0.00180 0.00229
-   0.00000 0.00004 0.00004 0.00002 0.00000 0.00199 0.00007 0.00002 0.00262 0.00178
-   0.00002 0.00005 0.00011 0.00004 0.00000 0.00002 0.00019 0.00007 0.00113 0.00118
-   0.00001 0.00001 0.00002 0.00001 0.00000 0.00001 0.00005 0.00003 0.00462 0.00226
-   0.00015 0.00007 0.00035 0.00004 0.00000 0.00000 0.00046 0.00044 0.00135 0.00149
-   0.00000 0.00001 0.00001 0.00001 0.00000 0.00000 0.00002 0.00001 0.00086 0.00099
-   0.00000 0.00000 0.00001 0.00000 0.00000 0.00000 0.00001 0.00001 0.00055 0.00075
-   0.00000 0.00001 0.00002 0.00001 0.00000 0.00000 0.00003 0.00002 0.00072 0.00118
-   0.00000 0.00001 0.00003 0.00001 0.00000 0.00003 0.00007 0.00003 0.00123 0.00108
-   0.00000 0.00002 0.00004 0.00002 0.00000 0.00001 0.00005 0.00003 0.00194 0.00171
+CTPCAR       30                   # Provincial environmental tax 
+    0.00023 0.00017 0.00063 0.00007 0.00000 0.00000 0.00083 0.00048 0.00275 0.00249
+    0.00639 0.00003 0.01859 0.00006 0.00000 0.00000 0.02233 0.01899 0.00313 0.00210
+    0.00000 0.00001 0.00003 0.00001 0.00000 0.00000 0.00003 0.00002 0.00136 0.00223
+    0.00001 0.00002 0.00004 0.00002 0.00000 0.00000 0.00005 0.00003 0.00149 0.00183
+    0.00000 0.00001 0.00002 0.00002 0.00000 0.00000 0.00004 0.00002 0.00147 0.00255
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00023 0.00014
+    0.00001 0.00003 0.00009 0.00004 0.00000 0.00000 0.00008 0.00001 0.00585 0.00260
+    0.00001 0.00004 0.00011 0.00001 0.00000 0.00000 0.00039 0.00001 0.00287 0.00449
+    0.00017 0.00007 0.00014 0.00005 0.00000 0.00000 0.00003 0.00001 0.09227 0.43685
+    0.00000 0.00001 0.00001 0.00005 0.00000 0.00001 0.00051 0.00005 0.09385 0.03690
+    0.00001 0.00002 0.00004 0.00003 0.00000 0.00000 0.00006 0.00003 0.00179 0.00169
+    0.00001 0.00003 0.00005 0.00004 0.00000 0.00000 0.00007 0.00003 0.00375 0.00227
+    0.00001 0.00002 0.00004 0.00002 0.00000 0.00000 0.00004 0.00002 0.00147 0.00197
+    0.00000 0.00001 0.00001 0.00001 0.00000 0.00002 0.00004 0.00001 0.00105 0.00127
+    0.00000 0.00001 0.00002 0.00001 0.00000 0.00009 0.00002 0.00001 0.00091 0.00083
+    0.00001 0.00001 0.00002 0.00008 0.00000 0.00000 0.00004 0.00001 0.08704 0.07207
+    0.00026 0.00328 0.00161 0.00409 0.00000 0.00000 0.00135 0.00003 0.00434 0.00423
+    0.00001 0.00003 0.00003 0.00005 0.00000 0.00000 0.00008 0.00003 0.00086 0.00322
+    0.00001 0.00029 0.00019 0.00041 0.00000 0.00001 0.00015 0.00003 0.01610 0.00815
+    0.00000 0.00001 0.00002 0.00001 0.00000 0.00001 0.00003 0.00001 0.00096 0.00102
+    0.00001 0.00003 0.00004 0.00003 0.00000 0.00001 0.00006 0.00004 0.00180 0.00229
+    0.00000 0.00004 0.00004 0.00002 0.00000 0.00199 0.00007 0.00002 0.00262 0.00178
+    0.00002 0.00005 0.00011 0.00004 0.00000 0.00002 0.00019 0.00007 0.00113 0.00118
+    0.00001 0.00001 0.00002 0.00001 0.00000 0.00001 0.00005 0.00003 0.00462 0.00226
+    0.00015 0.00007 0.00035 0.00004 0.00000 0.00000 0.00046 0.00044 0.00135 0.00149
+    0.00000 0.00001 0.00001 0.00001 0.00000 0.00000 0.00002 0.00001 0.00086 0.00099
+    0.00000 0.00000 0.00001 0.00000 0.00000 0.00000 0.00001 0.00001 0.00055 0.00075
+    0.00000 0.00001 0.00002 0.00001 0.00000 0.00000 0.00003 0.00002 0.00072 0.00118
+    0.00000 0.00001 0.00003 0.00001 0.00000 0.00003 0.00007 0.00003 0.00123 0.00108
+    0.00000 0.00002 0.00004 0.00002 0.00000 0.00001 0.00005 0.00003 0.00194 0.00171
                                   # Source: COMTAX
                                   # Source : COMTAX
 
-CTPNEW        30                  # New provincial commodity tax 
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+CTPNEW       30                   # New provincial commodity tax 
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
                                   # Source: User
                                   # Source : Valeur fournie par l'utilisateur
 
@@ -10935,16 +10933,16 @@ CANBINCLTAXFLAG        0             # Flag to include cannabis taxes and duties
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-CANBPOPADJ     5                  # Cannabis use taxable population adjustment 
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
-   0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+CANBPOPADJ   5                    # Cannabis use taxable population adjustment 
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-CANBMINAGE    10                  # Cannabis use minimum age
+CANBMINAGE   10                   # Cannabis use minimum age
         19
         19
         19
@@ -10958,25 +10956,25 @@ CANBMINAGE    10                  # Cannabis use minimum age
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBFREQADJ    5                  # Cannabis use frequency adjustment, days per year 
-       2.00     2.00
-       6.00     6.00
-      13.00    13.00
-      52.00    52.00
-      91.00    91.00
+CANBFREQADJ  5                    # Cannabis use frequency adjustment, days per year 
+       2.00    2.00
+       6.00    6.00
+      13.00   13.00
+      52.00   52.00
+      91.00   91.00
                                   # Source: CCHS - Mental Health
                                   # Source : ESCC - Santé mentale
 
-CANBVOLUME     5                  # Cannabis use volume, grams per day 
-       0.00     0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00     0.00
-       0.00     0.00     0.00     0.00     0.00     0.00
+CANBVOLUME   5                    # Cannabis use volume, grams per day 
+       0.00    0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00    0.00
+       0.00    0.00    0.00    0.00    0.00    0.00
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-CANBPRICE     10                  # Cannabis price per gram 
+CANBPRICE    10                   # Cannabis price per gram 
        0.00
        0.00
        0.00
@@ -10990,7 +10988,7 @@ CANBPRICE     10                  # Cannabis price per gram
                                   # Source: Copied from ba17.mpr
                                   # Source : Copié de ba17.mpr
 
-CANBFEDFLTRT  10                  # Federal flat-rate cannabis duty 
+CANBFEDFLTRT 10                   # Federal flat-rate cannabis duty 
        0.25
        0.25
        0.25
@@ -11004,21 +11002,21 @@ CANBFEDFLTRT  10                  # Federal flat-rate cannabis duty
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBFEDADVAL  10                  # Federal ad valorem cannabis duty 
-   0.02500
-   0.02500
-   0.02500
-   0.02500
-   0.02500
-   0.02500
-   0.02500
-   0.02500
-   0.02500
-   0.02500
+CANBFEDADVAL 10                   # Federal ad valorem cannabis duty 
+    0.02500
+    0.02500
+    0.02500
+    0.02500
+    0.02500
+    0.02500
+    0.02500
+    0.02500
+    0.02500
+    0.02500
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBPRVFLTRT  10                  # Provincial flat-rate cannabis duty 
+CANBPRVFLTRT 10                   # Provincial flat-rate cannabis duty 
        0.75
        0.75
        0.75
@@ -11032,59 +11030,59 @@ CANBPRVFLTRT  10                  # Provincial flat-rate cannabis duty
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBPRVADVAL  10                  # Provincial ad valorem cannabis duty 
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.07500
-   0.07500
+CANBPRVADVAL 10                   # Provincial ad valorem cannabis duty 
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.07500
+    0.07500
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBPRVADJRT  10                  # Provincial adjustment to the cannabis duty 
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.00000
-   0.03900
-   0.00000
-   0.06450
-   0.16800
-   0.00000
+CANBPRVADJRT 10                   # Provincial adjustment to the cannabis duty 
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+    0.03900
+    0.00000
+    0.06450
+    0.16800
+    0.00000
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBGST       10                  # Cannabis Federal sales tax rate 
-   0.05000
-   0.05000
-   0.05000
-   0.05000
-   0.05000
-   0.05000
-   0.05000
-   0.05000
-   0.05000
-   0.05000
+CANBGST      10                   # Cannabis Federal sales tax rate 
+    0.05000
+    0.05000
+    0.05000
+    0.05000
+    0.05000
+    0.05000
+    0.05000
+    0.05000
+    0.05000
+    0.05000
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 
-CANBPST       10                  # Cannabis provincial sales tax rate and Manitoba mark-up 
-   0.10000
-   0.10000
-   0.10000
-   0.10000
-   0.09975
-   0.08000
-   0.09000
-   0.06000
-   0.00000
-   0.07000
+CANBPST      10                   # Cannabis provincial sales tax rate and Manitoba mark-up 
+    0.10000
+    0.10000
+    0.10000
+    0.10000
+    0.09975
+    0.08000
+    0.09000
+    0.06000
+    0.00000
+    0.07000
                                   # Source: Excise duty framework for cannabis
                                   # Source : Cadre du droit d'accise sur le cannabis
 

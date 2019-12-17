@@ -10,58 +10,58 @@
 
 CPRDESCE     Tax/transfer:2018 Population:2018 Incomes:2018 (2018$)             # English description of SPSM run 
 
-CPRDESCF     Impôts/transferts:2018 Population:2018 Revenus:2018 (2018$)
+CPRDESCF     Impôts/transferts:2018 Population:2018 Revenus:2018 (2018$)             # French description of SPSM run 
 
-CPRVER           27.0             # SPSD/M Release Version 
+CPRVER           27.1             # SPSD/M Release Version 
 
 CPRSFILE     $SPSD/ba18.cpr             # Starting Control parameter file 
 
 AUTHOR                            # Name of person doing simulation 
 
-OUTCPR       CTax_AB.cpr             # Name of control parameter file (out) 
+OUTCPR       CTax_AB_271b.cpr             # Name of control parameter file (out) 
 
 ALGDESC                           # Names of standard and alternate algorithms
  +---------+--------------------------------+--------------------------------+
  |Algorithm|           Standard             |              Alternate         |
  +---------+--------------------------------+--------------------------------+
- |call     | Revision: 6.189 $    Dec 13/18 | Revision: 6.188 $    Dec 13/18 |
- |drv      | Revision: 6.243 $    Dec 13/18 | None/aucun           Dec 13/18 |
- |ui       | Revision: 6.265 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |famod    | Revision: 6.209 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |oas      | Revision: 6.193 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |dem      | Stub routine         Dec 13/18 | None/Aucun           Dec 13/18 |
- |txinet   | Revision: 6.254 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txccea   | Revision: 6.211 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |gis      | Revision: 6.211 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txitax   | Revision: 6.239 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txhstr   | Revision: 6.209 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txcalc   | Revision: 6.275 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txhhexp  | Revision: 6.195 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txprov   | Revision: 6.189 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txnfld   | Revision: 6.255 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txpei    | Revision: 6.236 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txns     | Revision: 6.272 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txnb     | Revision: 6.258 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txque    | Revision: 6.189 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txqinet  | Revision: 6.249 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txqitax  | Revision: 6.236 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txqhstr  | Revision: 6.213 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txqcalc  | Revision: 6.328 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txont    | Revision: 6.289 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txman    | Revision: 6.261 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txsask   | Revision: 6.257 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txalta   | Revision: 6.256 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txbc     | Revision: 6.277 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |gist     | Revision: 6.227 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |samod    | Revision: 6.206 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txctc    | Revision: 6.228 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |txfstc   | Revision: 6.204 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |gai      | Stub routine         Dec 13/18 | None/Aucun           Dec 13/18 |
- |memo1    | Revision: 6.275 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |ctmod    | Revision: 6.234 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |memo2    | Revision: 6.198 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |cceopt   | Revision: 6.224 $    Dec 13/18 | None/Aucun           Dec 13/18 |
- |mpc      | Revision: 6.224 $    Dec 13/18 | None/Aucun           Dec 13/18 |
+ |call     | Revision: 6.192 $    Jun 12/19 | Revision: 6.191 $    Jun 12/19 |
+ |drv      | Revision: 6.247 $    Jun 12/19 | None/aucun           Jun 12/19 |
+ |ui       | Revision: 6.270 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |famod    | Revision: 6.212 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |oas      | Revision: 6.196 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |dem      | Stub routine         Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txinet   | Revision: 6.258 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txccea   | Revision: 6.216 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |gis      | Revision: 6.215 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txitax   | Revision: 6.247 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txhstr   | Revision: 6.212 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txcalc   | Revision: 6.279 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txhhexp  | Revision: 6.198 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txprov   | Revision: 6.192 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txnfld   | Revision: 6.258 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txpei    | Revision: 6.239 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txns     | Revision: 6.275 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txnb     | Revision: 6.263 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txque    | Revision: 6.192 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txqinet  | Revision: 6.252 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txqitax  | Revision: 6.239 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txqhstr  | Revision: 6.216 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txqcalc  | Revision: 6.333 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txont    | Revision: 6.295 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txman    | Revision: 6.264 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txsask   | Revision: 6.261 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txalta   | Revision: 6.260 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txbc     | Revision: 6.288 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |gist     | Revision: 6.230 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |samod    | Revision: 6.209 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txctc    | Revision: 6.231 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |txfstc   | Revision: 6.207 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |gai      | Stub routine         Jun 12/19 | None/Aucun           Jun 12/19 |
+ |memo1    | Revision: 6.280 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |ctmod    | Revision: 6.238 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |memo2    | Revision: 6.204 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |cceopt   | Revision: 6.229 $    Jun 12/19 | None/Aucun           Jun 12/19 |
+ |mpc      | Revision: 6.227 $    Jun 12/19 | None/Aucun           Jun 12/19 |
  +---------+--------------------------------+--------------------------------+
 
 BRKFLAG             1             # Activate interception of `Break' key
@@ -76,7 +76,7 @@ ROUNDFLAG           1             # Round disposable and consumable income
 
 LOGFLAG             1             # Produce a .log file for this run
 
-OUTLOG       CTax_AB.log             # Name of log file (out) 
+OUTLOG       CTax_AB_271b.log             # Name of log file (out) 
 
 CREATEPARMFILES        1             # Force writing of parameter files
 
@@ -110,7 +110,7 @@ REFVARS                           # Reference results file variables
 
 AGENAME      Standard             # Name of database adjustment algorithm 
 
-INPAPR       CTax_AB.apr             # Name of database adjustment parameter file (in) 
+INPAPR       CTax_AB_271b.apr             # Name of database adjustment parameter file (in) 
 
 OUTAPR       CTax_AB.apr             # Name of database adjustment parameter file (out) 
 
@@ -119,15 +119,15 @@ OUTAPR       CTax_AB.apr             # Name of database adjustment parameter fil
 ## 2.1.4 Variant Information
 ###
 
-VARALG       Version 27.0 : 97-25             # Name of variant algorithm 
+VARALG       Version 27.1 : 97-25             # Name of variant algorithm 
 
 VARMETH             2             # Method of creating variant variables
 
 VARDESC      Current values for 2018             # Description of variant parameters 
 
-INPVARMPR    CTax_AB_V.mpr             # Name of variant tax/transfer parameter file (in) 
+INPVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (in) 
 
-OUTVARMPR    CTax_AB_V.mpr             # Name of variant tax/transfer parameter file (out) 
+OUTVARMPR    CTax_AB_271b_V.mpr             # Name of variant tax/transfer parameter file (out) 
 
 OUTMRSFLAG          0             # Variant results file creation flag
 
@@ -149,7 +149,7 @@ BASMETH             2             # Method of creating base variables
 
 BASDESC      Current values for 2018             # Description of base parameters 
 
-INPBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (in) 
+INPBASMPR    CTax_AB_271b_B.mpr             # Name of base tax/transfer parameter file (in) 
 
 OUTBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (out) 
 
@@ -166,7 +166,7 @@ SAMPLEREQ    1.000000000             # Size of sample requested
 
 SAMPLE       1.000000000             # Size of sample obtained
 
-WGTTOT       15186692             # Sum of weights on tax file
+WGTTOT       15313584             # Sum of weights on tax file
 
 SEED         20                   # Random number generator seeds
        0
@@ -201,7 +201,6 @@ SELUNIT             0             # Selection facility family level
 
 SELSPEC                           # Selection specification 
 hdprov==8
-
 SELMAX              0             # Selection facility maximum # of households
 
 
@@ -253,7 +252,8 @@ label(hhincp) = "Household Income Percentile";
 netctax=ctpcar-HH:imaclar;
 label(netctax) = "Net Carbon Cost";
 
-ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,
+ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,7
+,
 
 
 
@@ -283,7 +283,8 @@ label(fedbenefit) = "Federal Rebate";
 
 netctaxfed=ctpcar-HH:fedbenefit;
 label(netctaxfed) = "Net Carbon Cost with Federal Rebate";
-ctaxpayfed=split(netctaxfed,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575
+ctaxpayfed=split(netctaxfed,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,
+5
 
 
 
@@ -342,7 +343,7 @@ ASCVARS                           # Variables selected for text output
 ## 2.1.12 Reports
 ###
 
-OUTTBL       CTax_AB.tbl             # Name of report file (out) 
+OUTTBL       CTax_AB_271b.tbl             # Name of report file (out) 
 
 
 ###
@@ -464,7 +465,6 @@ HH: {ctpcar9/units} * hhinc+;
 HH: {ctpcar15/units} * hhinc+;
 
 IN: {units} * adult+ * getrebateind+;
-
 XTDBLFLAG           1             # X-tab double precision activation flag
 
 XTCOLS            132             # X-tab desired print width
