@@ -1,0 +1,129 @@
+##############################################################################
+##
+## Include file to convert from '$SPSD/ba22.cpr' to 'D:\Users\trevo\Documents\R Projects\CTax\SPSMv28\CTax_AB_2030.cpr' 
+##
+##############################################################################
+
+
+
+
+###
+## 2.1.1 General information
+###
+
+
+
+OUTCPR       CTax_AB_2030.cpr     # Name of control parameter file (out) 
+
+OUTLOG       CTax_AB_2030.log     # Name of log file (out) 
+
+CREATEPARMFILES        1             # Force writing of parameter files
+
+
+
+###
+## 2.1.3 Database adjustment
+###
+
+
+
+INPAPR       CTax_AB_2030.apr     # Name of database adjustment parameter file (in) 
+
+OUTAPR       CTax_AB_2030.apr     # Name of database adjustment parameter file (out) 
+
+
+
+
+
+###
+## 2.1.4 Variant Information
+###
+
+
+
+INPVARMPR    CTax_AB_2030_V.mpr   # Name of variant tax/transfer parameter file (in) 
+
+OUTVARMPR    CTax_AB_2030_V.mpr   # Name of variant tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.5 Base Information
+###
+
+
+
+BASALG       Version 28.0 : 97-25 # Name of base algorithm 
+
+BASMETH             2             # Method of creating base variables
+
+BASDESC      Current values for 2022 
+
+INPBASMPR    CTax_AB_2030_B.mpr   # Name of base tax/transfer parameter file (in) 
+
+OUTBASMPR    CTax_AB_2030_B.mpr   # Name of base tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.7 Record selection facility
+###
+
+
+
+SELFLAG             1             # Selection facility activation flag
+
+SELSPEC                           # Selection specification 
+hdprov==8
+
+
+
+###
+## 2.1.10 User-defined Variables
+###
+
+
+
+UVARFLAG            1             # Activate UVAR parameter for expressions
+
+UVAR                              # User statements 
+netctaxfed=ctpcar-impcai;
+
+ctaxpayfed=split(netctaxfed,-900,-875,-850,-825,-800,-775,-750,-725,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,
+5
+
+,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100,1125,1150,1175,1200);
+label(ctaxpayfed) = "Net Carbon Cost w Fed Rebate";
+
+
+hhinc=split(HH:immtot, 30000,60000,90000,120000,150000);
+label(hhinc) = "Household Income Group";
+
+
+
+
+
+###
+## 2.1.12 Reports
+###
+
+
+
+OUTTBL       CTax_AB_2030.tbl     # Name of report file (out) 
+
+
+
+
+
+###
+## 2.1.14.2 User-specified Tabulation facility
+###
+
+
+
+XTFLAG              1             # X-tab facility activation flag
+
+XTSPEC                            # X-tab specification 
+HH: {units} * ctaxpayfed+ * hhinc+;
+
+
