@@ -92,6 +92,9 @@ netctaxfed=ctpcar-impcai;
 ctaxpayfed=split(netctaxfed,-900,-875,-850,-825,-800,-775,-750,-725,-700,-675,-650,-625,-600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,
 5
 
+
+
+
 ,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100,1125,1150,1175,1200);
 label(ctaxpayfed) = "Net Carbon Cost w Fed Rebate";
 
@@ -125,5 +128,8 @@ XTFLAG              1             # X-tab facility activation flag
 
 XTSPEC                            # X-tab specification 
 HH: {units} * ctaxpayfed+ * hhinc+;
+
+HH: {ctpcar} * hhinc+ * hdurb;
+HH: {units} * hhinc+ * hdurb;
 
 

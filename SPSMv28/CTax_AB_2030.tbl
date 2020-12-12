@@ -1,4 +1,4 @@
-                                  SPSD/M (Database 28.00)                    Fri Dec 11 14:58:50 2020
+                                  SPSD/M (Database 28.00)                    Sat Dec 12 14:17:10 2020
                     Base Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_B.mpr]
                  Variant Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -64,7 +64,7 @@
 |      Other Ref. Prov. Cred.|    2110.8|
 |  Provincial Net Balance    |   12130.2|
 +----------------------------+----------+
-                                  SPSD/M (Database 28.00)                    Fri Dec 11 14:58:50 2020
+                                  SPSD/M (Database 28.00)                    Sat Dec 12 14:17:10 2020
                     Base Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_B.mpr]
                  Variant Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -130,7 +130,7 @@
 |      Other Ref. Prov. Cred.|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|  2110.8|     0.0|    2110.8|
 |  Provincial Net Balance    |     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0|     0.0| 12130.2|     0.0|   12130.2|
 +----------------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------+
-                                  SPSD/M (Database 28.00)                    Fri Dec 11 14:58:50 2020
+                                  SPSD/M (Database 28.00)                    Sat Dec 12 14:17:10 2020
                     Base Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_B.mpr]
                  Variant Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_V.mpr]
                         Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
@@ -231,4 +231,44 @@ Table 1U: Unit Count (000) for Households by Net Carbon Cost w Fed Rebate and Ho
 +----------------+-------+-------+-------+-------+-------+-------+-------+
 |All             |  172.4|  330.2|  276.9|  269.8|  231.1|  555.2| 1835.7|
 +----------------+-------+-------+-------+-------+-------+-------+-------+
+                                  SPSD/M (Database 28.00)                    Sat Dec 12 14:17:10 2020
+                    Base Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_B.mpr]
+                 Variant Description: Current values for 2022       [Driver: Version 28.0 : 97-25, File: CTax_AB_2030_V.mpr]
+                        Sample: 1.0000  SELSPEC=' hdprov==8'  AGENAME='Standard'
+
+Table 2U: Provincial environmental tax (M) for Households by Household Income Group and Size of urban area
+          
+                            Size of urban area
++-------------+--------+--------+--------+--------+--------+
+|Household    |>500,000|100,000-|30,000- |<30,000 | Rural  |
+|Income Group |        |499,999 | 99,999 |        |        |
++-------------+--------+--------+--------+--------+--------+
+|Min-30000    |    36.0|     0.0|     7.3|     9.6|     7.5|
+|30001-60000  |    78.2|     0.0|    17.4|    15.5|    33.8|
+|60001-90000  |   105.3|     0.0|    15.6|    22.6|    19.5|
+|90001-120000 |   117.5|     0.0|    20.5|    12.9|    27.2|
+|120001-150000|   125.9|     0.0|    17.5|    17.5|    19.0|
+|150001-Max   |   376.7|     0.0|    65.4|    34.9|    47.8|
++-------------+--------+--------+--------+--------+--------+
+|All          |   839.7|     0.0|   143.7|   113.0|   154.7|
++-------------+--------+--------+--------+--------+--------+
+
+
+
+Table 3U: Unit Count (000) for Households by Household Income Group and Size of urban area
+          
+                            Size of urban area
++-------------+--------+--------+--------+--------+--------+
+|Household    |>500,000|100,000-|30,000- |<30,000 | Rural  |
+|Income Group |        |499,999 | 99,999 |        |        |
++-------------+--------+--------+--------+--------+--------+
+|Min-30000    |   104.7|     0.0|    24.3|    24.7|    18.7|
+|30001-60000  |   192.7|     0.0|    43.9|    37.1|    56.5|
+|60001-90000  |   183.8|     0.0|    27.8|    40.3|    25.1|
+|90001-120000 |   179.0|     0.0|    32.7|    22.1|    36.0|
+|120001-150000|   167.2|     0.0|    21.0|    17.7|    25.2|
+|150001-Max   |   396.3|     0.0|    71.0|    37.6|    50.3|
++-------------+--------+--------+--------+--------+--------+
+|All          |  1223.6|     0.0|   220.7|   179.5|   211.8|
++-------------+--------+--------+--------+--------+--------+
 
