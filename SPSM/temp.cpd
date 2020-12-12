@@ -1,6 +1,6 @@
 ##############################################################################
 ##
-## Include file to convert from '$SPSD/ba18.cpr' to 'C:\Users\ttombe\Documents\R Projects\CTax\SPSM\CTax_AB.cpr' 
+## Include file to convert from '$SPSD/ba18.cpr' to 'C:\Users\ttombe\Documents\R Projects\CTax\SPSM\temp.cpr' 
 ##
 ##############################################################################
 
@@ -13,9 +13,9 @@
 
 
 
-OUTCPR       CTax_AB.cpr             # Name of control parameter file (out) 
+OUTCPR       temp.cpr             # Name of control parameter file (out) 
 
-OUTLOG       CTax_AB.log             # Name of log file (out) 
+OUTLOG       temp.log             # Name of log file (out) 
 
 CREATEPARMFILES        1             # Force writing of parameter files
 
@@ -27,7 +27,7 @@ CREATEPARMFILES        1             # Force writing of parameter files
 
 
 
-INPAPR       CTax_AB.apr             # Name of database adjustment parameter file (in) 
+INPAPR       temp.apr             # Name of database adjustment parameter file (in) 
 
 OUTAPR       CTax_AB.apr             # Name of database adjustment parameter file (out) 
 
@@ -41,9 +41,9 @@ OUTAPR       CTax_AB.apr             # Name of database adjustment parameter fil
 
 
 
-INPVARMPR    CTax_AB_V.mpr             # Name of variant tax/transfer parameter file (in) 
+INPVARMPR    temp_V.mpr             # Name of variant tax/transfer parameter file (in) 
 
-OUTVARMPR    CTax_AB_V.mpr             # Name of variant tax/transfer parameter file (out) 
+OUTVARMPR    temp_V.mpr             # Name of variant tax/transfer parameter file (out) 
 
 
 
@@ -59,7 +59,7 @@ BASMETH             2             # Method of creating base variables
 
 BASDESC      Current values for 2018             # Description of base parameters 
 
-INPBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (in) 
+INPBASMPR    temp_B.mpr             # Name of base tax/transfer parameter file (in) 
 
 OUTBASMPR    CTax_AB_B.mpr             # Name of base tax/transfer parameter file (out) 
 
@@ -173,7 +173,7 @@ label(abchange) = "All-In to Feds";
 
 
 
-OUTTBL       CTax_AB.tbl             # Name of report file (out) 
+OUTTBL       temp.tbl             # Name of report file (out) 
 
 
 

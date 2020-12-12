@@ -49,6 +49,7 @@ GSTREBFLAG          1             # Database variable(gstreb) activation flag
 
 UIFLAG              1             # EI Activation flag
                                   # Source: Permanent Program
+                                  # Note: Preceding value modified interactively
 
 UIERNMAX       994.23             # Maximum insurable earnings
                                   # Source: CRA News Release 2017/11/16
