@@ -74,7 +74,7 @@ OUTBASMPR    CTax_AB_2030_B.mpr   # Name of base tax/transfer parameter file (ou
 SELFLAG             1             # Selection facility activation flag
 
 SELSPEC                           # Selection specification 
-hdprov==8
+hdprov==8 & hhncf==1
 
 
 
@@ -95,12 +95,20 @@ ctaxpayfed=split(netctaxfed,-900,-875,-850,-825,-800,-775,-750,-725,-700,-675,-6
 
 
 
+
+
+
+
+
 ,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100,1125,1150,1175,1200);
 label(ctaxpayfed) = "Net Carbon Cost w Fed Rebate";
 
 
 hhinc=split(HH:immtot, 30000,60000,90000,120000,150000);
 label(hhinc) = "Household Income Group";
+
+incquintile=split(HH:immtot,45649,85601,125566,182894);
+label(incquintile) = "Household Income Quintile, 2022";
 
 
 
@@ -131,5 +139,21 @@ HH: {units} * ctaxpayfed+ * hhinc+;
 
 HH: {ctpcar} * hhinc+ * hdurb;
 HH: {units} * hhinc+ * hdurb;
+
+HH: {netctaxfed/units} * incquintile+;
+HH: {ctpcar/units} * incquintile+;
+HH: {impcai/units} * incquintile+;
+
+
+
+###
+## 2.1.14.3 Distributional Analysis Facility
+###
+
+
+
+DISTUNIT            4             # Distribution facility family level
+
+DISTVAR      immtot               # Distribution facility variable 
 
 

@@ -104,12 +104,12 @@ Writing out variant tax/transfer parameters to 'CTax_AB_2030_V.mpr'.
 
 =================================== Execution ================================
 
- SPSM          started   on Sat Dec 12 14:17:06 2020
- SPSM          completed on Sat Dec 12 14:17:10 2020
+ SPSM          started   on Tue Dec 15 14:55:30 2020
+ SPSM          completed on Tue Dec 15 14:55:34 2020
  Elapsed time= 00:00:04
- Number of households processed= 82891
- Number of persons     selected=247680
- Variant consumable income ($000,000):   181230.6
+ Number of households processed= 71272
+ Number of persons     selected=201293
+ Variant consumable income ($000,000):   148344.3
  Increase from base        ($000,000):        0.0
  Control parameter file . . . . . . . . CTax_AB_2030.cpr
  Table output file  . . . . . . . . . . CTax_AB_2030.tbl

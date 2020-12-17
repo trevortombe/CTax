@@ -1,0 +1,190 @@
+##############################################################################
+##
+## Include file to convert from '$SPSD/ba20.cpr' to 'D:\Users\trevo\Documents\R Projects\CTax\SPSMv28\data_pull.cpr' 
+##
+##############################################################################
+
+
+
+
+###
+## 2.1.1 General information
+###
+
+
+
+OUTCPR       data_pull.cpr        # Name of control parameter file (out) 
+
+OUTLOG       data_pull.log        # Name of log file (out) 
+
+CREATEPARMFILES        1             # Force writing of parameter files
+
+
+
+###
+## 2.1.3 Database adjustment
+###
+
+
+
+INPAPR       data_pull.apr        # Name of database adjustment parameter file (in) 
+
+OUTAPR       data_pull.apr        # Name of database adjustment parameter file (out) 
+
+
+
+
+
+###
+## 2.1.4 Variant Information
+###
+
+
+
+INPVARMPR    data_pull_V.mpr      # Name of variant tax/transfer parameter file (in) 
+
+OUTVARMPR    data_pull_V.mpr      # Name of variant tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.5 Base Information
+###
+
+
+
+BASALG       Version 28.0 : 97-25 # Name of base algorithm 
+
+BASMETH             2             # Method of creating base variables
+
+BASDESC      Current values for 2020 
+
+INPBASMPR    data_pull_B.mpr      # Name of base tax/transfer parameter file (in) 
+
+OUTBASMPR    data_pull_B.mpr      # Name of base tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.10 User-defined Variables
+###
+
+
+
+UVARFLAG            1             # Activate UVAR parameter for expressions
+
+UVAR                              # User statements 
+netbenefit=1*(ctpcar<impcai);
+label(netbenefit) = "Rebate Larger";
+
+
+
+
+
+###
+## 2.1.11 Text output facility
+###
+
+
+
+ASCUNIT             4             # Text output family level
+
+ASCSTYLE            3             # Style of text output
+
+ASCDELIM     ;                    # Field delimiter
+
+ASCVARS                           # Variables selected for text output 
+hdseqhh
+hdprov
+immtot
+ctpcar
+ctpcar0
+ctpcar1
+ctpcar3
+ctpcar8
+ctpcar9
+ctpcar15
+impcai
+hdurb
+hdtype
+hdnpers
+hdnkids
+hdageeld
+hhncf
+imprvbal
+imfedbal
+ctpgas
+imbft
+ctnexp0
+ctnexp1
+ctnexp2
+ctnexp3
+ctnexp4
+ctnexp5
+ctnexp6
+ctnexp7
+ctnexp8
+ctnexp9
+ctnexp10
+ctnexp11
+ctnexp12
+ctnexp13
+ctnexp14
+ctnexp15
+ctnexp16
+ctnexp17
+ctnexp18
+ctnexp19
+ctnexp20
+ctnexp21
+ctnexp22
+ctnexp23
+ctnexp24
+ctnexp25
+ctnexp26
+ctnexp27
+ctnexp28
+ctnexp29
+idind
+hdwgthh
+hdwgthhs
+
+
+
+
+
+###
+## 2.1.12 Reports
+###
+
+
+
+OUTTBL       data_pull.tbl        # Name of report file (out) 
+
+
+
+
+
+###
+## 2.1.14.1 Built-in tables
+###
+
+
+
+TABUNIT             4             # Built-in tables family level
+
+
+
+###
+## 2.1.14.2 User-specified Tabulation facility
+###
+
+
+
+XTFLAG              1             # X-tab facility activation flag
+
+XTSPEC                            # X-tab specification 
+HH: {netbenefit:S=3,units,netbenefit/units:P=2} * hdtype+ * hdprov+;
+HH: {netbenefit:S=3,units,netbenefit/units:P=2} * hdprov+;
+
+

@@ -1,6 +1,41 @@
 source("core.R")
 library(viridis)
 
+# Load the SPSM microdata for 2020
+data<-read.delim("SPSMv28/data_pull.prn",sep=";")
+
+# plot net carbon costs against some y-dimension
+plotdata<-data %>%
+  filter(hdprov==8,hhncf==1) %>%
+  mutate(netcost=ctpcar-impcai)
+ggplot(plotdata,aes(x=netcost,y=as.character(hdurb),fill=..x..,weight=hdwgthh))+
+  geom_density_ridges_gradient(show.legend = F)+
+  scale_fill_viridis(name = "", option = "C")
+
+test<-data %>%
+  group_by(hdprov) %>%
+  mutate(netcost=ctpcar-impcai) %>%
+  summarise(number=sum(hdwgthh),
+            ctpcar=weighted.mean(ctpcar,hdwgthh),
+            impcai=weighted.mean(impcai,hdwgthh)) %>%
+  mutate(share=ctpcar/impcai)
+
+ggplot(plotdata %>% group_by(hdnkids) %>%
+         summarise(netcost=weighted.mean(netcost,hdwgthh),
+                   impcai=weighted.mean(impcai,hdwgthh)),
+       aes(hdnkids,impcai))+
+  geom_col()
+
+# Net Balance by Geographic Area
+plotdata<-data %>%
+  filter(hdprov==8) %>%
+  group_by(hdurb) %>%
+  summarise(imprvbal=weighted.mean(imprvbal,hdwgthh),
+            imfedbal=weighted.mean(imfedbal,hdwgthh)) %>%
+  gather(level,balance,-hdurb)
+ggplot(plotdata,aes(hdurb,balance,group=level,fill=level))+
+  geom_col(position='stack')
+
 # Distribution of net carbon tax costs across all households
 plotdata<-read_excel("CTaxCosts_2030.xlsx",sheet="NetCostwithFed") %>%
   gather(income,number,-NetCost) %>%
