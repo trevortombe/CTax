@@ -1,0 +1,444 @@
+
+###
+## 2.1 Model Control Parameters
+###
+
+
+###
+## 2.1.1 General information
+###
+
+CPRDESCE     Tax/transfer:2022 Population:2022 Incomes:2022 (2022$)             # English description of SPSM run 
+
+CPRDESCF     Impôts/transferts:2022 Population:2022 Revenus:2022 (2022$)
+
+CPRVER           29.0             # SPSD/M Release Version 
+
+CPRSFILE     $SPSD/ba22.cpr             # Starting Control parameter file 
+
+AUTHOR                            # Name of person doing simulation 
+
+OUTCPR       CTax_BC.cpr             # Name of control parameter file (out) 
+
+ALGDESC                           # Names of standard and alternate algorithms
+ +---------+--------------------------------+--------------------------------+
+ |Algorithm|           Standard             |              Alternate         |
+ +---------+--------------------------------+--------------------------------+
+ |call     | Revision: 6.215 $    Jan  9/22 | Revision: 6.214 $    Jan  9/22 |
+ |drv      | Revision: 6.276 $    Jan  9/22 | None/aucun           Jan  9/22 |
+ |ui       | Revision: 6.313 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |famod    | Revision: 6.235 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |oas      | Revision: 6.222 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |dem      | Stub routine         Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txinet   | Revision: 6.287 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txccea   | Revision: 6.241 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |gis      | Revision: 6.244 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txitax   | Revision: 6.278 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txhstr   | Revision: 6.238 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txcalc   | Revision: 6.308 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txhhexp  | Revision: 6.221 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txprov   | Revision: 6.215 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txnfld   | Revision: 6.291 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txpei    | Revision: 6.269 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txns     | Revision: 6.305 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txnb     | Revision: 6.291 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txque    | Revision: 6.215 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqinet  | Revision: 6.279 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqitax  | Revision: 6.263 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqhstr  | Revision: 6.244 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqcalc  | Revision: 6.364 $    Jan 13/22 | None/Aucun           Jan  9/22 |
+ |txont    | Revision: 6.338 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txman    | Revision: 6.300 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txsask   | Revision: 6.295 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txalta   | Revision: 6.300 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txbc     | Revision: 6.321 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |gist     | Revision: 6.261 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |samod    | Revision: 6.235 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txctc    | Revision: 6.264 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txfstc   | Revision: 6.233 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |gai      | Stub routine         Jan  9/22 | None/Aucun           Jan  9/22 |
+ |memo1    | Revision: 6.319 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |ctmod    | Revision: 6.263 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |memo2    | Revision: 6.232 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |cceopt   | Revision: 6.255 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |mpc      | Revision: 6.262 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ +---------+--------------------------------+--------------------------------+
+
+BRKFLAG             1             # Activate interception of `Break' key
+
+CLOSEFLAG           0             # Close window on completion
+
+UPDATEINT        1000             # Interval between screen updates (hhlds)
+
+ETAFLAG             1             # Activate fraction completed display
+
+ROUNDFLAG           1             # Round disposable and consumable income
+
+LOGFLAG             1             # Produce a .log file for this run
+
+OUTLOG       CTax_BC.log             # Name of log file (out) 
+
+CREATEPARMFILES        1             # Force writing of parameter files
+
+GLASSEXE                          # Name of glass box executable
+
+
+###
+## 2.1.2 SPSD input files
+###
+
+INPSPD       $SPSD/v290y17pyi22.spd             # Name of SPSD file (in) 
+
+FXVFLAG             1             # Read SHS expenditure vector file
+
+INPFXV       $SPSD/v290y17.fxv             # Name of SHS vector file (in) 
+
+WGTFLAG             1             # Read weight file
+
+INPWGT       $SPSD/v290y22.wgt             # Name of weight file (in) 
+
+REFFLAG             0             # Read reference results file
+
+INPREF                            # Name of reference results file (in) 
+
+REFVARS                           # Reference results file variables 
+
+
+###
+## 2.1.3 Database adjustment
+###
+
+AGENAME      Standard             # Name of database adjustment algorithm 
+
+INPAPR       CTax_BC.apr             # Name of database adjustment parameter file (in) 
+
+OUTAPR       CTax_BC.apr             # Name of database adjustment parameter file (out) 
+
+
+###
+## 2.1.4 Variant Information
+###
+
+VARALG       Version 29.0 : 97-26             # Name of variant algorithm 
+
+VARMETH             2             # Method of creating variant variables
+
+VARDESC      Current values for 2022             # Description of variant parameters 
+
+INPVARMPR    CTax_BC_V.mpr             # Name of variant tax/transfer parameter file (in) 
+
+OUTVARMPR    CTax_BC_V.mpr             # Name of variant tax/transfer parameter file (out) 
+
+OUTMRSFLAG          0             # Variant results file creation flag
+
+OUTVARMRS                         # Name of variant results file (out) 
+
+OUTMRSVARS                        # Variant results file variables 
+immicons
+
+OUTMRSFRAC          0             # Variant results file preserves fractional part
+
+
+###
+## 2.1.5 Base Information
+###
+
+BASALG       Version 29.0 : 97-26             # Name of base algorithm 
+
+BASMETH             2             # Method of creating base variables
+
+BASDESC       No Base             # Description of base parameters 
+
+INPBASMPR    CTax_BC_B.mpr             # Name of base tax/transfer parameter file (in) 
+
+OUTBASMPR    CTax_BC_B.mpr             # Name of base tax/transfer parameter file (out) 
+
+INPBASMRS                         # Name of base results file (in) 
+
+INPMRSVARS                        # Base results file variables 
+
+
+###
+## 2.1.6 Subsampling, random number seed
+###
+
+SAMPLEREQ    1.000000000             # Size of sample requested
+
+SAMPLE       1.000000000             # Size of sample obtained
+
+WGTTOT       16144823             # Sum of weights on tax file
+
+SEED         50                   # Random number generator seeds
+       0
+       1
+       2
+       3
+       4
+       5
+       6
+       7
+       8
+       9
+      10
+      11
+      12
+      13
+      14
+      15
+      16
+      17
+      18
+      19
+      20
+      21
+      22
+      23
+      24
+      25
+      26
+      27
+      28
+      29
+      30
+      31
+      32
+      33
+      34
+      35
+      36
+      37
+      38
+      39
+      40
+      41
+      42
+      43
+      44
+      45
+      46
+      47
+      48
+      49
+
+
+###
+## 2.1.7 Record selection facility
+###
+
+SELFLAG             1             # Selection facility activation flag
+
+SELUNIT             0             # Selection facility family level
+
+SELSPEC                           # Selection specification 
+hdprov==9 & hhncf==1
+
+SELMAX              0             # Selection facility maximum # of households
+
+
+###
+## 2.1.8 Marginal Tax rate facility
+###
+
+MARFLAG             0             # Marginal tax rate facility activation flag
+
+MARBASEFLAG         0             # Save marginal results as base run flag
+
+MARAMT         100.00             # Amount to be added to variable for marginal calculation
+
+MARVAR         idiemp             # Variable to add MARAMT to 
+
+MARSPEC      idiemp>=1000             # Expression identifying recipients 
+
+
+###
+## 2.1.9 Turning Point facility
+###
+
+TPFLAG              0             # Turning point facility activation flag
+
+TPSPEC              1             # Expression identifying individuals to change 
+
+TPVARS         idiemp             # Variables to modify 
+
+TPMETH              1             # Method for modifying variables 
+
+TPLL             0.00             # Lower limit for modified variables
+
+TPUL         100000.00             # Upper limit for modified variables
+
+
+###
+## 2.1.10 User-defined Variables
+###
+
+UVARFLAG            1             # Activate UVAR parameter for expressions
+
+UVAR                              # User statements 
+hhinc=split(HH:immtot, 30000,60000,90000,120000,150000);
+label(hhinc) = "Household Income Group";
+
+hhincp=split(HH:immtot, 25735,35507,45667,59188,72784,86034,107557,136062,188580);
+label(hhincp) = "Household Income Percentile";
+
+netctax=ctpcar-HH:imcatc;
+label(netctax) = "Net Carbon Cost";
+
+ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,
+750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100,1125,1150,1175,1200,1225,1250,1275,1300,1325,1350,1375,1400,1425,1450,1475,1500,1525,1550,1575,1600,1625,1650,1675,1700,1725,1750,1775,1800,1825,1850,1875,1900,1925,1950,1975,2000,2025,2050,
+2075,2100,2125,2150,2175,2200,2225,2250,2275,2300);
+label(ctaxpay) = "Net Carbon Tax Costs";
+
+hhctax=split(ctpcar, 100,	200,	300,	400,	500,	600,	700,	800,	900,	1000,	1100);
+label(hhctax) = "Household Carbon Taxes";
+
+hhctaxp=split(netctax/HH:immtot, -.015,-.014,-.013,-.012,-.011,-0.01,-0.009,-0.008,-0.007,-.006,-.005,-0.004,-.003,-.002,-.001,0,0.001,0.002,0.003,0.004,0.005,0.006,0.007,0.008,0.009,0.01,0.011,0.012,0.013,0.014,0.015);
+label(hhctaxp) = "Household Net Carbon Taxes Shares";
+hhctaxpg=split(ctpcar/HH:immtot, -.015,-.014,-.013,-.012,-.011,-0.01,-0.009,-0.008,-0.007,-.006,-.005,-0.004,-.003,-.002,-.001,0,0.001,0.002,0.003,0.004,0.005,0.006,0.007,0.008,0.009,0.01,0.011,0.012,0.013,0.014,0.015);
+label(hhctaxpg) = "Household Gross Carbon Taxes Shares";
+
+###
+## 2.1.11 Text output facility
+###
+
+ASCFLAG             0             # Text output facility activation flag
+
+OUTASC       CTax_BC.prn             # Name of text output file (out) 
+
+ASCUNIT             0             # Text output family level
+
+ASCSTYLE            1             # Style of text output
+
+ASCDELIM                          # Field delimiter
+
+ASCEXTPRC           0             # Number of digits of extra precision
+
+ASCVARS                           # Variables selected for text output 
+
+
+###
+## 2.1.12 Reports
+###
+
+OUTTBL       CTax_BC.tbl             # Name of report file (out) 
+
+
+###
+## 2.1.13 Parameter reporting
+###
+
+PRDFFLAG            0             # Parameter difference report activation flag
+
+
+###
+## 2.1.14 Tabular reporting
+###
+
+
+###
+## 2.1.14.1 Built-in tables
+###
+
+T0FLAG              1             # Canada totals table flag (Dollars)
+
+T0AFLAG             0             # Canada totals table flag (Units)
+
+T1FLAG              1             # Provincial totals table flag (Dollars)
+
+T1AFLAG             0             # Provincial totals table flag (Units)
+
+T2FLAG              0             # Income group totals table flag (Dollars)
+
+T2AFLAG             0             # Income group totals table flag (Units)
+
+T3FLAG              0             # Family type totals table flag (Dollars)
+
+T3AFLAG             0             # Family type totals table flag (Units)
+
+T4FLAG              0             # Base Provincial totals table flag (Dollars)
+
+T4AFLAG             0             # Base Provincial totals table flag (Units)
+
+TABUNIT             2             # Built-in tables family level
+
+TABDELTA        10.00             # Built-in tables winner/loser threshold
+
+INCVAR       _immicons             # Variable to use for table 2 
+
+INCGP        9                    # Income cutpoints for table 2 
+    5000
+   10000
+   15000
+   20000
+   25000
+   30000
+   35000
+   40000
+   50000
+
+
+###
+## 2.1.14.2 User-specified Tabulation facility
+###
+
+XTFLAG              1             # X-tab facility activation flag
+
+XTSPEC                            # X-tab specification 
+HH: {units} * ctaxpay+ * hhinc+;
+HH: {units} * hhctax+ * hhinc+;
+
+XTDBLFLAG           1             # X-tab double precision activation flag
+
+XTCOLS            132             # X-tab desired print width
+
+XTLINES            66             # X-tab desired lines per page
+
+XTCONFIDFLAG        0             # X-tab confidentiality activation flag
+
+XTCONFIDMINREC       25             # X-tab confidentiality minimum records
+
+
+###
+## 2.1.14.3 Distributional Analysis Facility
+###
+
+DISTFLAG            0             # Distribution facility activation flag
+
+DISTUNIT            0             # Distribution facility family level
+
+DISTVAR                           # Distribution facility variable 
+
+DISTSAMP      2000000             # Distribution facility sample size
+
+DISTZERO            1             # Distribution facility zero inclusion flag
+
+DISTP        13                   # Breakpoints for histogram plot 
+      1
+      5
+     10
+     20
+     30
+     40
+     50
+     60
+     70
+     80
+     90
+     95
+     99
+
+DISTPWID           70             # Width of histogram plot
+
+DISTPHGT           17             # Height of histogram plot
+
+INEQFLAG            0             # Inequality measures facility activation flag
+
+INEQMEASURE  3                    # Type of inequality measure 
+    1.00 0.50
+    0.50 1.00
+    1.50 1.00
+
+
+###
+## 2.1.15 User-defined control parameters (if any)
+###
+

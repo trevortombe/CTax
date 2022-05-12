@@ -1,0 +1,53 @@
+
+
+         +-------------------------------------------------------------+
+         |                                                             |
+         |              Welcome to the Statistics Canada               |
+         |                                                             |
+         |          Social Policy Simulation Database / Model          |
+         |                          ( SPSD/M )                         |
+         |                                                             |
+         |   Program Version                 : 28.00                   |
+         |   Database Adjustment Algorithm   : Standard                |
+         |   Standard Tax/Transfer Algorithm : Version 28.0 : 97-25    |
+         |   Alternate Tax/Transfer Algorithm: none/aucun              |
+         |                                                             |
+         |          Copyright (c) Statistics Canada, 1984-2019         |
+         |                                                             |
+         |                                                             |
+         +-------------------------------------------------------------+
+
+Press 'F1' for context-specific help.
+Press Ctrl-Break to terminate.
+
+============================= Control Parameters =============================
+
+Enter name of input control parameter file ==> CTax_AB_2030.cpr
+Loading control parameters from 'CTax_AB_2030.cpr'
+Enter specification for generating output files ==> 
+Output file names will be as specified in 'CTax_AB_2030.cpr'
+Current values of selected control parameters:
+Descriptive
+     CPRDESCE     Tax/transfer:2022 Population:2022 Incomes:2022 (2022$) 
+Selection/Sample
+     SELFLAG             1             # Selection facility activation flag
+     SAMPLEREQ     1.000000000         # Size of sample requested
+Input Databases
+     INPSPD       $SPSD/v280y16.spd    # Name of SPSD file (in) 
+     INPFXV       $SPSD/v280y16.fxv    # Name of SHS vector file (in) 
+     INPWGT       $SPSD/v280y22.wgt    # Name of weight file (in) 
+Growth
+     INPAPR       CTax_AB_2030.apr     # Name of database adjustment parameter 
+Scenario Control (base computed using parms, variant computed using parms)
+     BASMETH             2             # Method of creating base variables
+     INPBASMPR    CTax_AB_2030_B.mpr   # Name of base tax/transfer parameter fi
+     VARMETH             2             # Method of creating variant variables
+     INPVARMPR    CTax_AB_2030_V.mpr   # Name of variant tax/transfer parameter
+Output Files
+     OUTMRSFLAG          0             # Variant results file creation flag
+     OUTCPR       CTax_AB_2030.cpr     # Name of control parameter file (out) 
+Do you wish to modify any control parameters ? ==> N
+error(987): SELSPEC[1]: variable 'hdcfn' not found
+  error...    hdprov==8 & hdcfn==1
+  error...                 ^
+error(948): parameter error in batch mode

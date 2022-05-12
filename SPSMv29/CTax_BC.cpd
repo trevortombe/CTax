@@ -1,0 +1,193 @@
+##############################################################################
+##
+## Include file to convert from '$SPSD/ba22.cpr' to 'D:\Users\trevo\Documents\R Projects\CTax\SPSMv29\CTax_BC.cpr' 
+##
+##############################################################################
+
+
+
+
+###
+## 2.1.1 General information
+###
+
+
+
+OUTCPR       CTax_BC.cpr             # Name of control parameter file (out) 
+
+ALGDESC                           # Names of standard and alternate algorithms
+ +---------+--------------------------------+--------------------------------+
+ |Algorithm|           Standard             |              Alternate         |
+ +---------+--------------------------------+--------------------------------+
+ |call     | Revision: 6.215 $    Jan  9/22 | Revision: 6.214 $    Jan  9/22 |
+ |drv      | Revision: 6.276 $    Jan  9/22 | None/aucun           Jan  9/22 |
+ |ui       | Revision: 6.313 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |famod    | Revision: 6.235 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |oas      | Revision: 6.222 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |dem      | Stub routine         Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txinet   | Revision: 6.287 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txccea   | Revision: 6.241 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |gis      | Revision: 6.244 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txitax   | Revision: 6.278 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txhstr   | Revision: 6.238 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txcalc   | Revision: 6.308 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txhhexp  | Revision: 6.221 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txprov   | Revision: 6.215 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txnfld   | Revision: 6.291 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txpei    | Revision: 6.269 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txns     | Revision: 6.305 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txnb     | Revision: 6.291 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txque    | Revision: 6.215 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqinet  | Revision: 6.279 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqitax  | Revision: 6.263 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqhstr  | Revision: 6.244 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txqcalc  | Revision: 6.364 $    Jan 13/22 | None/Aucun           Jan  9/22 |
+ |txont    | Revision: 6.338 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txman    | Revision: 6.300 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txsask   | Revision: 6.295 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txalta   | Revision: 6.300 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txbc     | Revision: 6.321 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |gist     | Revision: 6.261 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |samod    | Revision: 6.235 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txctc    | Revision: 6.264 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |txfstc   | Revision: 6.233 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |gai      | Stub routine         Jan  9/22 | None/Aucun           Jan  9/22 |
+ |memo1    | Revision: 6.319 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |ctmod    | Revision: 6.263 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |memo2    | Revision: 6.232 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |cceopt   | Revision: 6.255 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ |mpc      | Revision: 6.262 $    Jan  9/22 | None/Aucun           Jan  9/22 |
+ +---------+--------------------------------+--------------------------------+
+
+OUTLOG       CTax_BC.log             # Name of log file (out) 
+
+CREATEPARMFILES        1             # Force writing of parameter files
+
+
+
+###
+## 2.1.3 Database adjustment
+###
+
+
+
+INPAPR       CTax_BC.apr             # Name of database adjustment parameter file (in) 
+
+OUTAPR       CTax_BC.apr             # Name of database adjustment parameter file (out) 
+
+
+
+
+
+###
+## 2.1.4 Variant Information
+###
+
+
+
+INPVARMPR    CTax_BC_V.mpr             # Name of variant tax/transfer parameter file (in) 
+
+OUTVARMPR    CTax_BC_V.mpr             # Name of variant tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.5 Base Information
+###
+
+
+
+BASALG       Version 29.0 : 97-26             # Name of base algorithm 
+
+BASMETH             2             # Method of creating base variables
+
+INPBASMPR    CTax_BC_B.mpr             # Name of base tax/transfer parameter file (in) 
+
+OUTBASMPR    CTax_BC_B.mpr             # Name of base tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.7 Record selection facility
+###
+
+
+
+SELFLAG             1             # Selection facility activation flag
+
+SELSPEC                           # Selection specification 
+hdprov==9 & hhncf==1
+
+
+
+###
+## 2.1.10 User-defined Variables
+###
+
+
+
+UVARFLAG            1             # Activate UVAR parameter for expressions
+
+UVAR                              # User statements 
+hhinc=split(HH:immtot, 30000,60000,90000,120000,150000);
+label(hhinc) = "Household Income Group";
+
+hhincp=split(HH:immtot, 25735,35507,45667,59188,72784,86034,107557,136062,188580);
+label(hhincp) = "Household Income Percentile";
+
+netctax=ctpcar-HH:imcatc;
+label(netctax) = "Net Carbon Cost";
+
+ctaxpay=split(netctax, -600,-575,-550,-525,-500,-475,-450,-425,-400,-375,-350,-325,-300,-275,-250,-225,-200,-175,-150,-125,-100,-75,-50,-25,0,25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,7
+,
+750,775,800,825,850,875,900,925,950,975,1000,1025,1050,1075,1100,1125,1150,1175,1200,1225,1250,1275,1300,1325,1350,1375,1400,1425,1450,1475,1500,1525,1550,1575,1600,1625,1650,1675,1700,1725,1750,1775,1800,1825,1850,1875,1900,1925,1950,1975,2000,2025,20
+,
+2075,2100,2125,2150,2175,2200,2225,2250,2275,2300);
+label(ctaxpay) = "Net Carbon Tax Costs";
+
+hhctax=split(ctpcar, 100,	200,	300,	400,	500,	600,	700,	800,	900,	1000,	1100);
+label(hhctax) = "Household Carbon Taxes";
+
+hhctaxp=split(netctax/HH:immtot, -.015,-.014,-.013,-.012,-.011,-0.01,-0.009,-0.008,-0.007,-.006,-.005,-0.004,-.003,-.002,-.001,0,0.001,0.002,0.003,0.004,0.005,0.006,0.007,0.008,0.009,0.01,0.011,0.012,0.013,0.014,0.015);
+label(hhctaxp) = "Household Net Carbon Taxes Shares";
+hhctaxpg=split(ctpcar/HH:immtot, -.015,-.014,-.013,-.012,-.011,-0.01,-0.009,-0.008,-0.007,-.006,-.005,-0.004,-.003,-.002,-.001,0,0.001,0.002,0.003,0.004,0.005,0.006,0.007,0.008,0.009,0.01,0.011,0.012,0.013,0.014,0.015);
+label(hhctaxpg) = "Household Gross Carbon Taxes Shares";
+
+
+
+
+###
+## 2.1.11 Text output facility
+###
+
+
+
+OUTASC       CTax_BC.prn             # Name of text output file (out) 
+
+
+
+###
+## 2.1.12 Reports
+###
+
+
+
+OUTTBL       CTax_BC.tbl             # Name of report file (out) 
+
+
+
+
+
+###
+## 2.1.14.2 User-specified Tabulation facility
+###
+
+
+
+XTFLAG              1             # X-tab facility activation flag
+
+XTSPEC                            # X-tab specification 
+HH: {units} * ctaxpay+ * hhinc+;
+HH: {units} * hhctax+ * hhinc+;
+
+

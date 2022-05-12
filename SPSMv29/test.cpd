@@ -1,0 +1,86 @@
+##############################################################################
+##
+## Include file to convert from '$SPSD/ba20.cpr' to 'D:\Users\trevo\Dropbox\Tweets Data\SPSM\test.cpr' 
+##
+##############################################################################
+
+
+
+
+###
+## 2.1.1 General information
+###
+
+
+
+OUTCPR       test.cpr             # Name of control parameter file (out) 
+
+OUTLOG       test.log             # Name of log file (out) 
+
+CREATEPARMFILES        1             # Force writing of parameter files
+
+
+
+###
+## 2.1.3 Database adjustment
+###
+
+
+
+INPAPR       test.apr             # Name of database adjustment parameter file (in) 
+
+OUTAPR       test.apr             # Name of database adjustment parameter file (out) 
+
+
+
+
+
+###
+## 2.1.4 Variant Information
+###
+
+
+
+INPVARMPR    test_V.mpr             # Name of variant tax/transfer parameter file (in) 
+
+OUTVARMPR    test_V.mpr             # Name of variant tax/transfer parameter file (out) 
+
+OUTVARMRS    test.mrs             # Name of variant results file (out) 
+
+
+
+###
+## 2.1.5 Base Information
+###
+
+
+
+BASMETH             2             # Method of creating base variables
+
+INPBASMPR    test_B.mpr             # Name of base tax/transfer parameter file (in) 
+
+OUTBASMPR    test_B.mpr             # Name of base tax/transfer parameter file (out) 
+
+
+
+###
+## 2.1.11 Text output facility
+###
+
+
+
+OUTASC       test.prn             # Name of text output file (out) 
+
+
+
+###
+## 2.1.12 Reports
+###
+
+
+
+OUTTBL       test.tbl             # Name of report file (out) 
+
+
+
+
